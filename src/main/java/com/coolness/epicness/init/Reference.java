@@ -6,7 +6,7 @@ public class Reference {
 
 	public static final String MODID = "redstone";
 	public static final String NAME = "§l§n§4More Redstone Mod!!!§r";
-	public static final String VERSION = "§eCool§r";
+	public static final String VERSION = "§e1.1§r";
 	public static final String ACCEPTED_VERSIONS = "[1.11.2]";
 
 	public static final String CLIENTPROXY = "com.coolness.epicness.proxy.ClientProxy";
@@ -29,13 +29,6 @@ public class Reference {
 		TUNGSTEN_SHOVEL("tungsten_shovel", "tungsten_shovel"),
 		TUNGSTEN_HOE("tungsten_hoe", "tungsten_hoe"),
 		
-		MITHRIL_INGOT("mithril_ingot", "mithril_ingot"),
-		MITHRIL_SWORD("mithril_sword", "mithril_sword"),
-		MITHRIL_PICKAXE("mithril_pickaxe", "mithril_pickaxe"),
-		MITHRIL_AXE("mithril_axe", "mithril_axe"),
-		MITHRIL_SHOVEL("mithril_shovel", "mithril_shovel"),
-		MITHRIL_HOE("mithril_hoe", "mithril_hoe"),
-		
 		LEAD("lead", "lead"),
 		LEAD_INGOT("lead_ingot", "lead_ingot"),
 		LEAD_SWORD("lead_sword", "lead_sword"),
@@ -44,12 +37,8 @@ public class Reference {
 		LEAD_SHOVEL("lead_shovel", "lead_shovel"),
 		LEAD_HOE("lead_hoe", "lead_hoe"),
 		
-		CORN("corn", "corn"),
-		SOUL("soul", "soul"),
-		CORN_SEEDS("corn_seeds", "corn_seeds"),
 		SULFUR("sulfur", "sulfur"),
 		URANIUM("uranium", "uranium"),
-		HERKIMER_DIAMOND("herkimer_diamond", "herkimer_diamond"),
 		
 		ATOM("atom", "atom");
 
@@ -84,8 +73,7 @@ public class Reference {
 		SULFUR_BLOCK("sulfur_block", "sulfur_block"), 
 		LEAD_ORE("lead_ore", "lead_ore"), 
 		IRON_FURNACE("iron_furnace", "iron_furnace"), 
-		LEAD_BLOCK("lead_block", "lead_block"), 
-		CORN("corn_block", "corn_block"), 
+		LEAD_BLOCK("lead_block", "lead_block"),
 		CONCRETE("concrete", "concrete"), 
 		CONCRETE_POWDER("concrete_powder", "concrete_powder"), 
 		GOLD_ORE("nether_gold_ore", "nether_gold_ore"), 

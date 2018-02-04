@@ -25,9 +25,6 @@ public class Crafting {
 		
 		GameRegistry.addShapedRecipe(new ItemStack(BlockRegistry.bomb, 1), "III","TRB","III",'I',Blocks.IRON_BLOCK, 'T', Blocks.TORCH, 'R', Blocks.UNPOWERED_REPEATER, 'B', Blocks.REDSTONE_BLOCK);
 		
-		GameRegistry.addShapedRecipe(new ItemStack(BlockRegistry.iron_furnace, 1), "III","IRI","ICI",'I',Blocks.IRON_BLOCK,'R',Blocks.REDSTONE_BLOCK,'C',ItemRegistry.copper_wire);
-		
-		
 		GameRegistry.addShapedRecipe(new ItemStack(ArmorRegistry.copper_boots, 1), "   ","C C","C C",'C',ItemRegistry.copper_ingot);
 		GameRegistry.addShapedRecipe(new ItemStack(ArmorRegistry.copper_leggings, 1), "CCC","C C","C C",'C',ItemRegistry.copper_ingot);
 		GameRegistry.addShapedRecipe(new ItemStack(ArmorRegistry.copper_chestplate, 1), "C C","CCC","CCC",'C',ItemRegistry.copper_ingot);
@@ -68,21 +65,6 @@ public class Crafting {
 		GameRegistry.addShapedRecipe(new ItemStack(ItemRegistry.lead_hoe, 1), " CC"," S "," S ",'C',ItemRegistry.lead_ingot, 'S',Items.STICK);
 		GameRegistry.addShapedRecipe(new ItemStack(ItemRegistry.lead_shovel, 1), " C "," S "," S ",'C',ItemRegistry.lead_ingot, 'S',Items.STICK);
 		GameRegistry.addShapedRecipe(new ItemStack(ItemRegistry.lead_sword, 1), " C "," C "," S ",'C',ItemRegistry.lead_ingot, 'S',Items.STICK);
-		
-		
-		GameRegistry.addShapedRecipe(new ItemStack(ArmorRegistry.mithril_boots, 1), "   ","C C","C C",'C',ItemRegistry.mithril_ingot);
-		GameRegistry.addShapedRecipe(new ItemStack(ArmorRegistry.mithril_leggings, 1), "CCC","C C","C C",'C',ItemRegistry.mithril_ingot);
-		GameRegistry.addShapedRecipe(new ItemStack(ArmorRegistry.mithril_chestplate, 1), "C C","CCC","CCC",'C',ItemRegistry.mithril_ingot);
-		GameRegistry.addShapedRecipe(new ItemStack(ArmorRegistry.mithril_helmet, 1), "CCC","C C","   ",'C',ItemRegistry.mithril_ingot);
-		
-		GameRegistry.addShapedRecipe(new ItemStack(ItemRegistry.mithril_axe, 1), "CC ","CS "," S ",'C',ItemRegistry.mithril_ingot, 'S',Items.STICK);
-		GameRegistry.addShapedRecipe(new ItemStack(ItemRegistry.mithril_axe, 1), " CC"," SC"," S ",'C',ItemRegistry.mithril_ingot, 'S',Items.STICK);
-		GameRegistry.addShapedRecipe(new ItemStack(ItemRegistry.mithril_pickaxe, 1), "CCC"," S "," S ",'C',ItemRegistry.mithril_ingot, 'S',Items.STICK);
-		GameRegistry.addShapedRecipe(new ItemStack(ItemRegistry.mithril_hoe, 1), "CC "," S "," S ",'C',ItemRegistry.mithril_ingot, 'S',Items.STICK);
-		GameRegistry.addShapedRecipe(new ItemStack(ItemRegistry.mithril_hoe, 1), " CC"," S "," S ",'C',ItemRegistry.mithril_ingot, 'S',Items.STICK);
-		GameRegistry.addShapedRecipe(new ItemStack(ItemRegistry.mithril_shovel, 1), " C "," S "," S ",'C',ItemRegistry.mithril_ingot, 'S',Items.STICK);
-		GameRegistry.addShapedRecipe(new ItemStack(ItemRegistry.mithril_sword, 1), " C "," C "," S ",'C',ItemRegistry.mithril_ingot, 'S',Items.STICK);
-		
 		
 		GameRegistry.addSmelting(ArmorRegistry.copper_boots, new ItemStack(ItemRegistry.copper_nugget, 1), 0.1f);
 		GameRegistry.addSmelting(ArmorRegistry.copper_leggings, new ItemStack(ItemRegistry.copper_nugget, 1), 0.1f);

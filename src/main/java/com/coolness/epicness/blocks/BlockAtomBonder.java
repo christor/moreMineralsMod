@@ -1,31 +1,22 @@
 package com.coolness.epicness.blocks;
 
-import java.util.List;
-
 import com.coolness.epicness.MoreMineralsMod;
 import com.coolness.epicness.client.gui.GuiHandler;
 import com.coolness.epicness.init.BlockRegistry;
 import com.coolness.epicness.init.Reference;
 import com.coolness.epicness.tileenitity.TileEntityAtomBonder;
-import com.coolness.epicness.tileenitity.TileEntityIronFurnace;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.ITileEntityProvider;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
-import net.minecraft.block.properties.IProperty;
-import net.minecraft.block.properties.PropertyDirection;
-import net.minecraft.block.state.BlockStateContainer;
 import net.minecraft.block.state.IBlockState;
-import net.minecraft.entity.Entity;
-import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.InventoryHelper;
 import net.minecraft.item.ItemStack;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.EnumHand;
-import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraftforge.items.CapabilityItemHandler;

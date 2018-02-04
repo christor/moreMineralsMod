@@ -9,7 +9,6 @@ import com.coolness.epicness.init.Reference;
 import com.coolness.epicness.proxy.CommonProxy;
 import com.coolness.epicness.tileenitity.TileEntityAtomBonder;
 import com.coolness.epicness.tileenitity.TileEntityBomb;
-import com.coolness.epicness.tileenitity.TileEntityIronFurnace;
 import com.coolness.epicness.worldgen.CoolWorldGen;
 
 import net.minecraft.client.renderer.block.model.ModelBakery;
@@ -50,7 +49,6 @@ public class MoreMineralsMod {
 		ItemRegistry.registerRenders();
 		registerModelBakeryVariants();
 		Elements.registerMineralComponents();
-		MinecraftForge.EVENT_BUS.register(new VanillaBlockItemDrops());
 		MinecraftForge.EVENT_BUS.register(new VanillaTooltipManager());
 		Crafting.register();
 		registerTileEntities();
@@ -88,7 +86,6 @@ public class MoreMineralsMod {
 	}
 
 	public void registerTileEntities() {
-		GameRegistry.registerTileEntity(TileEntityIronFurnace.class, Reference.MODID + ":iron_furnace");
 		GameRegistry.registerTileEntity(TileEntityBomb.class, Reference.MODID + ":bomb");
 		GameRegistry.registerTileEntity(TileEntityAtomBonder.class, Reference.MODID + ":atom_bonder");
 	}

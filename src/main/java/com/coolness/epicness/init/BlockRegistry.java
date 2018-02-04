@@ -6,8 +6,6 @@ import com.coolness.epicness.blocks.BlockConcrete;
 import com.coolness.epicness.blocks.BlockConcretePowder;
 import com.coolness.epicness.blocks.BlockCopper;
 import com.coolness.epicness.blocks.BlockCopperOre;
-import com.coolness.epicness.blocks.BlockCorn;
-import com.coolness.epicness.blocks.BlockIronFurnace;
 import com.coolness.epicness.blocks.BlockLead;
 import com.coolness.epicness.blocks.BlockLeadOre;
 import com.coolness.epicness.blocks.BlockNetherGoldOre;
@@ -34,7 +32,6 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 public class BlockRegistry {
 
 	public static Block atom_bonder;
-	public static Block iron_furnace;
 	public static Block lead_ore;
 	public static Block lead_block;
 	public static Block sulfur_ore;
@@ -47,8 +44,7 @@ public class BlockRegistry {
 	public static Block uranium_block;
 	public static Block uranium_ore;
 	public static Block nuclear_waste;
-
-	public static Block corn_block;
+	
 	public static Block bomb;
 	public static Block nether_gold_ore;
 	public static Block concrete;
@@ -66,10 +62,8 @@ public class BlockRegistry {
 		tungsten_ore = new BlockTungstenOre();
 		copper_block = new BlockCopper();
 		tungsten_block = new BlockTungsten();
-		iron_furnace = new BlockIronFurnace();
 
 		bomb = new BlockBomb();
-		corn_block = new BlockCorn();
 		uranium_ore = new BlockUraniumOre();
 		uranium_block = new BlockUranium();
 		nuclear_waste = new BlockNuclearWaste();
@@ -84,7 +78,6 @@ public class BlockRegistry {
 
 	public static void register() {
 		registerBlock(atom_bonder);
-		registerBlock(iron_furnace);
 		registerBlock(lead_block);
 		registerBlock(lead_ore);
 		registerBlock(copper_block);
@@ -97,8 +90,7 @@ public class BlockRegistry {
 		registerBlock(uranium_block);
 		registerBlock(nuclear_waste);
 		registerBlock(nether_gold_ore);
-
-		registerBlock(corn_block);
+		
 		registerBlock(bomb);
 		GameRegistry.register(concrete);
 		GameRegistry.register(concrete_item);
@@ -108,7 +100,6 @@ public class BlockRegistry {
 
 	public static void registerRenders() {
 		registerRender(atom_bonder);
-		registerRender(iron_furnace);
 		registerRender(lead_block);
 		registerRender(lead_ore);
 		registerRender(sulfur_ore);
@@ -122,7 +113,6 @@ public class BlockRegistry {
 		registerRender(uranium_block);
 		registerRender(nuclear_waste);
 		registerRender(nether_gold_ore);
-		registerRender(corn_block);
 		registerRender(concrete);
 		for (int i = 0; i < ConcreteTypes.values().length; i++) {
 			System.out.println(i + ": concrete_" + ConcreteTypes.values()[i].getName() + " has been registered!!!");

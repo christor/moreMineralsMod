@@ -17,15 +17,7 @@ import com.coolness.epicness.items.lead.ItemLeadIngot;
 import com.coolness.epicness.items.lead.ItemLeadPickaxe;
 import com.coolness.epicness.items.lead.ItemLeadShovel;
 import com.coolness.epicness.items.lead.ItemLeadSword;
-import com.coolness.epicness.items.mithril.ItemMithrilAxe;
-import com.coolness.epicness.items.mithril.ItemMithrilHoe;
-import com.coolness.epicness.items.mithril.ItemMithrilIngot;
-import com.coolness.epicness.items.mithril.ItemMithrilPickaxe;
-import com.coolness.epicness.items.mithril.ItemMithrilShovel;
-import com.coolness.epicness.items.mithril.ItemMithrilSword;
 import com.coolness.epicness.items.other.ItemAtom;
-import com.coolness.epicness.items.other.ItemCorn;
-import com.coolness.epicness.items.other.ItemHerkimerDiamond;
 import com.coolness.epicness.items.other.ItemSulfur;
 import com.coolness.epicness.items.tungsten.ItemTungstenAxe;
 import com.coolness.epicness.items.tungsten.ItemTungstenHoe;
@@ -62,8 +54,6 @@ public class ItemRegistry {
 
 	public static final ToolMaterial leadMaterial = EnumHelper.addToolMaterial(Reference.MODID + ":lead", 1, 200, 3.5f,
 			1.5f, 1);
-	public static final ToolMaterial mithrilMaterial = EnumHelper.addToolMaterial(Reference.MODID + ":mithril", 4, 2561,
-			12.5f, 5f, 45);
 	public static final ToolMaterial tungstenMaterial = EnumHelper.addToolMaterial(Reference.MODID + ":tungsten", 3,
 			2061, 13.5f, 4.5f, 30);
 	public static final ToolMaterial copperMaterial = EnumHelper.addToolMaterial(Reference.MODID + ":copper", 2, 350,
@@ -89,14 +79,6 @@ public class ItemRegistry {
 
 	public static Item tungsten_ingot;
 
-	public static ItemSword mithril_sword;
-	public static ItemPickaxe mithril_pickaxe;
-	public static ItemModAxe mithril_axe;
-	public static ItemHoe mithril_hoe;
-	public static ItemSpade mithril_shovel;
-
-	public static Item mithril_ingot;
-
 	public static ItemSword lead_sword;
 	public static ItemPickaxe lead_pickaxe;
 	public static ItemModAxe lead_axe;
@@ -105,19 +87,13 @@ public class ItemRegistry {
 
 	public static Item lead_ingot;
 	public static ItemFood lead;
-
-	public static Item corn_seeds;
-	public static ItemFood corn;
-
-	public static Item herkimer_diamond;
+	
 	public static Item sulfur;
 
 	public static Item uranium;
 
 	public static void init() {
 		atom = new ItemAtom();
-		
-		herkimer_diamond = new ItemHerkimerDiamond();
 		copper_ingot = new ItemCopperIngot();
 		copper_nugget = new ItemCopperNugget();
 		copper_wire = new ItemCopperWire();
@@ -136,14 +112,6 @@ public class ItemRegistry {
 		tungsten_shovel = new ItemTungstenShovel(tungstenMaterial);
 		tungsten_hoe = new ItemTungstenHoe(tungstenMaterial);
 
-		mithril_ingot = new ItemMithrilIngot();
-
-		mithril_sword = new ItemMithrilSword(mithrilMaterial);
-		mithril_pickaxe = new ItemMithrilPickaxe(mithrilMaterial);
-		mithril_axe = new ItemMithrilAxe(mithrilMaterial);
-		mithril_shovel = new ItemMithrilShovel(mithrilMaterial);
-		mithril_hoe = new ItemMithrilHoe(mithrilMaterial);
-
 		lead = new ItemLead(-2, -1, true, new PotionEffect(Potion.getPotionById(9), 300, 1),
 				new PotionEffect(Potion.getPotionById(7), 0, 1), new PotionEffect(Potion.getPotionById(2), 2400, 2));
 		lead_ingot = new ItemLeadIngot();
@@ -153,12 +121,6 @@ public class ItemRegistry {
 		lead_axe = new ItemLeadAxe(leadMaterial);
 		lead_shovel = new ItemLeadShovel(leadMaterial);
 		lead_hoe = new ItemLeadHoe(leadMaterial);
-
-		corn = new ItemCorn(5, 4, false, new PotionEffect(Potion.getPotionById(3), 500, 1));
-
-		corn_seeds = new ItemSeeds(BlockRegistry.corn_block, Blocks.FARMLAND)
-				.setUnlocalizedName(Reference.RedstoneItems.CORN_SEEDS.getUnlocalizedName())
-				.setRegistryName(Reference.RedstoneItems.CORN_SEEDS.getRegistryName());
 		sulfur = new ItemSulfur();
 		uranium = new ItemUranium();
 	}
@@ -184,14 +146,6 @@ public class ItemRegistry {
 		GameRegistry.register(tungsten_shovel);
 		GameRegistry.register(tungsten_hoe);
 
-		GameRegistry.register(mithril_ingot);
-
-		GameRegistry.register(mithril_sword);
-		GameRegistry.register(mithril_pickaxe);
-		GameRegistry.register(mithril_axe);
-		GameRegistry.register(mithril_shovel);
-		GameRegistry.register(mithril_hoe);
-
 		GameRegistry.register(lead);
 		GameRegistry.register(lead_ingot);
 
@@ -200,11 +154,7 @@ public class ItemRegistry {
 		GameRegistry.register(lead_axe);
 		GameRegistry.register(lead_shovel);
 		GameRegistry.register(lead_hoe);
-
-		GameRegistry.register(corn_seeds);
-		GameRegistry.register(corn);
-
-		GameRegistry.register(herkimer_diamond);
+		
 		GameRegistry.register(sulfur);
 		GameRegistry.register(uranium);
 	}
@@ -232,14 +182,6 @@ public class ItemRegistry {
 		registerRender(tungsten_shovel);
 		registerRender(tungsten_hoe);
 
-		registerRender(mithril_ingot);
-
-		registerRender(mithril_sword);
-		registerRender(mithril_pickaxe);
-		registerRender(mithril_axe);
-		registerRender(mithril_shovel);
-		registerRender(mithril_hoe);
-
 		registerRender(lead_ingot);
 		registerRender(lead);
 
@@ -249,11 +191,7 @@ public class ItemRegistry {
 		registerRender(lead_shovel);
 		registerRender(lead_hoe);
 
-		registerRender(corn_seeds);
-		registerRender(corn);
-
 		registerRender(sulfur);
-		registerRender(herkimer_diamond);
 		registerRender(uranium);
 	}
 
