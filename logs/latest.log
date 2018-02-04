@@ -1,0 +1,1620 @@
+[13:07:20] [Client thread/INFO]: Setting user: Johnr1227
+[13:07:26] [Client thread/WARN]: Skipping bad option: lastServer:
+[13:07:26] [Client thread/INFO]: LWJGL Version: 2.9.2
+[13:07:31] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:§l§n§4More Minerals Mod!!!§r
+[13:07:34] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[13:07:34] [Thread-6/INFO]: Initializing LWJGL OpenAL
+[13:07:34] [Thread-6/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[13:07:34] [Thread-6/INFO]: OpenAL initialized.
+[13:07:34] [Sound Library Loader/INFO]: Sound engine started
+[13:07:37] [Client thread/INFO]: Created: 16x16 textures-atlas
+[13:07:38] [Client thread/INFO]: [STDOUT]: Client Proxy Initialized!
+[13:07:39] [Client thread/INFO]: [STDOUT]: 0: concrete_white has been registered!!!
+[13:07:39] [Client thread/INFO]: [STDOUT]: 1: concrete_orange has been registered!!!
+[13:07:39] [Client thread/INFO]: [STDOUT]: 2: concrete_magenta has been registered!!!
+[13:07:39] [Client thread/INFO]: [STDOUT]: 3: concrete_light_blue has been registered!!!
+[13:07:39] [Client thread/INFO]: [STDOUT]: 4: concrete_yellow has been registered!!!
+[13:07:39] [Client thread/INFO]: [STDOUT]: 5: concrete_lime has been registered!!!
+[13:07:39] [Client thread/INFO]: [STDOUT]: 6: concrete_pink has been registered!!!
+[13:07:39] [Client thread/INFO]: [STDOUT]: 7: concrete_gray has been registered!!!
+[13:07:39] [Client thread/INFO]: [STDOUT]: 8: concrete_light_gray has been registered!!!
+[13:07:39] [Client thread/INFO]: [STDOUT]: 9: concrete_cyan has been registered!!!
+[13:07:39] [Client thread/INFO]: [STDOUT]: 10: concrete_purple has been registered!!!
+[13:07:39] [Client thread/INFO]: [STDOUT]: 11: concrete_blue has been registered!!!
+[13:07:39] [Client thread/INFO]: [STDOUT]: 12: concrete_brown has been registered!!!
+[13:07:39] [Client thread/INFO]: [STDOUT]: 13: concrete_green has been registered!!!
+[13:07:39] [Client thread/INFO]: [STDOUT]: 14: concrete_red has been registered!!!
+[13:07:39] [Client thread/INFO]: [STDOUT]: 15: concrete_black has been registered!!!
+[13:07:39] [Client thread/INFO]: [STDOUT]: 0: concrete_item_white has been registered!!!
+[13:07:39] [Client thread/INFO]: [STDOUT]: 1: concrete_item_orange has been registered!!!
+[13:07:39] [Client thread/INFO]: [STDOUT]: 2: concrete_item_magenta has been registered!!!
+[13:07:39] [Client thread/INFO]: [STDOUT]: 3: concrete_item_light_blue has been registered!!!
+[13:07:39] [Client thread/INFO]: [STDOUT]: 4: concrete_item_yellow has been registered!!!
+[13:07:39] [Client thread/INFO]: [STDOUT]: 5: concrete_item_lime has been registered!!!
+[13:07:39] [Client thread/INFO]: [STDOUT]: 6: concrete_item_pink has been registered!!!
+[13:07:39] [Client thread/INFO]: [STDOUT]: 7: concrete_item_gray has been registered!!!
+[13:07:39] [Client thread/INFO]: [STDOUT]: 8: concrete_item_light_gray has been registered!!!
+[13:07:39] [Client thread/INFO]: [STDOUT]: 9: concrete_item_cyan has been registered!!!
+[13:07:39] [Client thread/INFO]: [STDOUT]: 10: concrete_item_purple has been registered!!!
+[13:07:39] [Client thread/INFO]: [STDOUT]: 11: concrete_item_blue has been registered!!!
+[13:07:39] [Client thread/INFO]: [STDOUT]: 12: concrete_item_brown has been registered!!!
+[13:07:39] [Client thread/INFO]: [STDOUT]: 13: concrete_item_green has been registered!!!
+[13:07:39] [Client thread/INFO]: [STDOUT]: 14: concrete_item_red has been registered!!!
+[13:07:39] [Client thread/INFO]: [STDOUT]: 15: concrete_item_black has been registered!!!
+[13:07:39] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:§l§n§4More Minerals Mod!!!§r
+[13:07:41] [Client thread/INFO]: SoundSystem shutting down...
+[13:07:41] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[13:07:41] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[13:07:41] [Thread-8/INFO]: Initializing LWJGL OpenAL
+[13:07:41] [Thread-8/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[13:07:41] [Thread-8/INFO]: OpenAL initialized.
+[13:07:41] [Sound Library Loader/INFO]: Sound engine started
+[13:07:44] [Client thread/INFO]: Created: 512x512 textures-atlas
+[13:07:48] [Client thread/WARN]: Skipping bad option: lastServer:
+[13:07:48] [Client thread/ERROR]: ########## GL ERROR ##########
+[13:07:48] [Client thread/ERROR]: @ Post startup
+[13:07:48] [Client thread/ERROR]: 1281: Invalid value
+[13:07:49] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[13:11:14] [Server thread/INFO]: Starting integrated minecraft server version 1.11.2
+[13:11:14] [Server thread/INFO]: Generating keypair
+[13:11:15] [Server thread/INFO]: Preparing start region for level 0
+[13:11:16] [Server thread/INFO]: Preparing spawn area: 0%
+[13:11:17] [Server thread/INFO]: Preparing spawn area: 46%
+[13:11:18] [Server thread/INFO]: Preparing spawn area: 98%
+[13:11:20] [Server thread/INFO]: Johnr1227[local:E:6397492c] logged in with entity id 292 at (130.05509170179633, 35.0, 267.49439538544146)
+[13:11:20] [Server thread/INFO]: Johnr1227 joined the game
+[13:11:22] [Server thread/INFO]: Saving and pausing game...
+[13:11:22] [Server thread/INFO]: Saving chunks for level 'Screenshots'/Overworld
+[13:11:22] [Server thread/INFO]: Saving chunks for level 'Screenshots'/Nether
+[13:11:22] [Server thread/INFO]: Saving chunks for level 'Screenshots'/The End
+[13:11:23] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2958ms behind, skipping 59 tick(s)
+[13:11:23] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@44fcc6d3[id=d1efef13-87dd-334e-a44c-29551a7c1d82,name=Johnr1227,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:79) ~[YggdrasilAuthenticationService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:180) [YggdrasilMinecraftSessionService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:60) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:57) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3524) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2317) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2280) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2195) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3934) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:3938) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4821) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:4827) [guava-17.0.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:170) [YggdrasilMinecraftSessionService.class:?]
+	at net.minecraft.client.Minecraft.getProfileProperties(Minecraft.java:3056) [Minecraft.class:?]
+	at net.minecraft.client.resources.SkinManager$3.run(SkinManager.java:138) [SkinManager$3.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_66]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_66]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_66]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_66]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_66]
+[13:11:24] [Server thread/INFO]: Saving and pausing game...
+[13:11:24] [Server thread/INFO]: Saving chunks for level 'Screenshots'/Overworld
+[13:11:25] [Server thread/INFO]: Saving chunks for level 'Screenshots'/Nether
+[13:11:25] [Server thread/INFO]: Saving chunks for level 'Screenshots'/The End
+[13:13:08] [Server thread/WARN]: Time ran backwards! Did the system time change?
+[13:27:19] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2133ms behind, skipping 42 tick(s)
+[13:27:29] [Server thread/INFO]: [Johnr1227: Set own game mode to Spectator Mode]
+[13:27:29] [Client thread/INFO]: [CHAT] Your game mode has been updated to Spectator Mode
+[13:27:30] [Server thread/INFO]: [Johnr1227: Set own game mode to Creative Mode]
+[13:27:30] [Client thread/INFO]: [CHAT] Your game mode has been updated to Creative Mode
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Creeper]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Creeper]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Zombie]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Creeper]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Bat]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Bat]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Zombie]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Bat]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Skeleton]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Creeper]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Creeper]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Creeper]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Skeleton]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Zombie]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Witch]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Cow]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Cow]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Cow]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Skeleton]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Zombie]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Skeleton]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Zombie]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Creeper]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Spider]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Creeper]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Creeper]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Cow]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Bat]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Cow]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Cow]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Spider]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Skeleton]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Skeleton]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Cow]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Cow]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Skeleton]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Spider]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Zombie]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Skeleton]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Enderman]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Zombie]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Creeper]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Skeleton]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Cow]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Cow]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Squid]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Sheep]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Sheep]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Bat]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Squid]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Sheep]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Cow]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Sheep]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Creeper]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Skeleton]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Bat]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed item.item.arrow]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Creeper]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Skeleton]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Squid]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Skeleton]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Creeper]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Squid]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Squid]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed item.item.bone]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Sheep]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:49] [Server thread/INFO]: [Johnr1227: Killed Sheep]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Squid]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Cow]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Sheep]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Bat]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Bat]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Zombie]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Sheep]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Skeleton]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Zombie]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Cow]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Squid]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Cow]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Cow]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Cow]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Squid]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Bat]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Zombie]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Zombie]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Squid]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Skeleton]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Squid]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Cow]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Cow]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Cow]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Creeper]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Bat]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Bat]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Sheep]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Bat]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Squid]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Bat]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Creeper]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Creeper]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Cow]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Skeleton]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Bat]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Bat]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Creeper]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Creeper]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Creeper]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Creeper]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Zombie]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Creeper]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Sheep]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Cow]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Skeleton]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Sheep]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed item.tile.mushroom]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Zombie]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Creeper]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Cow]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Spider]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Cow]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Skeleton]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed item.tile.mushroom]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Zombie]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Sheep]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Bat]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Skeleton]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Skeleton]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Zombie]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Squid]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Slime]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Skeleton]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Skeleton]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Skeleton]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Skeleton]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Creeper]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Creeper]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Cow]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Creeper]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Creeper]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Skeleton]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Creeper]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed item.tile.mushroom]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Sheep]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Sheep]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Sheep]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Sheep]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed item.tile.flower2.tulipPink]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Sheep]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Sheep]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Sheep]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Sheep]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Sheep]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Sheep]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Sheep]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Sheep]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Sheep]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Sheep]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Sheep]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Sheep]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed item.tile.mushroom]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Sheep]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Sheep]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Sheep]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Sheep]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Sheep]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Sheep]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Sheep]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Sheep]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Sheep]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Sheep]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Sheep]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Sheep]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Sheep]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Sheep]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Sheep]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Pig]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Sheep]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Sheep]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Sheep]
+[13:27:50] [Server thread/INFO]: [Johnr1227: Killed Sheep]
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Creeper
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Creeper
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Zombie
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Creeper
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Bat
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Bat
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Zombie
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Bat
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Skeleton
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Creeper
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Creeper
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Creeper
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Skeleton
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Zombie
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Witch
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Cow
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Cow
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Cow
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Skeleton
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Zombie
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Skeleton
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Zombie
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Creeper
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Spider
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Creeper
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Creeper
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Cow
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Bat
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Cow
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Cow
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Spider
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Skeleton
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Skeleton
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Cow
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Cow
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Skeleton
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Spider
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Zombie
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Skeleton
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Enderman
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Zombie
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Creeper
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Skeleton
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Cow
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Cow
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Squid
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Sheep
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Sheep
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Bat
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Squid
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Sheep
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Cow
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Sheep
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Creeper
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Skeleton
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Bat
+[13:27:50] [Client thread/INFO]: [CHAT] Killed item.item.arrow
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Creeper
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Skeleton
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Squid
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Skeleton
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Creeper
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Squid
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Squid
+[13:27:50] [Client thread/INFO]: [CHAT] Killed item.item.bone
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Sheep
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Sheep
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Squid
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Cow
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Sheep
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Bat
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Bat
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Zombie
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Sheep
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Skeleton
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Zombie
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Cow
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Squid
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Cow
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Cow
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Cow
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Squid
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Bat
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Zombie
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Zombie
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Squid
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Skeleton
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Squid
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Cow
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Cow
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Cow
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Creeper
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Bat
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Bat
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Sheep
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Bat
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Squid
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Bat
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Creeper
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Creeper
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Cow
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Skeleton
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Bat
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Bat
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Creeper
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Creeper
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Creeper
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Creeper
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Zombie
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Creeper
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Sheep
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Cow
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Skeleton
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Sheep
+[13:27:50] [Client thread/INFO]: [CHAT] Killed item.tile.mushroom
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Zombie
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Creeper
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Cow
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Spider
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Cow
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Skeleton
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed item.tile.mushroom
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Zombie
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Sheep
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Bat
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Skeleton
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Skeleton
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Zombie
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Squid
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Slime
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Skeleton
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Skeleton
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Skeleton
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Skeleton
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Creeper
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Creeper
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Cow
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Creeper
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Creeper
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Skeleton
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Creeper
+[13:27:50] [Client thread/INFO]: [CHAT] Killed item.tile.mushroom
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Sheep
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Sheep
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Sheep
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Sheep
+[13:27:50] [Client thread/INFO]: [CHAT] Killed item.tile.flower2.tulipPink
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Sheep
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Sheep
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Sheep
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Sheep
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Sheep
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Sheep
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Sheep
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Sheep
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Sheep
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Sheep
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Sheep
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Sheep
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed item.tile.mushroom
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Sheep
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Sheep
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Sheep
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Sheep
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Sheep
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Sheep
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Sheep
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Sheep
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Sheep
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Sheep
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Sheep
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Sheep
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Sheep
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Sheep
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Sheep
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Pig
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Sheep
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Sheep
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Sheep
+[13:27:50] [Client thread/INFO]: [CHAT] Killed Sheep
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.sulphur]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.sulphur]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.rottenFlesh]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.sulphur]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.rottenFlesh]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed Bat]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.bone]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.arrow]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.sulphur]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.sulphur]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.arrow]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed Bat]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.rottenFlesh]
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.sulphur
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed Skeleton]
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.sulphur
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.rottenFlesh
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.sulphur
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.beefRaw]
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.rottenFlesh
+[13:27:51] [Client thread/INFO]: [CHAT] Killed Bat
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.bone
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.stick]
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.arrow
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.sulphur
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.sulphur
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.beefRaw]
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.arrow
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.beefRaw]
+[13:27:51] [Client thread/INFO]: [CHAT] Killed Bat
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.bone]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.rottenFlesh]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.bone]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.sulphur]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed Spider]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.sulphur]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.leather]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.sulphur]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed Zombie]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.string]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.beefRaw]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.beefRaw]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.string]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.leather]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed Bat]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.beefRaw]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.leather]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.beefRaw]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.bone]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.arrow]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed Skeleton]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed Zombie]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.arrow]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.beefRaw]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.leather]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.arrow]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.rottenFlesh]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.bone]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.string]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.enderPearl]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.rottenFlesh]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed Skeleton]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.bone]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.beefRaw]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.leather]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.beefRaw]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.dyePowder.black]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.tile.cloth.gray]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.muttonRaw]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.muttonRaw]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.tile.cloth.silver]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.tile.cloth.white]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.tile.cloth.black]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.muttonRaw]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.dyePowder.black]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.muttonRaw]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.beefRaw]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed Spider]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.arrow]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.bone]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.bone]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.sulphur]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.arrow]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.arrow]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.dyePowder.black]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.bone]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.dyePowder.black]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.rottenFlesh
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.sulphur]
+[13:27:51] [Client thread/INFO]: [CHAT] Killed Skeleton
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.beefRaw
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.dyePowder.black]
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.stick
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.tile.cloth.silver]
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.beefRaw
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.beefRaw
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.tile.cloth.white]
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.bone
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.rottenFlesh
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.muttonRaw]
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.bone
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.sulphur
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.muttonRaw]
+[13:27:51] [Client thread/INFO]: [CHAT] Killed Spider
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.sulphur
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed Squid]
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.leather
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.sulphur
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.dyePowder.black]
+[13:27:51] [Client thread/INFO]: [CHAT] Killed Zombie
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.string
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed Squid]
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.beefRaw
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.beefRaw
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.beefRaw]
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.string
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.leather
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.muttonRaw]
+[13:27:51] [Client thread/INFO]: [CHAT] Killed Bat
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.beefRaw
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.leather
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed Squid]
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.beefRaw
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.bone
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.leather]
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.arrow
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.tile.cloth.black]
+[13:27:51] [Client thread/INFO]: [CHAT] Killed Skeleton
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.muttonRaw]
+[13:27:51] [Client thread/INFO]: [CHAT] Killed Zombie
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.tile.cloth.gray]
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.arrow
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.beefRaw
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.leather
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.arrow
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.rottenFlesh
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed Squid]
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.bone
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.string
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.enderPearl
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.rottenFlesh
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.bone]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.dyePowder.black]
+[13:27:51] [Client thread/INFO]: [CHAT] Killed Skeleton
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.leather]
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.bone
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.beefRaw
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.dyePowder.black]
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.leather
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.beefRaw]
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.beefRaw
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.dyePowder.black
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.beefRaw]
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.tile.cloth.gray
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.muttonRaw
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.beefRaw]
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.muttonRaw
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.leather]
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.tile.cloth.silver
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.tile.cloth.white
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.leather]
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.tile.cloth.black
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.muttonRaw
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.beefRaw]
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.dyePowder.black
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.muttonRaw
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.rottenFlesh]
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.beefRaw
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.rottenFlesh]
+[13:27:51] [Client thread/INFO]: [CHAT] Killed Spider
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.arrow
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.dyePowder.black]
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.bone
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.dyePowder.black]
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.bone
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.arrow]
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.sulphur
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.bone]
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.arrow
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.arrow
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.beefRaw]
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.dyePowder.black
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.bone
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.beefRaw]
+[13:27:51] [Client thread/INFO]: [CHAT] Killed item.item.dyePowder.black
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.leather]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.leather]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed Squid]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.beefRaw]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.dyePowder.black]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed Bat]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed Squid]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.muttonRaw]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed Squid]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed Squid]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.tile.cloth.gray]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.sulphur]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.sulphur]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.beefRaw]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed item.item.arrow]
+[13:27:51] [Server thread/INFO]: [Johnr1227: Killed Bat]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.sulphur]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.sulphur]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.tile.cloth.black]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.muttonRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.sulphur]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.arrow]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.bone]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.beefRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.leather]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.muttonRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.tile.cloth.silver]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.rottenFlesh]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.string]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.leather]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.beefRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.sulphur]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.arrow]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.beefRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.leather]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed Creeper]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.rottenFlesh]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.tile.cloth.gray]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.bone]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.muttonRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed Bat]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.rottenFlesh]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.dyePowder.black]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed Slime]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed Slime]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed Slime]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed Slime]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.arrow]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.arrow]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.arrow]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.bone]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.bone]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.sulphur]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.leather]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.beefRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed Creeper]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed Bat]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed Skeleton]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed Bat]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.sulphur]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.muttonRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.tile.cloth.white]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.tile.cloth.black]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.tile.cloth.gray]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.muttonRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.muttonRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.muttonRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.tile.cloth.black]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.seeds]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.tile.cloth.white]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.muttonRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.tile.cloth.gray]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.muttonRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.tile.cloth.silver]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.tile.cloth.silver]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.muttonRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.muttonRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.tile.cloth.silver]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.tile.cloth.gray]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.muttonRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.tile.cloth.white]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.tile.cloth.white]
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.muttonRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.tile.cloth.gray]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.muttonRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.muttonRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.tile.cloth.black]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.muttonRaw]
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.sulphur
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.dyePowder.black
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.tile.cloth.silver
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.tile.cloth.white
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.muttonRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.muttonRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed Squid
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.dyePowder.black
+[13:27:52] [Client thread/INFO]: [CHAT] Killed Squid
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.beefRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.muttonRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed Squid
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.leather
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.tile.cloth.black
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.muttonRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.tile.cloth.gray
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed Squid
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.bone
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.dyePowder.black
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.leather
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.dyePowder.black
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.beefRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.beefRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.beefRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.leather
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.leather
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.beefRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.rottenFlesh
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.tile.cloth.black]
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.rottenFlesh
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.muttonRaw]
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.dyePowder.black
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.dyePowder.black
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.arrow
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.muttonRaw]
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.bone
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.beefRaw
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.tile.cloth.silver]
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.beefRaw
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.leather
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.leather
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.muttonRaw]
+[13:27:52] [Client thread/INFO]: [CHAT] Killed Squid
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.tile.cloth.silver]
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.beefRaw
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.muttonRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.muttonRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.tile.cloth.white]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.tile.cloth.gray]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.muttonRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.tile.cloth.silver]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.muttonRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.tile.cloth.black]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.muttonRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.tile.cloth.white]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.muttonRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.tile.cloth.gray]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.tile.cloth.black]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.muttonRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.tile.cloth.gray]
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.dyePowder.black
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.muttonRaw]
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:52] [Client thread/INFO]: [CHAT] Killed Bat
+[13:27:52] [Client thread/INFO]: [CHAT] Killed Squid
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.tile.cloth.white]
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.muttonRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed Squid
+[13:27:52] [Client thread/INFO]: [CHAT] Killed Squid
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.muttonRaw]
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.tile.cloth.gray
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.sulphur
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.sulphur
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.beefRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.arrow
+[13:27:52] [Client thread/INFO]: [CHAT] Killed Bat
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.sulphur
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.sulphur
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.tile.cloth.black
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.muttonRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.sulphur
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.arrow
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.bone
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.beefRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.leather
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.muttonRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.tile.cloth.silver
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.rottenFlesh
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.string
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.leather
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.beefRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.sulphur
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.arrow
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.beefRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.leather
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed Creeper
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.rottenFlesh
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.tile.cloth.gray
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.bone
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.muttonRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed Bat
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.tile.cloth.silver]
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.rottenFlesh
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.muttonRaw]
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.muttonRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.tile.cloth.gray]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.tile.cloth.silver]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.muttonRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.muttonRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.tile.cloth.black]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.muttonRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.tile.cloth.white]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.porkchopRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.tile.cloth.black]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.muttonRaw]
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.dyePowder.black
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.tile.cloth.white]
+[13:27:52] [Client thread/INFO]: [CHAT] Killed Slime
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.muttonRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.tile.cloth.silver]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.muttonRaw]
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.tile.cloth.gray]
+[13:27:52] [Client thread/INFO]: [CHAT] Killed Slime
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed Slime
+[13:27:52] [Client thread/INFO]: [CHAT] Killed Slime
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.arrow
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.arrow
+[13:27:52] [Server thread/INFO]: [Johnr1227: Killed item.item.muttonRaw]
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.arrow
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.bone
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.bone
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.sulphur
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.leather
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.beefRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed Creeper
+[13:27:52] [Client thread/INFO]: [CHAT] Killed Bat
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed Skeleton
+[13:27:52] [Client thread/INFO]: [CHAT] Killed Bat
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.sulphur
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.muttonRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.tile.cloth.white
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.tile.cloth.black
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.tile.cloth.gray
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.muttonRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.muttonRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.muttonRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.tile.cloth.black
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.seeds
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.tile.cloth.white
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.muttonRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.tile.cloth.gray
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.muttonRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.tile.cloth.silver
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.tile.cloth.silver
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.muttonRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.muttonRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.tile.cloth.silver
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.tile.cloth.gray
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.muttonRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.tile.cloth.white
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.tile.cloth.white
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.muttonRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.tile.cloth.gray
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.muttonRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.muttonRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.tile.cloth.black
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.muttonRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.tile.cloth.black
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.muttonRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.muttonRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.tile.cloth.silver
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.muttonRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.tile.cloth.silver
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.muttonRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.muttonRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.tile.cloth.white
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.tile.cloth.gray
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.muttonRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.tile.cloth.silver
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.muttonRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.tile.cloth.black
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.muttonRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.tile.cloth.white
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.muttonRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.tile.cloth.gray
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.tile.cloth.black
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.muttonRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.tile.cloth.gray
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.muttonRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.tile.cloth.white
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.muttonRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.tile.cloth.silver
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.muttonRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.muttonRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.tile.cloth.gray
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.tile.cloth.silver
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.muttonRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.muttonRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.tile.cloth.black
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.muttonRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.tile.cloth.white
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.tile.cloth.black
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.muttonRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.tile.cloth.white
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.muttonRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.tile.cloth.silver
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.muttonRaw
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.tile.cloth.gray
+[13:27:52] [Client thread/INFO]: [CHAT] Killed item.item.muttonRaw
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Creeper]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Skeleton]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Zombie]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Zombie]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Creeper]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed item.item.bone]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed item.item.arrow]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Zombie]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed item.item.string]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed item.item.rottenFlesh]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Zombie]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Skeleton]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed item.item.rottenFlesh]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed item.item.bone]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Zombie]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Bat]
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Creeper
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Zombie]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Bat]
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Skeleton
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Bat]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Creeper]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Creeper]
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Zombie
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Creeper]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Spider]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Bat]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Bat]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Bat]
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Zombie
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Bat]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Zombie]
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Creeper
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed item.item.arrow]
+[13:27:53] [Client thread/INFO]: [CHAT] Killed item.item.bone
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed item.item.bone]
+[13:27:53] [Client thread/INFO]: [CHAT] Killed item.item.arrow
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Zombie
+[13:27:53] [Client thread/INFO]: [CHAT] Killed item.item.string
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Zombie]
+[13:27:53] [Client thread/INFO]: [CHAT] Killed item.item.rottenFlesh
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Zombie
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Zombie]
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Skeleton
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Bat]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Bat]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Squid]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed item.item.string]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Creeper]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Creeper]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Squid]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed item.item.dyePowder.black]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Bat]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Bat]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Bat]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Bat]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed item.item.dyePowder.black]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Squid]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Squid]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed item.item.dyePowder.black]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Skeleton]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed item.item.dyePowder.black]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Skeleton]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Zombie Villager]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Creeper]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Creeper]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Skeleton]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Creeper]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Bat]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed item.item.dyePowder.black]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed item.item.dyePowder.black]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Creeper]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed item.item.dyePowder.black]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Skeleton]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Creeper]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Creeper]
+[13:27:53] [Client thread/INFO]: [CHAT] Killed item.item.rottenFlesh
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed item.item.dyePowder.black]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Skeleton]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Skeleton]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Zombie]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Spider]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Bat]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Zombie]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Zombie]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Creeper]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Spider]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Creeper]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Creeper]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Squid]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Skeleton]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Spider]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Skeleton]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Zombie]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Zombie]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Skeleton]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Zombie]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Squid]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Squid]
+[13:27:53] [Client thread/INFO]: [CHAT] Killed item.item.bone
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Skeleton]
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Zombie
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Bat
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Skeleton]
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Zombie
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Skeleton]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Squid]
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Bat
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Creeper]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Skeleton]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Creeper]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Skeleton]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Creeper]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Skeleton]
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Bat
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Creeper
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Creeper]
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Creeper
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Skeleton]
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Creeper
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Skeleton]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed item.item.slimeball]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Creeper]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed item.item.slimeball]
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Spider
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Creeper]
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Bat
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Bat]
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Bat
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed item.item.slimeball]
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Bat
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Skeleton]
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Bat
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Creeper]
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Zombie
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Creeper]
+[13:27:53] [Client thread/INFO]: [CHAT] Killed item.item.arrow
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Spider]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed item.item.sulphur]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Creeper]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed item.item.bone]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed item.item.arrow]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Skeleton]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Skeleton]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Zombie]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Creeper]
+[13:27:53] [Server thread/INFO]: [Johnr1227: Killed Creeper]
+[13:27:53] [Client thread/INFO]: [CHAT] Killed item.item.bone
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Zombie
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Zombie
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Bat
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Bat
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Squid
+[13:27:53] [Client thread/INFO]: [CHAT] Killed item.item.string
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Creeper
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Creeper
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Squid
+[13:27:53] [Client thread/INFO]: [CHAT] Killed item.item.dyePowder.black
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Bat
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Bat
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Bat
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Bat
+[13:27:53] [Client thread/INFO]: [CHAT] Killed item.item.dyePowder.black
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Squid
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Squid
+[13:27:53] [Client thread/INFO]: [CHAT] Killed item.item.dyePowder.black
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Skeleton
+[13:27:53] [Client thread/INFO]: [CHAT] Killed item.item.dyePowder.black
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Skeleton
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Zombie Villager
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Creeper
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Creeper
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Skeleton
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Creeper
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Bat
+[13:27:53] [Client thread/INFO]: [CHAT] Killed item.item.dyePowder.black
+[13:27:53] [Client thread/INFO]: [CHAT] Killed item.item.dyePowder.black
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Creeper
+[13:27:53] [Client thread/INFO]: [CHAT] Killed item.item.dyePowder.black
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Skeleton
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Creeper
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Creeper
+[13:27:53] [Client thread/INFO]: [CHAT] Killed item.item.dyePowder.black
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Skeleton
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Skeleton
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Zombie
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Spider
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Bat
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Zombie
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Zombie
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Creeper
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Spider
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Creeper
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Creeper
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Squid
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Skeleton
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Spider
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Skeleton
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Zombie
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Zombie
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Skeleton
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Zombie
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Squid
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Squid
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Skeleton
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Skeleton
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Skeleton
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Squid
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Creeper
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Skeleton
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Creeper
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Skeleton
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Creeper
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Skeleton
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Creeper
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Skeleton
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Skeleton
+[13:27:53] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Creeper
+[13:27:53] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Creeper
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Bat
+[13:27:53] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Skeleton
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Creeper
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Creeper
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Spider
+[13:27:53] [Client thread/INFO]: [CHAT] Killed item.item.sulphur
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Creeper
+[13:27:53] [Client thread/INFO]: [CHAT] Killed item.item.bone
+[13:27:53] [Client thread/INFO]: [CHAT] Killed item.item.arrow
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Skeleton
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Skeleton
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Zombie
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Creeper
+[13:27:53] [Client thread/INFO]: [CHAT] Killed Creeper
+[13:28:20] [Server thread/INFO]: [Johnr1227: Set own game mode to Spectator Mode]
+[13:28:20] [Client thread/INFO]: [CHAT] Your game mode has been updated to Spectator Mode
+[13:28:40] [Server thread/INFO]: [Johnr1227: Set own game mode to Creative Mode]
+[13:28:40] [Client thread/INFO]: [CHAT] Your game mode has been updated to Creative Mode
+[13:29:01] [Server thread/INFO]: [Johnr1227: Set own game mode to Spectator Mode]
+[13:29:01] [Client thread/INFO]: [CHAT] Your game mode has been updated to Spectator Mode
+[13:29:03] [Server thread/INFO]: [Johnr1227: Set own game mode to Creative Mode]
+[13:29:03] [Client thread/INFO]: [CHAT] Your game mode has been updated to Creative Mode
+[13:29:20] [Client thread/INFO]: [CHAT] Saved screenshot as 2018-02-04_13.29.18.png
+[13:29:20] [Server thread/INFO]: Saving and pausing game...
+[13:29:20] [Server thread/INFO]: Saving chunks for level 'Screenshots'/Overworld
+[13:29:22] [Server thread/INFO]: Saving chunks for level 'Screenshots'/Nether
+[13:29:22] [Server thread/INFO]: Saving chunks for level 'Screenshots'/The End
+[13:30:19] [Server thread/INFO]: [Johnr1227: Set own game mode to Spectator Mode]
+[13:30:19] [Client thread/INFO]: [CHAT] Your game mode has been updated to Spectator Mode
+[13:30:36] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3843ms behind, skipping 76 tick(s)
+[13:31:03] [Server thread/INFO]: Saving and pausing game...
+[13:31:03] [Server thread/INFO]: Saving chunks for level 'Screenshots'/Overworld
+[13:31:04] [Server thread/INFO]: Saving chunks for level 'Screenshots'/Nether
+[13:31:04] [Server thread/INFO]: Saving chunks for level 'Screenshots'/The End
+[13:31:04] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 9867ms behind, skipping 197 tick(s)
+[13:31:25] [Client thread/INFO]: [CHAT] Saved screenshot as 2018-02-04_13.31.23.png
+[13:31:50] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 8192ms behind, skipping 163 tick(s)
+[13:32:09] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 8279ms behind, skipping 165 tick(s)
+[13:32:36] [Client thread/INFO]: [CHAT] Saved screenshot as 2018-02-04_13.32.34.png
+[13:33:14] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2396ms behind, skipping 47 tick(s)
+[13:33:36] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5919ms behind, skipping 118 tick(s)
+[13:34:58] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4014ms behind, skipping 80 tick(s)
+[13:35:03] [Server thread/INFO]: [Johnr1227: Set own game mode to Creative Mode]
+[13:35:03] [Client thread/INFO]: [CHAT] Your game mode has been updated to Creative Mode
+[13:35:23] [Server thread/INFO]: Saving and pausing game...
+[13:35:23] [Server thread/INFO]: Saving chunks for level 'Screenshots'/Overworld
+[13:35:24] [Server thread/INFO]: Saving chunks for level 'Screenshots'/Nether
+[13:35:24] [Server thread/INFO]: Saving chunks for level 'Screenshots'/The End
+[13:35:25] [Server thread/INFO]: [Johnr1227: Took all effects from Johnr1227]
+[13:35:25] [Client thread/INFO]: [CHAT] Took all effects from Johnr1227
+[13:35:30] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 20198ms behind, skipping 403 tick(s)
+[13:35:34] [Server thread/INFO]: [Johnr1227: Added 500 to the time]
+[13:35:34] [Client thread/INFO]: [CHAT] Added 500 to the time
+[13:35:38] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2191ms behind, skipping 43 tick(s)
+[13:35:51] [Client thread/INFO]: [CHAT] Saved screenshot as 2018-02-04_13.35.49.png
+[13:36:01] [Server thread/INFO]: [Johnr1227: Set the time to 0]
+[13:36:01] [Client thread/INFO]: [CHAT] Set the time to 0
+[13:36:04] [Server thread/INFO]: [Johnr1227: Set the time to 23000]
+[13:36:04] [Client thread/INFO]: [CHAT] Set the time to 23000
+[13:36:13] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 13747ms behind, skipping 274 tick(s)
+[13:36:21] [Server thread/INFO]: [Johnr1227: Given Night Vision (ID 16) * 0 to Johnr1227 for 1000000 seconds]
+[13:36:21] [Client thread/INFO]: [CHAT] Given Night Vision (ID 16) * 0 to Johnr1227 for 1000000 seconds
+[13:36:32] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 7684ms behind, skipping 153 tick(s)
+[13:36:49] [Client thread/INFO]: [CHAT] Saved screenshot as 2018-02-04_13.36.48.png
+[13:37:03] [Server thread/INFO]: [Johnr1227: Set own game mode to Spectator Mode]
+[13:37:03] [Client thread/INFO]: [CHAT] Your game mode has been updated to Spectator Mode
+[13:37:17] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 34391ms behind, skipping 687 tick(s)
+[13:37:19] [Server thread/INFO]: Saving and pausing game...
+[13:37:19] [Server thread/INFO]: Saving chunks for level 'Screenshots'/Overworld
+[13:37:21] [Server thread/INFO]: Saving chunks for level 'Screenshots'/Nether
+[13:37:21] [Server thread/INFO]: Saving chunks for level 'Screenshots'/The End
+[13:37:31] [Client thread/INFO]: [CHAT] Saved screenshot as 2018-02-04_13.37.30.png
+[13:38:20] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3858ms behind, skipping 77 tick(s)
+[13:38:48] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 12977ms behind, skipping 259 tick(s)
+[13:38:51] [Server thread/INFO]: [Johnr1227: Set own game mode to Creative Mode]
+[13:38:51] [Client thread/INFO]: [CHAT] Your game mode has been updated to Creative Mode
+[13:38:53] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2798ms behind, skipping 55 tick(s)
+[13:39:03] [Server thread/INFO]: [Johnr1227: Set own game mode to Spectator Mode]
+[13:39:03] [Client thread/INFO]: [CHAT] Your game mode has been updated to Spectator Mode
+[13:39:04] [Server thread/INFO]: [Johnr1227: Set own game mode to Creative Mode]
+[13:39:04] [Client thread/INFO]: [CHAT] Your game mode has been updated to Creative Mode
+[13:39:12] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 7101ms behind, skipping 142 tick(s)
+[13:39:37] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 10714ms behind, skipping 214 tick(s)
+[13:39:39] [Client thread/INFO]: [CHAT] Saved screenshot as 2018-02-04_13.39.38.png
+[13:39:43] [Server thread/INFO]: [Johnr1227: Set own game mode to Spectator Mode]
+[13:39:43] [Client thread/INFO]: [CHAT] Your game mode has been updated to Spectator Mode
+[13:39:49] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 6778ms behind, skipping 135 tick(s)
+[13:40:09] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 7236ms behind, skipping 144 tick(s)
+[13:40:28] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3197ms behind, skipping 63 tick(s)
+[13:40:45] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2959ms behind, skipping 59 tick(s)
+[13:40:57] [Server thread/INFO]: Saving and pausing game...
+[13:40:57] [Server thread/INFO]: Saving chunks for level 'Screenshots'/Overworld
+[13:40:58] [Server thread/INFO]: Saving chunks for level 'Screenshots'/Nether
+[13:40:58] [Server thread/INFO]: Saving chunks for level 'Screenshots'/The End
+[13:41:06] [Client thread/INFO]: [CHAT] Saved screenshot as 2018-02-04_13.41.05.png
+[13:41:20] [Client thread/INFO]: [CHAT] Located Temple at 1128 (y?) 1176
+[13:41:22] [Server thread/INFO]: [Johnr1227: Set own game mode to Creative Mode]
+[13:41:22] [Client thread/INFO]: [CHAT] Your game mode has been updated to Creative Mode
+[13:41:34] [Server thread/INFO]: [Johnr1227: Teleported Johnr1227 to 1128.5, 100.0, 11776.5]
+[13:41:34] [Client thread/INFO]: [CHAT] Teleported Johnr1227 to 1128.5, 100.0, 11776.5
+[13:41:36] [Server thread/INFO]: [Johnr1227: Teleported Johnr1227 to 1128.5, 100.0, 1176.5]
+[13:41:36] [Client thread/INFO]: [CHAT] Teleported Johnr1227 to 1128.5, 100.0, 1176.5
+[13:41:42] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5427ms behind, skipping 108 tick(s)
+[13:41:51] [Server thread/INFO]: Saving and pausing game...
+[13:41:51] [Server thread/INFO]: Saving chunks for level 'Screenshots'/Overworld
+[13:41:52] [Server thread/INFO]: Saving chunks for level 'Screenshots'/Nether
+[13:41:52] [Server thread/INFO]: Saving chunks for level 'Screenshots'/The End
+[13:41:58] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4084ms behind, skipping 81 tick(s)
+[13:42:03] [Server thread/INFO]: Saving and pausing game...
+[13:42:03] [Server thread/INFO]: Saving chunks for level 'Screenshots'/Overworld
+[13:42:04] [Server thread/INFO]: Saving chunks for level 'Screenshots'/Nether
+[13:42:04] [Server thread/INFO]: Saving chunks for level 'Screenshots'/The End
+[13:43:20] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2132ms behind, skipping 42 tick(s)
+[13:43:42] [Client thread/INFO]: [CHAT] §o§eA Bomb Is Going Off...§r
+[13:43:55] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 12207ms behind, skipping 244 tick(s)
+[13:44:15] [Client thread/INFO]: [STDOUT]: Player Loop Position: 0
+[13:44:15] [Client thread/INFO]: [CHAT] §o§eA Bomb Is Going Off...§r
+[13:46:24] [Server thread/INFO]: [STDOUT]: Player Loop Position: 0
+[13:46:26] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 130908ms behind, skipping 2618 tick(s)
+[13:46:26] [Server thread/INFO]: [Johnr1227: Set own game mode to Spectator Mode]
+[13:46:26] [Client thread/INFO]: [CHAT] Your game mode has been updated to Spectator Mode
+[13:47:43] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 77685ms behind, skipping 1553 tick(s)
+[13:47:46] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3272ms behind, skipping 65 tick(s)
+[13:48:07] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 7052ms behind, skipping 141 tick(s)
+[13:51:53] [Client thread/INFO]: Warning: Clientside chunk ticking took 120 ms
+[13:57:33] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2051ms behind, skipping 41 tick(s)
+[13:57:58] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 9368ms behind, skipping 187 tick(s)
+[13:58:03] [Client thread/INFO]: Warning: Clientside chunk ticking took 111 ms
+[13:58:18] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 9866ms behind, skipping 197 tick(s)
+[14:08:30] [Client Shutdown Thread/INFO]: Stopping server

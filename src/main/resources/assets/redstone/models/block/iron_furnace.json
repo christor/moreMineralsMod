@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "redstone:blocks/iron_furnace_top",
+        "down": "redstone:blocks/iron_furnace_bottom",
+        "up": "redstone:blocks/iron_furnace_top",
+        "north": "redstone:blocks/iron_furnace_front_off",
+        "east": "redstone:blocks/iron_furnace_side",
+        "south": "redstone:blocks/iron_furnace_side",
+        "west": "redstone:blocks/iron_furnace_side"
+    }
+}

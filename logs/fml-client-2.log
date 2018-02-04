@@ -1,0 +1,1158 @@
+[10:55:56] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
+[10:55:56] [main/INFO] [FML/]: Forge Mod Loader version 13.20.1.2454 for Minecraft 1.11.2 loading
+[10:55:56] [main/INFO] [FML/]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_66, running on Mac OS X:x86_64:10.11, installed at /Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre
+[10:55:56] [main/DEBUG] [FML/]: Java classpath at launch is /Users/christinarued/Desktop/moreMineralsMod/bin:/Users/christinarued/.gradle/caches/minecraft/net/minecraftforge/forge/1.11.2-13.20.1.2454/snapshot/20161220/forgeSrc-1.11.2-13.20.1.2454.jar:/Users/christinarued/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.1/f7be08ec23c21485b9b5a1cf1654c2ec8c58168d/jsr305-3.0.1.jar:/Users/christinarued/.gradle/caches/modules-2/files-2.1/com.mojang/netty/1.6/4b75825a06139752bd800d9e29c5fd55b8b1b1e4/netty-1.6.jar:/Users/christinarued/.gradle/caches/modules-2/files-2.1/oshi-project/oshi-core/1.1/9ddf7b048a8d701be231c0f4f95fd986198fd2d8/oshi-core-1.1.jar:/Users/christinarued/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/3.4.0/803ff252fedbd395baffd43b37341dc4a150a554/jna-3.4.0.jar:/Users/christinarued/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/platform/3.4.0/e3f70017be8100d3d6923f50b3d2ee17714e9c13/platform-3.4.0.jar:/Users/christinarued/.gradle/caches/modules-2/files-2.1/com.ibm.icu/icu4j-core-mojang/51.2/63d216a9311cca6be337c1e458e587f99d382b84/icu4j-core-mojang-51.2.jar:/Users/christinarued/.gradle/caches/modules-2/files-2.1/net.sf.jopt-simple/jopt-simple/4.6/306816fb57cf94f108a43c95731b08934dcae15c/jopt-simple-4.6.jar:/Users/christinarued/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.0.23.Final/294104aaf1781d6a56a07d561e792c5d0c95f45/netty-all-4.0.23.Final.jar:/Users/christinarued/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/17.0/9c6ef172e8de35fd8d4d8783e4821e57cdef7445/guava-17.0.jar:/Users/christinarued/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.3.2/90a3822c38ec8c996e84c16a3477ef632cbc87a3/commons-lang3-3.3.2.jar:/Users/christinarued/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/b1b6ea3b7e4aa4f492509a4952029cd8e48019ad/commons-io-2.4.jar:/Users/christinarued/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/9ce04e34240f674bc72680f8b843b1457383161a/commons-codec-1.9.jar:/Users/christinarued/.gradle/caches/modules-2/files-2.1/net.java.jutils/jutils/1.0.0/e12fe1fda814bd348c1579329c86943d2cd3c6a6/jutils-1.0.0.jar:/Users/christinarued/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar:/Users/christinarued/.gradle/caches/modules-2/files-2.1/com.mojang/authlib/1.5.24/889ff5477b844800cff734babbf42c1bbda4b10/authlib-1.5.24.jar:/Users/christinarued/.gradle/caches/modules-2/files-2.1/com.mojang/realms/1.10.16/b4948eb06ff238e45044f47aa69c2c977ce69dcb/realms-1.10.16.jar:/Users/christinarued/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.8.1/a698750c16740fd5b3871425f4cb3bbaa87f529d/commons-compress-1.8.1.jar:/Users/christinarued/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.3/18f4247ff4572a074444572cee34647c43e7c9c7/httpclient-4.3.3.jar:/Users/christinarued/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f/commons-logging-1.1.3.jar:/Users/christinarued/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.2/31fbbff1ddbf98f3aa7377c94d33b0447c646b6e/httpcore-4.3.2.jar:/Users/christinarued/.gradle/caches/modules-2/files-2.1/it.unimi.dsi/fastutil/7.0.12_mojang/ba787e741efdc425fc5d2ea654b57c15fba27efa/fastutil-7.0.12_mojang.jar:/Users/christinarued/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.0-beta9/1dd66e68cccd907880229f9e2de1314bd13ff785/log4j-api-2.0-beta9.jar:/Users/christinarued/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.0-beta9/678861ba1b2e1fccb594bb0ca03114bb05da9695/log4j-core-2.0-beta9.jar:/Users/christinarued/.gradle/caches/modules-2/files-2.1/net.minecraft/launchwrapper/1.12/111e7bea9c968cdb3d06ef4632bf7ff0824d0f36/launchwrapper-1.12.jar:/Users/christinarued/.gradle/caches/modules-2/files-2.1/jline/jline/2.13/2d9530d0a25daffaffda7c35037b046b627bb171/jline-2.13.jar:/Users/christinarued/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-debug-all/5.0.3/f9e364ae2a66ce2a543012a4668856e84e5dab74/asm-debug-all-5.0.3.jar:/Users/christinarued/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-actor_2.11/2.3.3/ed62e9fc709ca0f2ff1a3220daa8b70a2870078e/akka-actor_2.11-2.3.3.jar:/Users/christinarued/.gradle/caches/modules-2/files-2.1/com.typesafe/config/1.2.1/f771f71fdae3df231bcd54d5ca2d57f0bf93f467/config-1.2.1.jar:/Users/christinarued/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-actors-migration_2.11/1.1.0/dfa8bc42b181d5b9f1a5dd147f8ae308b893eb6f/scala-actors-migration_2.11-1.1.0.jar:/Users/christinarued/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-compiler/2.11.1/56ea2e6c025e0821f28d73ca271218b8dd04926a/scala-compiler-2.11.1.jar:/Users/christinarued/.gradle/caches/modules-2/files-2.1/org.scala-lang.plugins/scala-continuations-library_2.11/1.0.2/e517c53a7e9acd6b1668c5a35eccbaa3bab9aac/scala-continuations-library_2.11-1.0.2.jar:/Users/christinarued/.gradle/caches/modules-2/files-2.1/org.scala-lang.plugins/scala-continuations-plugin_2.11.1/1.0.2/f361a3283452c57fa30c1ee69448995de23c60f7/scala-continuations-plugin_2.11.1-1.0.2.jar:/Users/christinarued/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.1/e11da23da3eabab9f4777b9220e60d44c1aab6a/scala-library-2.11.1.jar:/Users/christinarued/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.1/f05d7345bf5a58924f2837c6c1f4d73a938e1ff0/scala-parser-combinators_2.11-1.0.1.jar:/Users/christinarued/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.11.1/6580347e61cc7f8e802941e7fde40fa83b8badeb/scala-reflect-2.11.1.jar:/Users/christinarued/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-swing_2.11/1.0.1/b1cdd92bd47b1e1837139c1c53020e86bb9112ae/scala-swing_2.11-1.0.1.jar:/Users/christinarued/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-xml_2.11/1.0.2/820fbca7e524b530fdadc594c39d49a21ea0337e/scala-xml_2.11-1.0.2.jar:/Users/christinarued/.gradle/caches/modules-2/files-2.1/lzma/lzma/0.0.1/521616dc7487b42bef0e803bd2fa3faf668101d7/lzma-0.0.1.jar:/Users/christinarued/.gradle/caches/modules-2/files-2.1/net.sf.trove4j/trove4j/3.0.3/42ccaf4761f0dfdfa805c9e340d99a755907e2dd/trove4j-3.0.3.jar:/Users/christinarued/.gradle/caches/modules-2/files-2.1/com.paulscode/codecjorbis/20101023/c73b5636faf089d9f00e8732a829577de25237ee/codecjorbis-20101023.jar:/Users/christinarued/.gradle/caches/modules-2/files-2.1/com.paulscode/codecwav/20101023/12f031cfe88fef5c1dd36c563c0a3a69bd7261da/codecwav-20101023.jar:/Users/christinarued/.gradle/caches/modules-2/files-2.1/com.paulscode/libraryjavasound/20101123/5c5e304366f75f9eaa2e8cca546a1fb6109348b3/libraryjavasound-20101123.jar:/Users/christinarued/.gradle/caches/modules-2/files-2.1/com.paulscode/librarylwjglopenal/20100824/73e80d0794c39665aec3f62eee88ca91676674ef/librarylwjglopenal-20100824.jar:/Users/christinarued/.gradle/caches/modules-2/files-2.1/com.paulscode/soundsystem/20120107/419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6/soundsystem-20120107.jar:/Users/christinarued/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar:/Users/christinarued/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.2-nightly-20140822/7707204c9ffa5d91662de95f0a224e2f721b22af/lwjgl-2.9.2-nightly-20140822.jar:/Users/christinarued/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl_util/2.9.2-nightly-20140822/f0e612c840a7639c1f77f68d72a28dae2f0c8490/lwjgl_util-2.9.2-nightly-20140822.jar:/Users/christinarued/.gradle/caches/modules-2/files-2.1/java3d/vecmath/1.5.2/79846ba34cbd89e2422d74d53752f993dcc2ccaf/vecmath-1.5.2.jar:/Users/christinarued/.gradle/caches/modules-2/files-2.1/org.fusesource.jansi/jansi/1.11/655c643309c2f45a56a747fda70e3fadf57e9f11/jansi-1.11.jar:/Users/christinarued/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-actors/2.11.0/8ccfb6541de179bb1c4d45cf414acee069b7f78b/scala-actors-2.11.0.jar:/Users/christinarued/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/7ff832a6eb9ab6a767f1ade2b548092d0fa64795/jinput-platform-2.0.5-natives-linux.jar:/Users/christinarued/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/385ee093e01f587f30ee1c8a2ee7d408fd732e16/jinput-platform-2.0.5-natives-windows.jar:/Users/christinarued/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/53f9c919f34d2ca9de8c51fc4e1e8282029a9232/jinput-platform-2.0.5-natives-osx.jar:/Users/christinarued/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.2-nightly-20140822/78b2a55ce4dc29c6b3ec4df8ca165eba05f9b341/lwjgl-platform-2.9.2-nightly-20140822-natives-windows.jar:/Users/christinarued/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.2-nightly-20140822/d898a33b5d0a6ef3fed3a4ead506566dce6720a5/lwjgl-platform-2.9.2-nightly-20140822-natives-linux.jar:/Users/christinarued/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.2-nightly-20140822/79f5ce2fea02e77fe47a3c745219167a542121d7/lwjgl-platform-2.9.2-nightly-20140822-natives-osx.jar:/Users/christinarued/.gradle/caches/minecraft/deobfedDeps/compileDummy.jar:/Users/christinarued/.gradle/caches/minecraft/deobfedDeps/providedDummy.jar:/Users/christinarued/.gradle/caches/minecraft/net/minecraftforge/forge/1.11.2-13.20.1.2454/start
+[10:55:56] [main/DEBUG] [FML/]: Java library path at launch is /Users/christinarued/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.:/Users/christinarued/.gradle/caches/minecraft/net/minecraft/natives/1.11.2
+[10:55:56] [main/INFO] [FML/]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[10:55:56] [main/DEBUG] [FML/]: Instantiating coremod class FMLCorePlugin
+[10:55:56] [main/DEBUG] [FML/]: Added access transformer class net.minecraftforge.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[10:55:56] [main/DEBUG] [FML/]: Enqueued coremod FMLCorePlugin
+[10:55:56] [main/DEBUG] [FML/]: Instantiating coremod class FMLForgePlugin
+[10:55:56] [main/DEBUG] [FML/]: Enqueued coremod FMLForgePlugin
+[10:55:56] [main/DEBUG] [FML/]: All fundamental core mods are successfully located
+[10:55:56] [main/DEBUG] [FML/]: Attempting to load commandline specified mods, relative to /Users/christinarued/Desktop/moreMineralsMod/.
+[10:55:56] [main/DEBUG] [FML/]: Discovering coremods
+[10:55:56] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[10:55:56] [main/INFO] [GradleStart/]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[10:55:56] [main/INFO] [GradleStart/]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[10:55:56] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[10:55:56] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[10:55:56] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[10:55:56] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[10:55:56] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[10:55:56] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[10:55:56] [main/DEBUG] [FML/]: Injecting coremod FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\} class transformers
+[10:55:56] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.BlamingTransformer
+[10:55:57] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SideTransformer
+[10:55:57] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
+[10:55:57] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
+[10:55:57] [main/DEBUG] [FML/]: Injection complete
+[10:55:57] [main/DEBUG] [FML/]: Running coremod plugin for FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\}
+[10:55:57] [main/DEBUG] [FML/]: Running coremod plugin FMLCorePlugin
+[10:55:57] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
+[10:55:57] [main/ERROR] [FML/]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[10:55:57] [main/DEBUG] [FML/]: Loading deobfuscation resource /Users/christinarued/.gradle/caches/minecraft/de/oceanlabs/mcp/mcp_snapshot/20161220/1.11.2/srgs/srg-mcp.srg with 33532 records
+[10:55:59] [main/ERROR] [FML/]: FML appears to be missing any signature data. This is not a good thing
+[10:55:59] [main/DEBUG] [FML/]: Coremod plugin class FMLCorePlugin run successfully
+[10:55:59] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[10:55:59] [main/DEBUG] [FML/]: Injecting coremod FMLForgePlugin \{net.minecraftforge.classloading.FMLForgePlugin\} class transformers
+[10:55:59] [main/DEBUG] [FML/]: Injection complete
+[10:55:59] [main/DEBUG] [FML/]: Running coremod plugin for FMLForgePlugin \{net.minecraftforge.classloading.FMLForgePlugin\}
+[10:55:59] [main/DEBUG] [FML/]: Running coremod plugin FMLForgePlugin
+[10:55:59] [main/DEBUG] [FML/]: Coremod plugin class FMLForgePlugin run successfully
+[10:55:59] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[10:55:59] [main/DEBUG] [FML/]: Loaded 203 rules from AccessTransformer config file forge_at.cfg
+[10:55:59] [main/DEBUG] [FML/]: Validating minecraft
+[10:56:00] [main/DEBUG] [FML/]: Minecraft validated, launching...
+[10:56:00] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[10:56:00] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[10:56:00] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[10:56:00] [main/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[10:56:11] [Client thread/DEBUG] [FML/]: Creating vanilla freeze snapshot
+[10:56:11] [Client thread/DEBUG] [FML/]: Vanilla freeze snapshot created
+[10:56:12] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - LanguageManager took 0.002s
+[10:56:12] [Client thread/INFO] [FML/]: MinecraftForge v13.20.1.2454 Initialized
+[10:56:12] [Client thread/INFO] [FML/]: Replaced 232 ore recipes
+[10:56:12] [Client thread/DEBUG] [FML/]: File /Users/christinarued/Desktop/moreMineralsMod/config/injectedDependencies.json not found. No dependencies injected
+[10:56:12] [Client thread/DEBUG] [FML/]: Building injected Mod Containers [net.minecraftforge.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer]
+[10:56:12] [Client thread/DEBUG] [FML/]: Attempting to load mods contained in the minecraft jar file and associated classes
+[10:56:12] [Client thread/DEBUG] [FML/]: Found a minecraft related directory at /Users/christinarued/Desktop/moreMineralsMod/bin, examining for mod candidates
+[10:56:12] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/christinarued/.gradle/caches/minecraft/net/minecraftforge/forge/1.11.2-13.20.1.2454/snapshot/20161220/forgeSrc-1.11.2-13.20.1.2454.jar, examining for mod candidates
+[10:56:12] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/christinarued/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.1/f7be08ec23c21485b9b5a1cf1654c2ec8c58168d/jsr305-3.0.1.jar, examining for mod candidates
+[10:56:12] [Client thread/TRACE] [FML/]: Skipping known library file /Users/christinarued/.gradle/caches/modules-2/files-2.1/com.mojang/netty/1.6/4b75825a06139752bd800d9e29c5fd55b8b1b1e4/netty-1.6.jar
+[10:56:12] [Client thread/TRACE] [FML/]: Skipping known library file /Users/christinarued/.gradle/caches/modules-2/files-2.1/oshi-project/oshi-core/1.1/9ddf7b048a8d701be231c0f4f95fd986198fd2d8/oshi-core-1.1.jar
+[10:56:12] [Client thread/TRACE] [FML/]: Skipping known library file /Users/christinarued/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/3.4.0/803ff252fedbd395baffd43b37341dc4a150a554/jna-3.4.0.jar
+[10:56:12] [Client thread/TRACE] [FML/]: Skipping known library file /Users/christinarued/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/platform/3.4.0/e3f70017be8100d3d6923f50b3d2ee17714e9c13/platform-3.4.0.jar
+[10:56:12] [Client thread/TRACE] [FML/]: Skipping known library file /Users/christinarued/.gradle/caches/modules-2/files-2.1/com.ibm.icu/icu4j-core-mojang/51.2/63d216a9311cca6be337c1e458e587f99d382b84/icu4j-core-mojang-51.2.jar
+[10:56:12] [Client thread/TRACE] [FML/]: Skipping known library file /Users/christinarued/.gradle/caches/modules-2/files-2.1/net.sf.jopt-simple/jopt-simple/4.6/306816fb57cf94f108a43c95731b08934dcae15c/jopt-simple-4.6.jar
+[10:56:12] [Client thread/TRACE] [FML/]: Skipping known library file /Users/christinarued/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.0.23.Final/294104aaf1781d6a56a07d561e792c5d0c95f45/netty-all-4.0.23.Final.jar
+[10:56:12] [Client thread/TRACE] [FML/]: Skipping known library file /Users/christinarued/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/17.0/9c6ef172e8de35fd8d4d8783e4821e57cdef7445/guava-17.0.jar
+[10:56:12] [Client thread/TRACE] [FML/]: Skipping known library file /Users/christinarued/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.3.2/90a3822c38ec8c996e84c16a3477ef632cbc87a3/commons-lang3-3.3.2.jar
+[10:56:12] [Client thread/TRACE] [FML/]: Skipping known library file /Users/christinarued/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/b1b6ea3b7e4aa4f492509a4952029cd8e48019ad/commons-io-2.4.jar
+[10:56:12] [Client thread/TRACE] [FML/]: Skipping known library file /Users/christinarued/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/9ce04e34240f674bc72680f8b843b1457383161a/commons-codec-1.9.jar
+[10:56:12] [Client thread/TRACE] [FML/]: Skipping known library file /Users/christinarued/.gradle/caches/modules-2/files-2.1/net.java.jutils/jutils/1.0.0/e12fe1fda814bd348c1579329c86943d2cd3c6a6/jutils-1.0.0.jar
+[10:56:12] [Client thread/TRACE] [FML/]: Skipping known library file /Users/christinarued/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar
+[10:56:12] [Client thread/TRACE] [FML/]: Skipping known library file /Users/christinarued/.gradle/caches/modules-2/files-2.1/com.mojang/authlib/1.5.24/889ff5477b844800cff734babbf42c1bbda4b10/authlib-1.5.24.jar
+[10:56:12] [Client thread/TRACE] [FML/]: Skipping known library file /Users/christinarued/.gradle/caches/modules-2/files-2.1/com.mojang/realms/1.10.16/b4948eb06ff238e45044f47aa69c2c977ce69dcb/realms-1.10.16.jar
+[10:56:12] [Client thread/TRACE] [FML/]: Skipping known library file /Users/christinarued/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.8.1/a698750c16740fd5b3871425f4cb3bbaa87f529d/commons-compress-1.8.1.jar
+[10:56:12] [Client thread/TRACE] [FML/]: Skipping known library file /Users/christinarued/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.3/18f4247ff4572a074444572cee34647c43e7c9c7/httpclient-4.3.3.jar
+[10:56:12] [Client thread/TRACE] [FML/]: Skipping known library file /Users/christinarued/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f/commons-logging-1.1.3.jar
+[10:56:12] [Client thread/TRACE] [FML/]: Skipping known library file /Users/christinarued/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.2/31fbbff1ddbf98f3aa7377c94d33b0447c646b6e/httpcore-4.3.2.jar
+[10:56:12] [Client thread/TRACE] [FML/]: Skipping known library file /Users/christinarued/.gradle/caches/modules-2/files-2.1/it.unimi.dsi/fastutil/7.0.12_mojang/ba787e741efdc425fc5d2ea654b57c15fba27efa/fastutil-7.0.12_mojang.jar
+[10:56:12] [Client thread/TRACE] [FML/]: Skipping known library file /Users/christinarued/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.0-beta9/1dd66e68cccd907880229f9e2de1314bd13ff785/log4j-api-2.0-beta9.jar
+[10:56:12] [Client thread/TRACE] [FML/]: Skipping known library file /Users/christinarued/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.0-beta9/678861ba1b2e1fccb594bb0ca03114bb05da9695/log4j-core-2.0-beta9.jar
+[10:56:12] [Client thread/TRACE] [FML/]: Skipping known library file /Users/christinarued/.gradle/caches/modules-2/files-2.1/net.minecraft/launchwrapper/1.12/111e7bea9c968cdb3d06ef4632bf7ff0824d0f36/launchwrapper-1.12.jar
+[10:56:12] [Client thread/TRACE] [FML/]: Skipping known library file /Users/christinarued/.gradle/caches/modules-2/files-2.1/jline/jline/2.13/2d9530d0a25daffaffda7c35037b046b627bb171/jline-2.13.jar
+[10:56:12] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/christinarued/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-debug-all/5.0.3/f9e364ae2a66ce2a543012a4668856e84e5dab74/asm-debug-all-5.0.3.jar, examining for mod candidates
+[10:56:12] [Client thread/TRACE] [FML/]: Skipping known library file /Users/christinarued/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-actor_2.11/2.3.3/ed62e9fc709ca0f2ff1a3220daa8b70a2870078e/akka-actor_2.11-2.3.3.jar
+[10:56:12] [Client thread/TRACE] [FML/]: Skipping known library file /Users/christinarued/.gradle/caches/modules-2/files-2.1/com.typesafe/config/1.2.1/f771f71fdae3df231bcd54d5ca2d57f0bf93f467/config-1.2.1.jar
+[10:56:12] [Client thread/TRACE] [FML/]: Skipping known library file /Users/christinarued/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-actors-migration_2.11/1.1.0/dfa8bc42b181d5b9f1a5dd147f8ae308b893eb6f/scala-actors-migration_2.11-1.1.0.jar
+[10:56:12] [Client thread/TRACE] [FML/]: Skipping known library file /Users/christinarued/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-compiler/2.11.1/56ea2e6c025e0821f28d73ca271218b8dd04926a/scala-compiler-2.11.1.jar
+[10:56:12] [Client thread/TRACE] [FML/]: Skipping known library file /Users/christinarued/.gradle/caches/modules-2/files-2.1/org.scala-lang.plugins/scala-continuations-library_2.11/1.0.2/e517c53a7e9acd6b1668c5a35eccbaa3bab9aac/scala-continuations-library_2.11-1.0.2.jar
+[10:56:12] [Client thread/TRACE] [FML/]: Skipping known library file /Users/christinarued/.gradle/caches/modules-2/files-2.1/org.scala-lang.plugins/scala-continuations-plugin_2.11.1/1.0.2/f361a3283452c57fa30c1ee69448995de23c60f7/scala-continuations-plugin_2.11.1-1.0.2.jar
+[10:56:12] [Client thread/TRACE] [FML/]: Skipping known library file /Users/christinarued/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.1/e11da23da3eabab9f4777b9220e60d44c1aab6a/scala-library-2.11.1.jar
+[10:56:12] [Client thread/TRACE] [FML/]: Skipping known library file /Users/christinarued/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.1/f05d7345bf5a58924f2837c6c1f4d73a938e1ff0/scala-parser-combinators_2.11-1.0.1.jar
+[10:56:12] [Client thread/TRACE] [FML/]: Skipping known library file /Users/christinarued/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.11.1/6580347e61cc7f8e802941e7fde40fa83b8badeb/scala-reflect-2.11.1.jar
+[10:56:12] [Client thread/TRACE] [FML/]: Skipping known library file /Users/christinarued/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-swing_2.11/1.0.1/b1cdd92bd47b1e1837139c1c53020e86bb9112ae/scala-swing_2.11-1.0.1.jar
+[10:56:12] [Client thread/TRACE] [FML/]: Skipping known library file /Users/christinarued/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-xml_2.11/1.0.2/820fbca7e524b530fdadc594c39d49a21ea0337e/scala-xml_2.11-1.0.2.jar
+[10:56:12] [Client thread/TRACE] [FML/]: Skipping known library file /Users/christinarued/.gradle/caches/modules-2/files-2.1/lzma/lzma/0.0.1/521616dc7487b42bef0e803bd2fa3faf668101d7/lzma-0.0.1.jar
+[10:56:12] [Client thread/TRACE] [FML/]: Skipping known library file /Users/christinarued/.gradle/caches/modules-2/files-2.1/net.sf.trove4j/trove4j/3.0.3/42ccaf4761f0dfdfa805c9e340d99a755907e2dd/trove4j-3.0.3.jar
+[10:56:12] [Client thread/TRACE] [FML/]: Skipping known library file /Users/christinarued/.gradle/caches/modules-2/files-2.1/com.paulscode/codecjorbis/20101023/c73b5636faf089d9f00e8732a829577de25237ee/codecjorbis-20101023.jar
+[10:56:12] [Client thread/TRACE] [FML/]: Skipping known library file /Users/christinarued/.gradle/caches/modules-2/files-2.1/com.paulscode/codecwav/20101023/12f031cfe88fef5c1dd36c563c0a3a69bd7261da/codecwav-20101023.jar
+[10:56:12] [Client thread/TRACE] [FML/]: Skipping known library file /Users/christinarued/.gradle/caches/modules-2/files-2.1/com.paulscode/libraryjavasound/20101123/5c5e304366f75f9eaa2e8cca546a1fb6109348b3/libraryjavasound-20101123.jar
+[10:56:12] [Client thread/TRACE] [FML/]: Skipping known library file /Users/christinarued/.gradle/caches/modules-2/files-2.1/com.paulscode/librarylwjglopenal/20100824/73e80d0794c39665aec3f62eee88ca91676674ef/librarylwjglopenal-20100824.jar
+[10:56:12] [Client thread/TRACE] [FML/]: Skipping known library file /Users/christinarued/.gradle/caches/modules-2/files-2.1/com.paulscode/soundsystem/20120107/419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6/soundsystem-20120107.jar
+[10:56:12] [Client thread/TRACE] [FML/]: Skipping known library file /Users/christinarued/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar
+[10:56:12] [Client thread/TRACE] [FML/]: Skipping known library file /Users/christinarued/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.2-nightly-20140822/7707204c9ffa5d91662de95f0a224e2f721b22af/lwjgl-2.9.2-nightly-20140822.jar
+[10:56:12] [Client thread/TRACE] [FML/]: Skipping known library file /Users/christinarued/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl_util/2.9.2-nightly-20140822/f0e612c840a7639c1f77f68d72a28dae2f0c8490/lwjgl_util-2.9.2-nightly-20140822.jar
+[10:56:12] [Client thread/TRACE] [FML/]: Skipping known library file /Users/christinarued/.gradle/caches/modules-2/files-2.1/java3d/vecmath/1.5.2/79846ba34cbd89e2422d74d53752f993dcc2ccaf/vecmath-1.5.2.jar
+[10:56:12] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/christinarued/.gradle/caches/modules-2/files-2.1/org.fusesource.jansi/jansi/1.11/655c643309c2f45a56a747fda70e3fadf57e9f11/jansi-1.11.jar, examining for mod candidates
+[10:56:12] [Client thread/TRACE] [FML/]: Skipping known library file /Users/christinarued/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-actors/2.11.0/8ccfb6541de179bb1c4d45cf414acee069b7f78b/scala-actors-2.11.0.jar
+[10:56:12] [Client thread/TRACE] [FML/]: Skipping known library file /Users/christinarued/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/7ff832a6eb9ab6a767f1ade2b548092d0fa64795/jinput-platform-2.0.5-natives-linux.jar
+[10:56:12] [Client thread/TRACE] [FML/]: Skipping known library file /Users/christinarued/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/385ee093e01f587f30ee1c8a2ee7d408fd732e16/jinput-platform-2.0.5-natives-windows.jar
+[10:56:12] [Client thread/TRACE] [FML/]: Skipping known library file /Users/christinarued/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/53f9c919f34d2ca9de8c51fc4e1e8282029a9232/jinput-platform-2.0.5-natives-osx.jar
+[10:56:12] [Client thread/TRACE] [FML/]: Skipping known library file /Users/christinarued/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.2-nightly-20140822/78b2a55ce4dc29c6b3ec4df8ca165eba05f9b341/lwjgl-platform-2.9.2-nightly-20140822-natives-windows.jar
+[10:56:12] [Client thread/TRACE] [FML/]: Skipping known library file /Users/christinarued/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.2-nightly-20140822/d898a33b5d0a6ef3fed3a4ead506566dce6720a5/lwjgl-platform-2.9.2-nightly-20140822-natives-linux.jar
+[10:56:12] [Client thread/TRACE] [FML/]: Skipping known library file /Users/christinarued/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.2-nightly-20140822/79f5ce2fea02e77fe47a3c745219167a542121d7/lwjgl-platform-2.9.2-nightly-20140822-natives-osx.jar
+[10:56:12] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/christinarued/.gradle/caches/minecraft/deobfedDeps/compileDummy.jar, examining for mod candidates
+[10:56:12] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/christinarued/.gradle/caches/minecraft/deobfedDeps/providedDummy.jar, examining for mod candidates
+[10:56:12] [Client thread/DEBUG] [FML/]: Found a minecraft related directory at /Users/christinarued/.gradle/caches/minecraft/net/minecraftforge/forge/1.11.2-13.20.1.2454/start, examining for mod candidates
+[10:56:12] [Client thread/DEBUG] [FML/]: Minecraft jar mods loaded successfully
+[10:56:12] [Client thread/INFO] [FML/]: Found 0 mods from the command line. Injecting into mod discoverer
+[10:56:12] [Client thread/INFO] [FML/]: Searching /Users/christinarued/Desktop/moreMineralsMod/mods for mods
+[10:56:12] [Client thread/DEBUG] [FML/]: Ignoring unknown file .DS_Store in mods directory
+[10:56:12] [Client thread/DEBUG] [FML/]: Examining directory bin for potential mods
+[10:56:12] [Client thread/DEBUG] [FML/]: Found an mcmod.info file in directory bin
+[10:56:12] [Client thread/TRACE] [FML/]: Recursing into package assets
+[10:56:12] [Client thread/TRACE] [FML/]: Recursing into package assets/redstone
+[10:56:12] [Client thread/TRACE] [FML/]: Recursing into package assets/redstone/blockstates
+[10:56:12] [Client thread/TRACE] [FML/]: Recursing into package assets/redstone/lang
+[10:56:12] [Client thread/TRACE] [FML/]: Recursing into package assets/redstone/models
+[10:56:12] [Client thread/TRACE] [FML/]: Recursing into package assets/redstone/models/block
+[10:56:12] [Client thread/TRACE] [FML/]: Recursing into package assets/redstone/models/item
+[10:56:12] [Client thread/TRACE] [FML/]: Recursing into package assets/redstone/textures
+[10:56:12] [Client thread/TRACE] [FML/]: Recursing into package assets/redstone/textures/blocks
+[10:56:12] [Client thread/TRACE] [FML/]: Recursing into package assets/redstone/textures/blocks/concrete
+[10:56:12] [Client thread/TRACE] [FML/]: Recursing into package assets/redstone/textures/gui
+[10:56:12] [Client thread/TRACE] [FML/]: Recursing into package assets/redstone/textures/gui/container
+[10:56:13] [Client thread/TRACE] [FML/]: Recursing into package assets/redstone/textures/items
+[10:56:13] [Client thread/TRACE] [FML/]: Recursing into package assets/redstone/textures/items/copper
+[10:56:13] [Client thread/TRACE] [FML/]: Recursing into package assets/redstone/textures/items/lead
+[10:56:13] [Client thread/TRACE] [FML/]: Recursing into package assets/redstone/textures/items/mithril
+[10:56:13] [Client thread/TRACE] [FML/]: Recursing into package assets/redstone/textures/items/tungsten_pure
+[10:56:13] [Client thread/TRACE] [FML/]: Recursing into package assets/redstone/textures/items/uranium
+[10:56:13] [Client thread/TRACE] [FML/]: Recursing into package assets/redstone/textures/models
+[10:56:13] [Client thread/TRACE] [FML/]: Recursing into package assets/redstone/textures/models/armor
+[10:56:13] [Client thread/TRACE] [FML/]: Recursing into package com
+[10:56:13] [Client thread/TRACE] [FML/]: Recursing into package com/coolness
+[10:56:13] [Client thread/TRACE] [FML/]: Recursing into package com/coolness/epicness
+[10:56:13] [Client thread/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (com.coolness.epicness.MoreMineralsMod) - loading
+[10:56:13] [Client thread/TRACE] [redstone/]: Parsed dependency info : [] [] []
+[10:56:13] [Client thread/TRACE] [FML/]: Recursing into package com/coolness/epicness/blocks
+[10:56:13] [Client thread/TRACE] [FML/]: Recursing into package com/coolness/epicness/client
+[10:56:13] [Client thread/TRACE] [FML/]: Recursing into package com/coolness/epicness/client/gui
+[10:56:13] [Client thread/TRACE] [FML/]: Recursing into package com/coolness/epicness/container
+[10:56:13] [Client thread/TRACE] [FML/]: Recursing into package com/coolness/epicness/init
+[10:56:13] [Client thread/TRACE] [FML/]: Recursing into package com/coolness/epicness/items
+[10:56:13] [Client thread/TRACE] [FML/]: Recursing into package com/coolness/epicness/items/copper
+[10:56:13] [Client thread/TRACE] [FML/]: Recursing into package com/coolness/epicness/items/lead
+[10:56:13] [Client thread/TRACE] [FML/]: Recursing into package com/coolness/epicness/items/mithril
+[10:56:13] [Client thread/TRACE] [FML/]: Recursing into package com/coolness/epicness/items/other
+[10:56:13] [Client thread/TRACE] [FML/]: Recursing into package com/coolness/epicness/items/tungsten
+[10:56:13] [Client thread/TRACE] [FML/]: Recursing into package com/coolness/epicness/items/uranium
+[10:56:13] [Client thread/TRACE] [FML/]: Recursing into package com/coolness/epicness/proxy
+[10:56:13] [Client thread/TRACE] [FML/]: Recursing into package com/coolness/epicness/tileenitity
+[10:56:13] [Client thread/TRACE] [FML/]: Recursing into package com/coolness/epicness/worldgen
+[10:56:13] [Client thread/TRACE] [FML/]: Recursing into package com/coolness/epicness/worldgen/structures
+[10:56:13] [Client thread/DEBUG] [FML/]: Examining file forgeSrc-1.11.2-13.20.1.2454.jar for potential mods
+[10:56:13] [Client thread/DEBUG] [FML/]: The mod container forgeSrc-1.11.2-13.20.1.2454.jar appears to be missing an mcmod.info file
+[10:56:15] [Client thread/DEBUG] [FML/]: Examining file jsr305-3.0.1.jar for potential mods
+[10:56:15] [Client thread/DEBUG] [FML/]: The mod container jsr305-3.0.1.jar appears to be missing an mcmod.info file
+[10:56:15] [Client thread/DEBUG] [FML/]: Examining file asm-debug-all-5.0.3.jar for potential mods
+[10:56:15] [Client thread/DEBUG] [FML/]: The mod container asm-debug-all-5.0.3.jar appears to be missing an mcmod.info file
+[10:56:15] [Client thread/DEBUG] [FML/]: Examining file jansi-1.11.jar for potential mods
+[10:56:15] [Client thread/DEBUG] [FML/]: The mod container jansi-1.11.jar appears to be missing an mcmod.info file
+[10:56:15] [Client thread/DEBUG] [FML/]: Examining file compileDummy.jar for potential mods
+[10:56:15] [Client thread/DEBUG] [FML/]: The mod container compileDummy.jar appears to be missing an mcmod.info file
+[10:56:15] [Client thread/DEBUG] [FML/]: Examining file providedDummy.jar for potential mods
+[10:56:15] [Client thread/DEBUG] [FML/]: The mod container providedDummy.jar appears to be missing an mcmod.info file
+[10:56:15] [Client thread/DEBUG] [FML/]: Examining directory start for potential mods
+[10:56:15] [Client thread/DEBUG] [FML/]: No mcmod.info file found in directory start
+[10:56:15] [Client thread/TRACE] [FML/]: Recursing into package net
+[10:56:15] [Client thread/TRACE] [FML/]: Recursing into package net/minecraftforge
+[10:56:15] [Client thread/TRACE] [FML/]: Recursing into package net/minecraftforge/gradle
+[10:56:15] [Client thread/TRACE] [FML/]: Recursing into package net/minecraftforge/gradle/tweakers
+[10:56:15] [Client thread/INFO] [FML/]: Forge Mod Loader has identified 5 mods to load
+[10:56:15] [Client thread/TRACE] [FML/]: Received a system property request ''
+[10:56:15] [Client thread/TRACE] [FML/]: System property request managing the state of 0 mods
+[10:56:15] [Client thread/DEBUG] [FML/]: After merging, found state information for 0 mods
+[10:56:15] [Client thread/DEBUG] [Forge Mod Loader/]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
+[10:56:15] [Client thread/DEBUG] [Minecraft Forge/]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
+[10:56:15] [Client thread/DEBUG] [redstone/]: Enabling mod redstone
+[10:56:15] [Client thread/DEBUG] [§l§n§4More Minerals Mod!!!§r/]: Mod §l§n§4More Minerals Mod!!!§r is missing a pack.mcmeta file, substituting a dummy one
+[10:56:15] [Client thread/TRACE] [FML/]: Verifying mod requirements are satisfied
+[10:56:15] [Client thread/TRACE] [FML/]: All mod requirements are satisfied
+[10:56:15] [Client thread/TRACE] [FML/]: Sorting mods into an ordered list
+[10:56:15] [Client thread/TRACE] [FML/]: Mod sorting completed successfully
+[10:56:15] [Client thread/DEBUG] [FML/]: Mod sorting data
+[10:56:15] [Client thread/DEBUG] [FML/]: 	redstone(§l§n§4More Minerals Mod!!!§r:§eCool§r): bin ()
+[10:56:15] [Client thread/DEBUG] [FML/]: Loading @Config anotation data
+[10:56:15] [Client thread/TRACE] [minecraft/minecraft]: Sending event FMLConstructionEvent to mod minecraft
+[10:56:15] [Client thread/TRACE] [minecraft/minecraft]: Sent event FMLConstructionEvent to mod minecraft
+[10:56:15] [Client thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft took 0.004s
+[10:56:15] [Client thread/TRACE] [mcp/mcp]: Sending event FMLConstructionEvent to mod mcp
+[10:56:15] [Client thread/TRACE] [mcp/mcp]: Sent event FMLConstructionEvent to mod mcp
+[10:56:15] [Client thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Coder Pack took 0.001s
+[10:56:15] [Client thread/TRACE] [FML/FML]: Sending event FMLConstructionEvent to mod FML
+[10:56:15] [Client thread/TRACE] [FML/FML]: Mod FML is using network checker : Invoking method checkModLists
+[10:56:15] [Client thread/TRACE] [FML/FML]: Testing mod FML to verify it accepts its own version in a remote connection
+[10:56:15] [Client thread/TRACE] [FML/FML]: The mod FML accepts its own version (8.0.99.99)
+[10:56:15] [Client thread/INFO] [FML/FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, redstone] at CLIENT
+[10:56:15] [Client thread/INFO] [FML/FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, redstone] at SERVER
+[10:56:16] [Client thread/TRACE] [FML/FML]: Sent event FMLConstructionEvent to mod FML
+[10:56:16] [Client thread/DEBUG] [FML/]: Bar Step: Construction - Forge Mod Loader took 0.821s
+[10:56:16] [Client thread/TRACE] [forge/forge]: Sending event FMLConstructionEvent to mod forge
+[10:56:16] [Client thread/DEBUG] [forge/forge]: Preloading CrashReport Classes
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/client/Minecraft$10
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/client/Minecraft$11
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/client/Minecraft$12
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/client/Minecraft$13
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/client/Minecraft$14
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/client/Minecraft$15
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/client/Minecraft$3
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/client/Minecraft$4
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/client/Minecraft$5
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/client/Minecraft$6
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/client/Minecraft$7
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/client/Minecraft$8
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/client/Minecraft$9
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/client/multiplayer/WorldClient$1
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/client/multiplayer/WorldClient$2
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/client/multiplayer/WorldClient$3
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/client/multiplayer/WorldClient$4
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/client/particle/ParticleManager$1
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/client/particle/ParticleManager$2
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/client/particle/ParticleManager$3
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/client/particle/ParticleManager$4
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/client/renderer/EntityRenderer$2
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/client/renderer/EntityRenderer$3
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/client/renderer/EntityRenderer$4
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/client/renderer/RenderGlobal$1
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/client/renderer/RenderItem$1
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/client/renderer/RenderItem$2
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/client/renderer/RenderItem$3
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/client/renderer/RenderItem$4
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/client/renderer/texture/TextureAtlasSprite$1
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/client/renderer/texture/TextureManager$1
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/client/renderer/texture/TextureMap$1
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/client/renderer/texture/TextureMap$2
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/client/renderer/texture/TextureMap$3
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/crash/CrashReport$1
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/crash/CrashReport$2
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/crash/CrashReport$3
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/crash/CrashReport$4
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/crash/CrashReport$5
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/crash/CrashReport$6
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/crash/CrashReport$7
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/crash/CrashReportCategory$1
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/crash/CrashReportCategory$2
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/crash/CrashReportCategory$3
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/crash/CrashReportCategory$4
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/crash/CrashReportCategory$5
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/entity/Entity$2
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/entity/Entity$3
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/entity/Entity$4
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/entity/Entity$5
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/entity/EntityTracker$1
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/entity/player/InventoryPlayer$1
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/nbt/NBTTagCompound$1
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/nbt/NBTTagCompound$2
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/network/NetHandlerPlayServer$3
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/network/NetworkSystem$6
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/server/MinecraftServer$2
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/server/MinecraftServer$3
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/server/dedicated/DedicatedServer$3
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/server/dedicated/DedicatedServer$4
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/server/integrated/IntegratedServer$1
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/server/integrated/IntegratedServer$2
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/tileentity/CommandBlockBaseLogic$1
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/tileentity/CommandBlockBaseLogic$2
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/tileentity/TileEntity$1
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/tileentity/TileEntity$2
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/tileentity/TileEntity$3
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/world/World$1
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/world/World$2
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/world/World$3
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/world/World$4
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/world/World$5
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/world/chunk/Chunk$1
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/world/gen/structure/MapGenStructure$1
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/world/gen/structure/MapGenStructure$2
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/world/gen/structure/MapGenStructure$3
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/world/storage/WorldInfo$10
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/world/storage/WorldInfo$2
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/world/storage/WorldInfo$3
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/world/storage/WorldInfo$4
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/world/storage/WorldInfo$5
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/world/storage/WorldInfo$6
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/world/storage/WorldInfo$7
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/world/storage/WorldInfo$8
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraft/world/storage/WorldInfo$9
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraftforge/fml/client/SplashProgress$1
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraftforge/fml/common/FMLCommonHandler$1
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraftforge/fml/common/ICrashCallable
+[10:56:16] [Client thread/DEBUG] [forge/forge]: 	net/minecraftforge/fml/common/Loader$3
+[10:56:16] [Client thread/TRACE] [FML/forge]: Mod forge is using network checker : No network checking performed
+[10:56:16] [Client thread/TRACE] [FML/forge]: Testing mod forge to verify it accepts its own version in a remote connection
+[10:56:16] [Client thread/TRACE] [FML/forge]: The mod forge accepts its own version (13.20.1.2454)
+[10:56:16] [Client thread/DEBUG] [FML/forge]: Attempting to inject @Config classes into forge for type INSTANCE
+[10:56:16] [Client thread/TRACE] [forge/forge]: Sent event FMLConstructionEvent to mod forge
+[10:56:16] [Client thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Forge took 0.310s
+[10:56:16] [Client thread/TRACE] [redstone/redstone]: Sending event FMLConstructionEvent to mod redstone
+[10:56:16] [Client thread/TRACE] [FML/redstone]: Mod redstone is using network checker : Accepting version §eCool§r
+[10:56:16] [Client thread/TRACE] [FML/redstone]: Testing mod redstone to verify it accepts its own version in a remote connection
+[10:56:16] [Client thread/TRACE] [FML/redstone]: The mod redstone accepts its own version (§eCool§r)
+[10:56:16] [Client thread/DEBUG] [FML/redstone]: Attempting to inject @SidedProxy classes into redstone
+[10:56:16] [Client thread/DEBUG] [FML/redstone]: Attempting to inject @EventBusSubscriber classes into the eventbus for redstone
+[10:56:16] [Client thread/DEBUG] [FML/redstone]: Attempting to inject @Config classes into redstone for type INSTANCE
+[10:56:16] [Client thread/TRACE] [redstone/redstone]: Sent event FMLConstructionEvent to mod redstone
+[10:56:16] [Client thread/DEBUG] [FML/]: Bar Step: Construction - More Minerals Mod!!! took 0.081s
+[10:56:16] [Client thread/DEBUG] [FML/]: Bar Finished: Construction took 1.218s
+[10:56:16] [Client thread/DEBUG] [FML/]: Mod signature data
+[10:56:16] [Client thread/DEBUG] [FML/]:  	Valid Signatures:
+[10:56:16] [Client thread/DEBUG] [FML/]:  	Missing Signatures:
+[10:56:16] [Client thread/DEBUG] [FML/]: 		minecraft	(Minecraft	1.11.2)	minecraft.jar
+[10:56:16] [Client thread/DEBUG] [FML/]: 		mcp	(Minecraft Coder Pack	9.19)	minecraft.jar
+[10:56:16] [Client thread/DEBUG] [FML/]: 		FML	(Forge Mod Loader	8.0.99.99)	forgeSrc-1.11.2-13.20.1.2454.jar
+[10:56:16] [Client thread/DEBUG] [FML/]: 		forge	(Minecraft Forge	13.20.1.2454)	forgeSrc-1.11.2-13.20.1.2454.jar
+[10:56:16] [Client thread/DEBUG] [FML/]: 		redstone	(§l§n§4More Minerals Mod!!!§r	§eCool§r)	bin
+[10:56:16] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - Default took 0.012s
+[10:56:16] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Forge Mod Loader took 0.036s
+[10:56:17] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Minecraft Forge took 0.029s
+[10:56:17] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:More Minerals Mod!!! took 0.005s
+[10:56:17] [Client thread/DEBUG] [FML/]: Bar Finished: Reloading - LanguageManager took 0.062s
+[10:56:17] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - Reloading listeners took 0.064s
+[10:56:17] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resources took 0.146s
+[10:56:17] [Client thread/DEBUG] [Forge Mod Loader/]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
+[10:56:17] [Client thread/DEBUG] [Minecraft Forge/]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
+[10:56:17] [Client thread/DEBUG] [§l§n§4More Minerals Mod!!!§r/]: Mod §l§n§4More Minerals Mod!!!§r is missing a pack.mcmeta file, substituting a dummy one
+[10:56:17] [Client thread/INFO] [FML/]: Processing ObjectHolder annotations
+[10:56:17] [Client thread/INFO] [FML/]: Found 1093 ObjectHolder annotations
+[10:56:17] [Client thread/INFO] [FML/]: Identifying ItemStackHolder annotations
+[10:56:17] [Client thread/INFO] [FML/]: Found 0 ItemStackHolder annotations
+[10:56:17] [Client thread/INFO] [FML/]: Applying holder lookups
+[10:56:17] [Client thread/INFO] [FML/]: Holder lookups applied
+[10:56:17] [Client thread/INFO] [FML/]: Applying holder lookups
+[10:56:17] [Client thread/INFO] [FML/]: Holder lookups applied
+[10:56:17] [Client thread/INFO] [FML/]: Applying holder lookups
+[10:56:17] [Client thread/INFO] [FML/]: Holder lookups applied
+[10:56:17] [Client thread/TRACE] [minecraft/minecraft]: Sending event FMLPreInitializationEvent to mod minecraft
+[10:56:17] [Client thread/TRACE] [minecraft/minecraft]: Sent event FMLPreInitializationEvent to mod minecraft
+[10:56:17] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft took 0.001s
+[10:56:17] [Client thread/TRACE] [mcp/mcp]: Sending event FMLPreInitializationEvent to mod mcp
+[10:56:17] [Client thread/TRACE] [mcp/mcp]: Sent event FMLPreInitializationEvent to mod mcp
+[10:56:17] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Coder Pack took 0.001s
+[10:56:17] [Client thread/TRACE] [FML/FML]: Sending event FMLPreInitializationEvent to mod FML
+[10:56:17] [Client thread/TRACE] [FML/FML]: Sent event FMLPreInitializationEvent to mod FML
+[10:56:17] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - Forge Mod Loader took 0.001s
+[10:56:17] [Client thread/TRACE] [forge/forge]: Sending event FMLPreInitializationEvent to mod forge
+[10:56:17] [Client thread/INFO] [FML/forge]: Configured a dormant chunk cache size of 0
+[10:56:17] [Client thread/TRACE] [forge/forge]: Sent event FMLPreInitializationEvent to mod forge
+[10:56:17] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Forge took 0.183s
+[10:56:17] [Client thread/TRACE] [redstone/redstone]: Sending event FMLPreInitializationEvent to mod redstone
+[10:56:17] [Forge Version Check/INFO] [ForgeVersionCheck/forge]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[10:56:17] [Client thread/TRACE] [redstone/redstone]: Sent event FMLPreInitializationEvent to mod redstone
+[10:56:17] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - More Minerals Mod!!! took 0.001s
+[10:56:17] [Client thread/DEBUG] [FML/]: Bar Finished: PreInitialization took 0.187s
+[10:56:17] [Client thread/INFO] [FML/]: Applying holder lookups
+[10:56:17] [Client thread/INFO] [FML/]: Holder lookups applied
+[10:56:17] [Client thread/INFO] [FML/]: Injecting itemstacks
+[10:56:17] [Client thread/INFO] [FML/]: Itemstack injection complete
+[10:56:17] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - TextureManager took 0.000s
+[10:56:17] [Forge Version Check/DEBUG] [ForgeVersionCheck/forge]: [forge] Received version check data:
+{
+  "homepage": "http://files.minecraftforge.net/maven/net/minecraftforge/forge/",
+  "promos": {
+    "1.10-latest": "12.18.0.2000",
+    "1.10.2-latest": "12.18.3.2511",
+    "1.10.2-recommended": "12.18.3.2185",
+    "1.11-latest": "13.19.1.2199",
+    "1.11-recommended": "13.19.1.2189",
+    "1.11.2-latest": "13.20.1.2588",
+    "1.11.2-recommended": "13.20.1.2386",
+    "1.12-latest": "14.21.1.2443",
+    "1.12-recommended": "14.21.1.2387",
+    "1.12.1-latest": "14.22.1.2485",
+    "1.12.1-recommended": "14.22.1.2478",
+    "1.12.2-latest": "14.23.2.2611",
+    "1.12.2-recommended": "14.23.1.2555",
+    "1.5.2-latest": "7.8.1.738",
+    "1.5.2-recommended": "7.8.1.737",
+    "1.6.1-latest": "8.9.0.775",
+    "1.6.2-latest": "9.10.1.871",
+    "1.6.2-recommended": "9.10.1.871",
+    "1.6.3-latest": "9.11.0.878",
+    "1.6.4-latest": "9.11.1.1345",
+    "1.6.4-recommended": "9.11.1.1345",
+    "1.7.10-latest": "10.13.4.1614",
+    "1.7.10-latest-1.7.10": "10.13.2.1343",
+    "1.7.10-recommended": "10.13.4.1558",
+    "1.7.2-latest": "10.12.2.1147",
+    "1.7.2-recommended": "10.12.2.1121",
+    "1.8-latest": "11.14.4.1577",
+    "1.8-recommended": "11.14.4.1563",
+    "1.8.8-latest": "11.15.0.1655",
+    "1.8.9-latest": "11.15.1.2318",
+    "1.8.9-recommended": "11.15.1.1722",
+    "1.9-latest": "12.16.0.1942",
+    "1.9-recommended": "12.16.1.1887",
+    "1.9.4-latest": "12.17.0.2051",
+    "1.9.4-recommended": "12.17.0.1976",
+    "latest": "14.23.2.2611",
+    "latest-1.7.10": "10.13.2.1343",
+    "recommended": "14.23.1.2555"
+  }
+}
+[10:56:17] [Forge Version Check/INFO] [ForgeVersionCheck/forge]: [forge] Found status: OUTDATED Target: 13.20.1.2588
+[10:56:21] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - SoundHandler took 3.064s
+[10:56:21] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - FontRenderer took 0.006s
+[10:56:21] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - FontRenderer took 0.008s
+[10:56:21] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - GrassColorReloadListener took 0.038s
+[10:56:21] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - FoliageColorReloadListener took 0.018s
+[10:56:21] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - GL Setup took 0.004s
+[10:56:21] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Texture Map took 0.020s
+[10:56:21] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - B3DLoader took 0.000s
+[10:56:21] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - OBJLoader took 0.000s
+[10:56:21] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - ModelFluid$FluidLoader took 0.000s
+[10:56:21] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - ItemLayerModel$Loader took 0.000s
+[10:56:21] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - MultiLayerModel$Loader took 0.000s
+[10:56:21] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - ModelDynBucket$LoaderDynBucket took 0.000s
+[10:56:25] [Client thread/DEBUG] [FML/]: Bar Finished: ModelLoader: blocks took 4.169s
+[10:56:27] [Client thread/DEBUG] [FML/]: Bar Finished: ModelLoader: items took 1.516s
+[10:56:27] [Client thread/INFO] [FML/]: Max texture size: 8192
+[10:56:27] [Client thread/DEBUG] [FML/]: Bar Finished: Texture stitching - missingno took 0.003s
+[10:56:27] [Client thread/DEBUG] [FML/]: Bar Finished: Texture creation took 0.005s
+[10:56:27] [Client thread/DEBUG] [FML/]: Bar Finished: Texture mipmap and upload - missingno took 0.002s
+[10:56:27] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - ModelManager took 6.138s
+[10:56:27] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Model Manager took 6.428s
+[10:56:28] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - RenderItem took 0.006s
+[10:56:28] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Item Renderer took 0.781s
+[10:56:28] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - EntityRenderer took 0.000s
+[10:56:28] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - BlockRendererDispatcher took 0.000s
+[10:56:28] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - RenderGlobal took 0.000s
+[10:56:29] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Entity Renderer took 0.522s
+[10:56:29] [Client thread/DEBUG] [FML/]: Bar Finished: Rendering Setup took 7.756s
+[10:56:29] [Client thread/TRACE] [minecraft/minecraft]: Sending event FMLInitializationEvent to mod minecraft
+[10:56:29] [Client thread/TRACE] [minecraft/minecraft]: Sent event FMLInitializationEvent to mod minecraft
+[10:56:29] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - Minecraft took 0.001s
+[10:56:29] [Client thread/TRACE] [mcp/mcp]: Sending event FMLInitializationEvent to mod mcp
+[10:56:29] [Client thread/TRACE] [mcp/mcp]: Sent event FMLInitializationEvent to mod mcp
+[10:56:29] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - Minecraft Coder Pack took 0.001s
+[10:56:29] [Client thread/TRACE] [FML/FML]: Sending event FMLInitializationEvent to mod FML
+[10:56:29] [Client thread/TRACE] [FML/FML]: Sent event FMLInitializationEvent to mod FML
+[10:56:29] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - Forge Mod Loader took 0.001s
+[10:56:29] [Client thread/TRACE] [forge/forge]: Sending event FMLInitializationEvent to mod forge
+[10:56:29] [Client thread/TRACE] [forge/forge]: Sent event FMLInitializationEvent to mod forge
+[10:56:29] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - Minecraft Forge took 0.001s
+[10:56:29] [Client thread/TRACE] [redstone/redstone]: Sending event FMLInitializationEvent to mod redstone
+[10:56:29] [Client thread/TRACE] [redstone/redstone]: Sent event FMLInitializationEvent to mod redstone
+[10:56:29] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - More Minerals Mod!!! took 0.614s
+[10:56:29] [Client thread/DEBUG] [FML/]: Bar Finished: Initialization took 0.617s
+[10:56:29] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod minecraft
+[10:56:29] [Client thread/TRACE] [minecraft/minecraft]: Sending event IMCEvent to mod minecraft
+[10:56:29] [Client thread/TRACE] [minecraft/minecraft]: Sent event IMCEvent to mod minecraft
+[10:56:29] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft took 0.019s
+[10:56:29] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod mcp
+[10:56:29] [Client thread/TRACE] [mcp/mcp]: Sending event IMCEvent to mod mcp
+[10:56:29] [Client thread/TRACE] [mcp/mcp]: Sent event IMCEvent to mod mcp
+[10:56:29] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft Coder Pack took 0.002s
+[10:56:29] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod FML
+[10:56:29] [Client thread/TRACE] [FML/FML]: Sending event IMCEvent to mod FML
+[10:56:29] [Client thread/TRACE] [FML/FML]: Sent event IMCEvent to mod FML
+[10:56:29] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Forge Mod Loader took 0.001s
+[10:56:29] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod forge
+[10:56:29] [Client thread/TRACE] [forge/forge]: Sending event IMCEvent to mod forge
+[10:56:29] [Client thread/TRACE] [forge/forge]: Sent event IMCEvent to mod forge
+[10:56:29] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft Forge took 0.001s
+[10:56:29] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod redstone
+[10:56:29] [Client thread/TRACE] [redstone/redstone]: Sending event IMCEvent to mod redstone
+[10:56:29] [Client thread/TRACE] [redstone/redstone]: Sent event IMCEvent to mod redstone
+[10:56:29] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - More Minerals Mod!!! took 0.002s
+[10:56:29] [Client thread/DEBUG] [FML/]: Bar Finished: InterModComms$IMC took 0.024s
+[10:56:29] [Client thread/INFO] [FML/]: Injecting itemstacks
+[10:56:29] [Client thread/INFO] [FML/]: Itemstack injection complete
+[10:56:29] [Client thread/TRACE] [minecraft/minecraft]: Sending event FMLPostInitializationEvent to mod minecraft
+[10:56:29] [Client thread/TRACE] [minecraft/minecraft]: Sent event FMLPostInitializationEvent to mod minecraft
+[10:56:29] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft took 0.002s
+[10:56:29] [Client thread/TRACE] [mcp/mcp]: Sending event FMLPostInitializationEvent to mod mcp
+[10:56:29] [Client thread/TRACE] [mcp/mcp]: Sent event FMLPostInitializationEvent to mod mcp
+[10:56:29] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft Coder Pack took 0.002s
+[10:56:29] [Client thread/TRACE] [FML/FML]: Sending event FMLPostInitializationEvent to mod FML
+[10:56:29] [Client thread/TRACE] [FML/FML]: Sent event FMLPostInitializationEvent to mod FML
+[10:56:29] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - Forge Mod Loader took 0.001s
+[10:56:29] [Client thread/TRACE] [forge/forge]: Sending event FMLPostInitializationEvent to mod forge
+[10:56:29] [Client thread/TRACE] [forge/forge]: Sent event FMLPostInitializationEvent to mod forge
+[10:56:29] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft Forge took 0.034s
+[10:56:29] [Client thread/TRACE] [redstone/redstone]: Sending event FMLPostInitializationEvent to mod redstone
+[10:56:29] [Client thread/TRACE] [redstone/redstone]: Sent event FMLPostInitializationEvent to mod redstone
+[10:56:29] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - More Minerals Mod!!! took 0.001s
+[10:56:29] [Client thread/DEBUG] [FML/]: Bar Finished: PostInitialization took 0.039s
+[10:56:29] [Client thread/TRACE] [minecraft/minecraft]: Sending event FMLLoadCompleteEvent to mod minecraft
+[10:56:29] [Client thread/TRACE] [minecraft/minecraft]: Sent event FMLLoadCompleteEvent to mod minecraft
+[10:56:29] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft took 0.001s
+[10:56:29] [Client thread/TRACE] [mcp/mcp]: Sending event FMLLoadCompleteEvent to mod mcp
+[10:56:29] [Client thread/TRACE] [mcp/mcp]: Sent event FMLLoadCompleteEvent to mod mcp
+[10:56:29] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft Coder Pack took 0.001s
+[10:56:29] [Client thread/TRACE] [FML/FML]: Sending event FMLLoadCompleteEvent to mod FML
+[10:56:29] [Client thread/TRACE] [FML/FML]: Sent event FMLLoadCompleteEvent to mod FML
+[10:56:29] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - Forge Mod Loader took 0.001s
+[10:56:29] [Client thread/TRACE] [forge/forge]: Sending event FMLLoadCompleteEvent to mod forge
+[10:56:29] [Client thread/DEBUG] [FML/forge]: Forge RecipeSorter Baking:
+[10:56:29] [Client thread/DEBUG] [FML/forge]:   16: RecipeEntry("Before", UNKNOWN, )
+[10:56:29] [Client thread/DEBUG] [FML/forge]:   15: RecipeEntry("minecraft:shaped", SHAPED, net.minecraft.item.crafting.ShapedRecipes) Before: minecraft:shapeless
+[10:56:29] [Client thread/DEBUG] [FML/forge]:   14: RecipeEntry("forge:shapedore", SHAPED, net.minecraftforge.oredict.ShapedOreRecipe) Before: minecraft:shapeless After: minecraft:shaped
+[10:56:29] [Client thread/DEBUG] [FML/forge]:   13: RecipeEntry("minecraft:mapextending", SHAPED, net.minecraft.item.crafting.RecipesMapExtending) Before: minecraft:shapeless After: minecraft:shaped
+[10:56:29] [Client thread/DEBUG] [FML/forge]:   12: RecipeEntry("minecraft:shapeless", SHAPELESS, net.minecraft.item.crafting.ShapelessRecipes) After: minecraft:shaped
+[10:56:29] [Client thread/DEBUG] [FML/forge]:   11: RecipeEntry("minecraft:repair", SHAPELESS, net.minecraft.item.crafting.RecipeRepairItem) After: minecraft:shapeless
+[10:56:29] [Client thread/DEBUG] [FML/forge]:   10: RecipeEntry("minecraft:shield_deco", SHAPELESS, net.minecraft.item.crafting.ShieldRecipes$Decoration) After: minecraft:shapeless
+[10:56:29] [Client thread/DEBUG] [FML/forge]:   9: RecipeEntry("minecraft:armordyes", SHAPELESS, net.minecraft.item.crafting.RecipesArmorDyes) After: minecraft:shapeless
+[10:56:29] [Client thread/DEBUG] [FML/forge]:   8: RecipeEntry("minecraft:fireworks", SHAPELESS, net.minecraft.item.crafting.RecipeFireworks) After: minecraft:shapeless
+[10:56:29] [Client thread/DEBUG] [FML/forge]:   7: RecipeEntry("minecraft:pattern_dupe", SHAPELESS, net.minecraft.item.crafting.RecipesBanners$RecipeDuplicatePattern) After: minecraft:shapeless
+[10:56:29] [Client thread/DEBUG] [FML/forge]:   6: RecipeEntry("minecraft:tippedarrow", SHAPELESS, net.minecraft.item.crafting.RecipeTippedArrow) After: minecraft:shapeless
+[10:56:29] [Client thread/DEBUG] [FML/forge]:   5: RecipeEntry("minecraft:mapcloning", SHAPELESS, net.minecraft.item.crafting.RecipesMapCloning) After: minecraft:shapeless
+[10:56:29] [Client thread/DEBUG] [FML/forge]:   4: RecipeEntry("forge:shapelessore", SHAPELESS, net.minecraftforge.oredict.ShapelessOreRecipe) After: minecraft:shapeless
+[10:56:29] [Client thread/DEBUG] [FML/forge]:   3: RecipeEntry("minecraft:pattern_add", SHAPELESS, net.minecraft.item.crafting.RecipesBanners$RecipeAddPattern) After: minecraft:shapeless
+[10:56:29] [Client thread/DEBUG] [FML/forge]:   2: RecipeEntry("minecraft:bookcloning", SHAPELESS, net.minecraft.item.crafting.RecipeBookCloning) After: minecraft:shapeless
+[10:56:29] [Client thread/DEBUG] [FML/forge]:   1: RecipeEntry("After", UNKNOWN, )
+[10:56:29] [Client thread/DEBUG] [FML/forge]: Sorting recipes
+[10:56:29] [Client thread/TRACE] [forge/forge]: Sent event FMLLoadCompleteEvent to mod forge
+[10:56:29] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft Forge took 0.034s
+[10:56:29] [Client thread/TRACE] [redstone/redstone]: Sending event FMLLoadCompleteEvent to mod redstone
+[10:56:29] [Client thread/TRACE] [redstone/redstone]: Sent event FMLLoadCompleteEvent to mod redstone
+[10:56:29] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - More Minerals Mod!!! took 0.001s
+[10:56:29] [Client thread/DEBUG] [FML/]: Bar Finished: LoadComplete took 0.038s
+[10:56:29] [Client thread/DEBUG] [FML/]: Freezing block and item id maps
+[10:56:29] [Client thread/INFO] [FML/]: Forge Mod Loader has successfully loaded 5 mods
+[10:56:29] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - Default took 0.000s
+[10:56:29] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Forge Mod Loader took 0.115s
+[10:56:29] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Minecraft Forge took 0.076s
+[10:56:29] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:More Minerals Mod!!! took 0.001s
+[10:56:30] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/atlas/blocks.png took 0.000s
+[10:56:30] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/font/ascii.png took 0.020s
+[10:56:30] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:dynamic/logo_1 took 0.000s
+[10:56:30] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/misc/forcefield.png took 0.016s
+[10:56:30] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:dynamic/lightmap_1 took 0.000s
+[10:56:30] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/font/ascii_sga.png took 0.015s
+[10:56:30] [Client thread/DEBUG] [FML/]: Bar Finished: Reloading Texture Manager took 0.053s
+[10:56:35] [Client thread/DEBUG] [FML/]: Bar Finished: ModelLoader: blocks took 2.630s
+[10:56:36] [Client thread/DEBUG] [FML/]: Item json isn't found for 'redstone:concrete_white#inventory', trying to load the variant from the blockstate json
+[10:56:36] [Client thread/DEBUG] [FML/]: Item json isn't found for 'redstone:concrete_powder#inventory', trying to load the variant from the blockstate json
+[10:56:36] [Client thread/DEBUG] [FML/]: Item json isn't found for 'redstone:corn_block#inventory', trying to load the variant from the blockstate json
+[10:56:36] [Client thread/DEBUG] [FML/]: Bar Finished: ModelLoader: items took 1.358s
+[10:56:36] [Client thread/INFO] [FML/]: Max texture size: 8192
+[10:56:37] [Client thread/DEBUG] [FML/]: Bar Finished: Texture stitching took 0.494s
+[10:56:37] [Client thread/DEBUG] [FML/]: Bar Finished: Texture stitching took 0.089s
+[10:56:37] [Client thread/DEBUG] [FML/]: Bar Finished: Texture creation took 0.096s
+[10:56:38] [Client thread/DEBUG] [FML/]: Bar Finished: Texture mipmap and upload took 1.240s
+[10:56:41] [Client thread/DEBUG] [FML/]: Bar Finished: ModelLoader: baking took 3.122s
+[10:56:42] [Client thread/DEBUG] [FML/]: Bar Finished: Reloading took 12.145s
+[10:56:42] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - Reloading listeners took 12.146s
+[10:56:42] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resources took 12.339s
+[10:56:42] [Client thread/DEBUG] [Forge Mod Loader/]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
+[10:56:42] [Client thread/DEBUG] [Minecraft Forge/]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
+[10:56:42] [Client thread/DEBUG] [§l§n§4More Minerals Mod!!!§r/]: Mod §l§n§4More Minerals Mod!!!§r is missing a pack.mcmeta file, substituting a dummy one
+[10:56:42] [Client thread/DEBUG] [FML/]: Bar Finished: Loading took 29.486s
+[10:56:42] [Client thread/ERROR] [TEXTURE ERRORS/]: +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+[10:56:42] [Client thread/ERROR] [TEXTURE ERRORS/]: The following texture errors were found.
+[10:56:42] [Client thread/ERROR] [TEXTURE ERRORS/]: ==================================================
+[10:56:42] [Client thread/ERROR] [TEXTURE ERRORS/]:   DOMAIN redstone
+[10:56:42] [Client thread/ERROR] [TEXTURE ERRORS/]: --------------------------------------------------
+[10:56:42] [Client thread/ERROR] [TEXTURE ERRORS/]:   domain redstone is missing 1 texture
+[10:56:42] [Client thread/ERROR] [TEXTURE ERRORS/]:     domain redstone has 1 location:
+[10:56:42] [Client thread/ERROR] [TEXTURE ERRORS/]:       unknown resourcepack type net.minecraft.client.resources.LegacyV2Adapter : FMLFileResourcePack:§l§n§4More Minerals Mod!!!§r
+[10:56:42] [Client thread/ERROR] [TEXTURE ERRORS/]: -------------------------
+[10:56:42] [Client thread/ERROR] [TEXTURE ERRORS/]:     The missing resources for domain redstone are:
+[10:56:42] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/blocks/atom_bonder.png
+[10:56:42] [Client thread/ERROR] [TEXTURE ERRORS/]: -------------------------
+[10:56:42] [Client thread/ERROR] [TEXTURE ERRORS/]:     No other errors exist for domain redstone
+[10:56:42] [Client thread/ERROR] [TEXTURE ERRORS/]: ==================================================
+[10:56:42] [Client thread/ERROR] [TEXTURE ERRORS/]: +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+[10:56:57] [Server thread/TRACE] [minecraft/minecraft]: Sending event FMLServerAboutToStartEvent to mod minecraft
+[10:56:57] [Server thread/TRACE] [minecraft/minecraft]: Sent event FMLServerAboutToStartEvent to mod minecraft
+[10:56:57] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Minecraft took 0.001s
+[10:56:57] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerAboutToStartEvent to mod mcp
+[10:56:57] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerAboutToStartEvent to mod mcp
+[10:56:57] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Minecraft Coder Pack took 0.001s
+[10:56:57] [Server thread/TRACE] [FML/FML]: Sending event FMLServerAboutToStartEvent to mod FML
+[10:56:57] [Server thread/TRACE] [FML/FML]: Sent event FMLServerAboutToStartEvent to mod FML
+[10:56:57] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Forge Mod Loader took 0.000s
+[10:56:57] [Server thread/TRACE] [forge/forge]: Sending event FMLServerAboutToStartEvent to mod forge
+[10:56:57] [Server thread/TRACE] [forge/forge]: Sent event FMLServerAboutToStartEvent to mod forge
+[10:56:57] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Minecraft Forge took 0.000s
+[10:56:57] [Server thread/TRACE] [redstone/redstone]: Sending event FMLServerAboutToStartEvent to mod redstone
+[10:56:57] [Server thread/TRACE] [redstone/redstone]: Sent event FMLServerAboutToStartEvent to mod redstone
+[10:56:57] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - More Minerals Mod!!! took 0.000s
+[10:56:57] [Server thread/DEBUG] [FML/]: Bar Finished: ServerAboutToStart took 0.003s
+[10:56:57] [Server thread/DEBUG] [FML/]: World is missing persistent fluid defaults - using local defaults
+[10:56:57] [Server thread/DEBUG] [FML/]: The fluid minecraft:lava has been selected as the default fluid for lava
+[10:56:57] [Server thread/DEBUG] [FML/]: The fluid minecraft:water has been selected as the default fluid for water
+[10:56:57] [Server thread/INFO] [FML/]: Loading dimension 0 (EpicQuestz: Minas Tirith) (net.minecraft.server.integrated.IntegratedServer@4f90e865)
+[10:56:57] [Server thread/INFO] [FML/]: Loading dimension 1 (EpicQuestz: Minas Tirith) (net.minecraft.server.integrated.IntegratedServer@4f90e865)
+[10:56:57] [Server thread/INFO] [FML/]: Loading dimension -1 (EpicQuestz: Minas Tirith) (net.minecraft.server.integrated.IntegratedServer@4f90e865)
+[10:57:01] [Server thread/TRACE] [minecraft/minecraft]: Sending event FMLServerStartingEvent to mod minecraft
+[10:57:01] [Server thread/TRACE] [minecraft/minecraft]: Sent event FMLServerStartingEvent to mod minecraft
+[10:57:01] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Minecraft took 0.001s
+[10:57:01] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStartingEvent to mod mcp
+[10:57:01] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStartingEvent to mod mcp
+[10:57:01] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Minecraft Coder Pack took 0.001s
+[10:57:01] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStartingEvent to mod FML
+[10:57:01] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStartingEvent to mod FML
+[10:57:01] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Forge Mod Loader took 0.001s
+[10:57:01] [Server thread/TRACE] [forge/forge]: Sending event FMLServerStartingEvent to mod forge
+[10:57:01] [Server thread/TRACE] [forge/forge]: Sent event FMLServerStartingEvent to mod forge
+[10:57:01] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Minecraft Forge took 0.004s
+[10:57:01] [Server thread/TRACE] [redstone/redstone]: Sending event FMLServerStartingEvent to mod redstone
+[10:57:01] [Server thread/TRACE] [redstone/redstone]: Sent event FMLServerStartingEvent to mod redstone
+[10:57:01] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - More Minerals Mod!!! took 0.000s
+[10:57:01] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStarting took 0.006s
+[10:57:01] [Server thread/TRACE] [minecraft/minecraft]: Sending event FMLServerStartedEvent to mod minecraft
+[10:57:01] [Server thread/TRACE] [minecraft/minecraft]: Sent event FMLServerStartedEvent to mod minecraft
+[10:57:01] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Minecraft took 0.000s
+[10:57:01] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStartedEvent to mod mcp
+[10:57:01] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStartedEvent to mod mcp
+[10:57:01] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Minecraft Coder Pack took 0.000s
+[10:57:01] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStartedEvent to mod FML
+[10:57:01] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStartedEvent to mod FML
+[10:57:01] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Forge Mod Loader took 0.000s
+[10:57:01] [Server thread/TRACE] [forge/forge]: Sending event FMLServerStartedEvent to mod forge
+[10:57:01] [Server thread/TRACE] [forge/forge]: Sent event FMLServerStartedEvent to mod forge
+[10:57:01] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Minecraft Forge took 0.000s
+[10:57:01] [Server thread/TRACE] [redstone/redstone]: Sending event FMLServerStartedEvent to mod redstone
+[10:57:01] [Server thread/TRACE] [redstone/redstone]: Sent event FMLServerStartedEvent to mod redstone
+[10:57:01] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - More Minerals Mod!!! took 0.000s
+[10:57:01] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStarted took 0.002s
+[10:57:03] [Netty Local Client IO #0/TRACE] [FML/]: Handshake channel activating
+[10:57:03] [Netty Local Client IO #0/DEBUG] [FML/]: FMLHandshakeClientState: null->FMLHandshakeClientState$1:START
+[10:57:03] [Netty Local Client IO #0/DEBUG] [FML/]:   Next: HELLO
+[10:57:03] [Netty Server IO #1/TRACE] [FML/]: Handshake channel activating
+[10:57:03] [Netty Server IO #1/DEBUG] [FML/]: FMLHandshakeServerState: null->FMLHandshakeServerState$1:START
+[10:57:03] [Netty Server IO #1/DEBUG] [FML/]:   Next: HELLO
+[10:57:03] [Netty Local Client IO #0/DEBUG] [FML/]: Server FML protocol version 2, 4 byte dimension received 0
+[10:57:03] [Netty Local Client IO #0/DEBUG] [FML/]: FMLHandshakeClientState: $ServerHello->FMLHandshakeClientState$2:HELLO
+[10:57:03] [Netty Local Client IO #0/INFO] [FML/]: Server protocol version 2
+[10:57:03] [Netty Local Client IO #0/DEBUG] [FML/]: Received override dimension 0
+[10:57:03] [Netty Server IO #1/DEBUG] [FML/]: FMLHandshakeServerState: $ClientHello->FMLHandshakeServerState$2:HELLO
+[10:57:03] [Netty Server IO #1/INFO] [FML/]: Client protocol version 2
+[10:57:03] [Netty Server IO #1/DEBUG] [FML/]:   Next: HELLO
+[10:57:03] [Netty Local Client IO #0/DEBUG] [FML/]:   Next: WAITINGSERVERDATA
+[10:57:03] [Netty Server IO #1/DEBUG] [FML/]: FMLHandshakeServerState: $ModList:5 mods->FMLHandshakeServerState$2:HELLO
+[10:57:03] [Netty Server IO #1/INFO] [FML/]: Client attempting to join with 5 mods : minecraft@1.11.2,FML@8.0.99.99,forge@13.20.1.2454,mcp@9.19,redstone@§eCool§r
+[10:57:03] [Netty Server IO #1/DEBUG] [FML/]:   Next: WAITINGCACK
+[10:57:03] [Netty Local Client IO #0/DEBUG] [FML/]: FMLHandshakeClientState: $ModList:5 mods->FMLHandshakeClientState$3:WAITINGSERVERDATA
+[10:57:03] [Netty Local Client IO #0/DEBUG] [FML/]:   Next: PENDINGCOMPLETE
+[10:57:03] [Netty Server IO #1/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[10:57:03] [Netty Local Client IO #0/DEBUG] [FML/]: FMLHandshakeClientState: $HandshakeAck:{2}->FMLHandshakeClientState$5:PENDINGCOMPLETE
+[10:57:03] [Netty Local Client IO #0/DEBUG] [FML/]:   Next: COMPLETE
+[10:57:03] [Netty Server IO #1/DEBUG] [FML/]:   Next: COMPLETE
+[10:57:03] [Netty Server IO #1/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{4}->FMLHandshakeServerState$4:COMPLETE
+[10:57:03] [Netty Server IO #1/DEBUG] [FML/]:   Next: DONE
+[10:57:03] [Netty Local Client IO #0/DEBUG] [FML/]: The fluid minecraft:lava has been selected as the default fluid for lava
+[10:57:03] [Netty Local Client IO #0/DEBUG] [FML/]: The fluid minecraft:water has been selected as the default fluid for water
+[10:57:03] [Netty Local Client IO #0/DEBUG] [FML/]: FMLHandshakeClientState: $HandshakeAck:{3}->FMLHandshakeClientState$6:COMPLETE
+[10:57:03] [Netty Local Client IO #0/DEBUG] [FML/]:   Next: DONE
+[10:57:03] [Netty Server IO #1/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[10:57:03] [Netty Server IO #1/DEBUG] [FML/]:   Next: DONE
+[10:57:03] [Netty Local Client IO #0/INFO] [FML/]: [Netty Local Client IO #0] Client side modded connection established
+[10:57:03] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[10:57:03] [Client thread/DEBUG] [FML/]: Overriding dimension: using 0
+[10:57:17] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[10:57:19] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[10:57:35] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[10:59:38] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:00:25] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:01:08] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:01:59] [Server thread/WARN] [FML/]: §l§n§4More Minerals Mod!!!§r loaded a new chunk (-19, -52  Dimension: 0) during chunk population, causing cascading worldgen lag. Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[11:02:06] [Server thread/WARN] [FML/]: §l§n§4More Minerals Mod!!!§r loaded a new chunk (21, -45  Dimension: 0) during chunk population, causing cascading worldgen lag. Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[11:02:07] [Server thread/WARN] [FML/]: §l§n§4More Minerals Mod!!!§r loaded a new chunk (-42, 10  Dimension: 0) during chunk population, causing cascading worldgen lag. Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[11:02:29] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:03:36] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:04:30] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:05:15] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:06:00] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:06:45] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:07:30] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:07:46] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - Default took 0.001s
+[11:07:46] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Forge Mod Loader took 0.157s
+[11:07:46] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Minecraft Forge took 0.083s
+[11:07:46] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:More Minerals Mod!!! took 0.013s
+[11:07:46] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - simple-textures-0-8-1517423566.zip took 0.016s
+[11:07:46] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:worlds/new world/icon took 0.000s
+[11:07:46] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/gui/container/generic_54.png took 0.047s
+[11:07:46] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/gui/container/furnace.png took 0.061s
+[11:07:46] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/gui/title/background/panorama_0.png took 0.028s
+[11:07:46] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:worlds/koo' testing/icon took 0.001s
+[11:07:46] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - forge:textures/gui/version_check_icons.png took 0.006s
+[11:07:46] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:worlds/leaaaaaaaaaaaaaaaaaaaaadddddd!!!/icon took 0.000s
+[11:07:46] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/gui/title/background/panorama_1.png took 0.030s
+[11:07:46] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/entity/creeper/creeper.png took 0.006s
+[11:07:46] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/gui/options_background.png took 0.006s
+[11:07:46] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/entity/spider_eyes.png took 0.007s
+[11:07:46] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/gui/icons.png took 0.024s
+[11:07:46] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/entity/steve.png took 0.007s
+[11:07:46] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:dynamic/texturepackicon_3 took 0.001s
+[11:07:46] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:dynamic/texturepackicon_4 took 0.000s
+[11:07:46] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:dynamic/texturepackicon_1 took 0.000s
+[11:07:46] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:dynamic/texturepackicon_2 took 0.000s
+[11:07:46] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/entity/projectiles/tipped_arrow.png took 0.007s
+[11:07:46] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/entity/cow/cow.png took 0.007s
+[11:07:46] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/entity/spider/spider.png took 0.006s
+[11:07:46] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/entity/skeleton/skeleton.png took 0.007s
+[11:07:46] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:worlds/soooos/icon took 0.000s
+[11:07:46] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/entity/sheep/sheep.png took 0.007s
+[11:07:46] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/misc/enchanted_item_glint.png took 0.007s
+[11:07:46] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/gui/achievement/achievement_background.png took 0.024s
+[11:07:46] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/gui/widgets.png took 0.060s
+[11:07:46] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:worlds/flatworld testing 2/icon took 0.000s
+[11:07:46] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/gui/world_selection.png took 0.024s
+[11:07:46] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/entity/chest/normal.png took 0.006s
+[11:07:46] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/painting/paintings_kristoffer_zetterstrand.png took 0.034s
+[11:07:46] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/gui/resource_packs.png took 0.025s
+[11:07:46] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/entity/bat.png took 0.007s
+[11:07:46] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/atlas/blocks.png took 0.000s
+[11:07:46] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/gui/title/background/panorama_5.png took 0.030s
+[11:07:47] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:dynamic/background_1 took 0.000s
+[11:07:47] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:worlds/sulfur balancing act/icon took 0.000s
+[11:07:47] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/entity/slime/slime.png took 0.006s
+[11:07:47] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/font/ascii_sga.png took 0.011s
+[11:07:47] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:worlds/soos/icon took 0.000s
+[11:07:47] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/entity/sign.png took 0.005s
+[11:07:47] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/environment/clouds.png took 0.021s
+[11:07:47] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/environment/sun.png took 0.006s
+[11:07:47] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/environment/moon_phases.png took 0.009s
+[11:07:47] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/entity/pig/pig.png took 0.006s
+[11:07:47] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:worlds/showcase/icon took 0.001s
+[11:07:47] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/gui/container/creative_inventory/tab_items.png took 0.021s
+[11:07:47] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/gui/title/background/panorama_4.png took 0.043s
+[11:07:47] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/misc/shadow.png took 0.007s
+[11:07:47] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:worlds/new flat testing/icon took 0.000s
+[11:07:47] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/particle/particles.png took 0.012s
+[11:07:47] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/entity/zombie/zombie.png took 0.006s
+[11:07:47] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/misc/forcefield.png took 0.006s
+[11:07:47] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:dynamic/lightmap_1 took 0.000s
+[11:07:47] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/gui/title/background/panorama_3.png took 0.069s
+[11:07:47] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/misc/unknown_server.png took 0.012s
+[11:07:47] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/gui/container/creative_inventory/tabs.png took 0.025s
+[11:07:47] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/entity/chicken.png took 0.006s
+[11:07:47] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/font/ascii.png took 0.010s
+[11:07:47] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/misc/vignette.png took 0.023s
+[11:07:47] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/entity/chest/normal_double.png took 0.009s
+[11:07:47] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/gui/title/background/panorama_2.png took 0.028s
+[11:07:47] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/gui/title/minecraft.png took 0.021s
+[11:07:47] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/entity/sheep/sheep_fur.png took 0.007s
+[11:07:47] [Client thread/DEBUG] [FML/]: Bar Finished: Reloading Texture Manager took 0.850s
+[11:07:56] [Client thread/DEBUG] [FML/]: Bar Finished: ModelLoader: blocks took 4.945s
+[11:07:57] [Client thread/DEBUG] [FML/]: Item json isn't found for 'redstone:concrete_white#inventory', trying to load the variant from the blockstate json
+[11:07:57] [Client thread/DEBUG] [FML/]: Item json isn't found for 'redstone:concrete_powder#inventory', trying to load the variant from the blockstate json
+[11:07:57] [Client thread/DEBUG] [FML/]: Item json isn't found for 'redstone:corn_block#inventory', trying to load the variant from the blockstate json
+[11:07:57] [Client thread/DEBUG] [FML/]: Bar Finished: ModelLoader: items took 1.565s
+[11:07:57] [Client thread/INFO] [FML/]: Max texture size: 8192
+[11:07:57] [Client thread/DEBUG] [FML/]: Bar Finished: Texture stitching took 0.206s
+[11:07:58] [Client thread/DEBUG] [FML/]: Bar Finished: Texture stitching took 0.022s
+[11:07:58] [Client thread/DEBUG] [FML/]: Bar Finished: Texture creation took 0.025s
+[11:07:58] [Client thread/DEBUG] [FML/]: Bar Finished: Texture mipmap and upload took 0.424s
+[11:08:00] [Client thread/DEBUG] [FML/]: Bar Finished: ModelLoader: baking took 1.586s
+[11:08:00] [Client thread/DEBUG] [FML/]: Bar Finished: Reloading took 13.741s
+[11:08:00] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - Reloading listeners took 13.741s
+[11:08:00] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resources took 14.011s
+[11:08:00] [Client thread/DEBUG] [Forge Mod Loader/]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
+[11:08:00] [Client thread/DEBUG] [Minecraft Forge/]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
+[11:08:00] [Client thread/DEBUG] [§l§n§4More Minerals Mod!!!§r/]: Mod §l§n§4More Minerals Mod!!!§r is missing a pack.mcmeta file, substituting a dummy one
+[11:08:15] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:08:32] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - Default took 0.000s
+[11:08:32] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Forge Mod Loader took 0.085s
+[11:08:32] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Minecraft Forge took 0.076s
+[11:08:32] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:More Minerals Mod!!! took 0.002s
+[11:08:32] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:worlds/new world/icon took 0.000s
+[11:08:32] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/gui/container/generic_54.png took 0.019s
+[11:08:32] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/gui/container/furnace.png took 0.024s
+[11:08:32] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/gui/title/background/panorama_0.png took 0.024s
+[11:08:32] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:worlds/koo' testing/icon took 0.000s
+[11:08:32] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - forge:textures/gui/version_check_icons.png took 0.006s
+[11:08:32] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:worlds/leaaaaaaaaaaaaaaaaaaaaadddddd!!!/icon took 0.000s
+[11:08:32] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/gui/title/background/panorama_1.png took 0.020s
+[11:08:32] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/entity/creeper/creeper.png took 0.048s
+[11:08:32] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/gui/options_background.png took 0.008s
+[11:08:32] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/entity/spider_eyes.png took 0.007s
+[11:08:32] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/gui/icons.png took 0.019s
+[11:08:32] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:dynamic/texturepackicon_5 took 0.000s
+[11:08:32] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/entity/steve.png took 0.005s
+[11:08:32] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:dynamic/texturepackicon_3 took 0.000s
+[11:08:32] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:dynamic/texturepackicon_4 took 0.000s
+[11:08:32] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:dynamic/texturepackicon_1 took 0.000s
+[11:08:32] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:dynamic/texturepackicon_2 took 0.000s
+[11:08:32] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/entity/projectiles/tipped_arrow.png took 0.006s
+[11:08:32] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/entity/cow/cow.png took 0.005s
+[11:08:32] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/entity/spider/spider.png took 0.006s
+[11:08:32] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/entity/skeleton/skeleton.png took 0.006s
+[11:08:32] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:worlds/soooos/icon took 0.000s
+[11:08:32] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/entity/sheep/sheep.png took 0.004s
+[11:08:32] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/misc/enchanted_item_glint.png took 0.009s
+[11:08:32] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/gui/achievement/achievement_background.png took 0.026s
+[11:08:32] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/gui/widgets.png took 0.024s
+[11:08:32] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:worlds/flatworld testing 2/icon took 0.001s
+[11:08:32] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/gui/world_selection.png took 0.022s
+[11:08:32] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/entity/chest/normal.png took 0.006s
+[11:08:32] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/painting/paintings_kristoffer_zetterstrand.png took 0.064s
+[11:08:32] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/gui/resource_packs.png took 0.019s
+[11:08:32] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/entity/bat.png took 0.008s
+[11:08:32] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/atlas/blocks.png took 0.000s
+[11:08:32] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/gui/title/background/panorama_5.png took 0.023s
+[11:08:32] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:dynamic/background_1 took 0.000s
+[11:08:32] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:worlds/sulfur balancing act/icon took 0.000s
+[11:08:32] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/entity/slime/slime.png took 0.004s
+[11:08:32] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/font/ascii_sga.png took 0.008s
+[11:08:32] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:worlds/soos/icon took 0.000s
+[11:08:32] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/entity/sign.png took 0.004s
+[11:08:32] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/environment/clouds.png took 0.015s
+[11:08:32] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/environment/sun.png took 0.004s
+[11:08:32] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/environment/moon_phases.png took 0.009s
+[11:08:32] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/entity/pig/pig.png took 0.006s
+[11:08:32] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:worlds/showcase/icon took 0.000s
+[11:08:32] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/gui/container/creative_inventory/tab_items.png took 0.022s
+[11:08:32] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/gui/title/background/panorama_4.png took 0.018s
+[11:08:32] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/misc/shadow.png took 0.005s
+[11:08:32] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:worlds/new flat testing/icon took 0.000s
+[11:08:32] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/particle/particles.png took 0.007s
+[11:08:32] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/entity/zombie/zombie.png took 0.041s
+[11:08:32] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/misc/forcefield.png took 0.006s
+[11:08:32] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:dynamic/lightmap_1 took 0.000s
+[11:08:32] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/gui/title/background/panorama_3.png took 0.027s
+[11:08:32] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/misc/unknown_server.png took 0.009s
+[11:08:32] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/gui/container/creative_inventory/tabs.png took 0.015s
+[11:08:32] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/entity/chicken.png took 0.005s
+[11:08:32] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/font/ascii.png took 0.007s
+[11:08:32] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/misc/vignette.png took 0.018s
+[11:08:32] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/entity/chest/normal_double.png took 0.011s
+[11:08:33] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/gui/title/background/panorama_2.png took 0.034s
+[11:08:33] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/gui/title/minecraft.png took 0.010s
+[11:08:33] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/entity/sheep/sheep_fur.png took 0.005s
+[11:08:33] [Client thread/DEBUG] [FML/]: Bar Finished: Reloading Texture Manager took 0.704s
+[11:08:39] [Client thread/DEBUG] [FML/]: Bar Finished: ModelLoader: blocks took 3.179s
+[11:08:40] [Client thread/DEBUG] [FML/]: Item json isn't found for 'redstone:concrete_white#inventory', trying to load the variant from the blockstate json
+[11:08:40] [Client thread/DEBUG] [FML/]: Item json isn't found for 'redstone:concrete_powder#inventory', trying to load the variant from the blockstate json
+[11:08:40] [Client thread/DEBUG] [FML/]: Item json isn't found for 'redstone:corn_block#inventory', trying to load the variant from the blockstate json
+[11:08:41] [Client thread/DEBUG] [FML/]: Bar Finished: ModelLoader: items took 1.183s
+[11:08:41] [Client thread/INFO] [FML/]: Max texture size: 8192
+[11:08:41] [Client thread/DEBUG] [FML/]: Bar Finished: Texture stitching took 0.149s
+[11:08:41] [Client thread/DEBUG] [FML/]: Bar Finished: Texture stitching took 0.019s
+[11:08:41] [Client thread/DEBUG] [FML/]: Bar Finished: Texture creation took 0.022s
+[11:08:41] [Client thread/DEBUG] [FML/]: Bar Finished: Texture mipmap and upload took 0.466s
+[11:08:43] [Client thread/DEBUG] [FML/]: Bar Finished: ModelLoader: baking took 1.970s
+[11:08:43] [Client thread/DEBUG] [FML/]: Bar Finished: Reloading took 11.534s
+[11:08:43] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - Reloading listeners took 11.535s
+[11:08:43] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resources took 11.698s
+[11:08:43] [Client thread/DEBUG] [Forge Mod Loader/]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
+[11:08:43] [Client thread/DEBUG] [Minecraft Forge/]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
+[11:08:43] [Client thread/DEBUG] [§l§n§4More Minerals Mod!!!§r/]: Mod §l§n§4More Minerals Mod!!!§r is missing a pack.mcmeta file, substituting a dummy one
+[11:09:00] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:09:53] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:10:38] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:11:23] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:12:08] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:12:53] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:13:38] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:14:23] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:15:08] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:15:53] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:16:38] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:17:28] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:18:12] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:18:57] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:19:42] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:20:27] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:21:12] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:21:57] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:22:43] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:23:28] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:24:13] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:24:58] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:25:43] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:26:28] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:27:13] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:27:58] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:28:43] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:29:28] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:30:13] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:30:58] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:31:43] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:32:28] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:33:13] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:33:58] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:34:43] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:35:28] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:36:13] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:37:00] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:37:44] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:38:29] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:39:14] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:39:59] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:40:44] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:41:29] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:42:14] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:42:59] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:43:44] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:44:29] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:45:14] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:45:59] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:46:44] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:47:29] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:48:14] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:48:59] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:49:44] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:50:29] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:51:14] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:52:01] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:52:45] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:53:30] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:54:15] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:55:00] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:55:48] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:56:33] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:57:21] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:58:09] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:58:53] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[11:59:38] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[12:00:23] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[12:01:08] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[12:01:53] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[12:02:22] [Server thread/TRACE] [minecraft/minecraft]: Sending event FMLServerStoppingEvent to mod minecraft
+[12:02:22] [Server thread/TRACE] [minecraft/minecraft]: Sent event FMLServerStoppingEvent to mod minecraft
+[12:02:22] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Minecraft took 0.001s
+[12:02:22] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStoppingEvent to mod mcp
+[12:02:22] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStoppingEvent to mod mcp
+[12:02:22] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Minecraft Coder Pack took 0.001s
+[12:02:22] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStoppingEvent to mod FML
+[12:02:22] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStoppingEvent to mod FML
+[12:02:22] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Forge Mod Loader took 0.000s
+[12:02:22] [Server thread/TRACE] [forge/forge]: Sending event FMLServerStoppingEvent to mod forge
+[12:02:22] [Server thread/TRACE] [forge/forge]: Sent event FMLServerStoppingEvent to mod forge
+[12:02:22] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Minecraft Forge took 0.001s
+[12:02:22] [Server thread/TRACE] [redstone/redstone]: Sending event FMLServerStoppingEvent to mod redstone
+[12:02:22] [Server thread/TRACE] [redstone/redstone]: Sent event FMLServerStoppingEvent to mod redstone
+[12:02:22] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - More Minerals Mod!!! took 0.001s
+[12:02:22] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStopping took 0.004s
+[12:02:22] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save EpicQuestz: Minas Tirith
+[12:02:22] [Server thread/INFO] [FML/]: Unloading dimension 0
+[12:02:22] [Server thread/INFO] [FML/]: Unloading dimension -1
+[12:02:22] [Server thread/INFO] [FML/]: Unloading dimension 1
+[12:02:22] [Server thread/DEBUG] [FML/]: Reverting to frozen data state.
+[12:02:22] [Server thread/TRACE] [minecraft/minecraft]: Sending event FMLModIdMappingEvent to mod minecraft
+[12:02:22] [Server thread/TRACE] [minecraft/minecraft]: Sent event FMLModIdMappingEvent to mod minecraft
+[12:02:22] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft took 0.001s
+[12:02:22] [Server thread/TRACE] [mcp/mcp]: Sending event FMLModIdMappingEvent to mod mcp
+[12:02:22] [Server thread/TRACE] [mcp/mcp]: Sent event FMLModIdMappingEvent to mod mcp
+[12:02:22] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0.001s
+[12:02:22] [Server thread/TRACE] [FML/FML]: Sending event FMLModIdMappingEvent to mod FML
+[12:02:22] [Server thread/TRACE] [FML/FML]: Sent event FMLModIdMappingEvent to mod FML
+[12:02:22] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Forge Mod Loader took 0.000s
+[12:02:22] [Server thread/TRACE] [forge/forge]: Sending event FMLModIdMappingEvent to mod forge
+[12:02:25] [Server thread/TRACE] [forge/forge]: Sent event FMLModIdMappingEvent to mod forge
+[12:02:25] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Forge took 2.288s
+[12:02:25] [Server thread/TRACE] [redstone/redstone]: Sending event FMLModIdMappingEvent to mod redstone
+[12:02:25] [Server thread/TRACE] [redstone/redstone]: Sent event FMLModIdMappingEvent to mod redstone
+[12:02:25] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - More Minerals Mod!!! took 0.001s
+[12:02:25] [Server thread/DEBUG] [FML/]: Bar Finished: ModIdMapping took 2.291s
+[12:02:25] [Server thread/INFO] [FML/]: Applying holder lookups
+[12:02:25] [Server thread/INFO] [FML/]: Holder lookups applied
+[12:02:25] [Server thread/DEBUG] [FML/]: Frozen state restored.
+[12:02:25] [Server thread/TRACE] [minecraft/minecraft]: Sending event FMLServerStoppedEvent to mod minecraft
+[12:02:25] [Server thread/TRACE] [minecraft/minecraft]: Sent event FMLServerStoppedEvent to mod minecraft
+[12:02:25] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft took 0.001s
+[12:02:25] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStoppedEvent to mod mcp
+[12:02:25] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStoppedEvent to mod mcp
+[12:02:25] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Coder Pack took 0.001s
+[12:02:25] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStoppedEvent to mod FML
+[12:02:25] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStoppedEvent to mod FML
+[12:02:25] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Forge Mod Loader took 0.001s
+[12:02:25] [Server thread/TRACE] [forge/forge]: Sending event FMLServerStoppedEvent to mod forge
+[12:02:25] [Server thread/TRACE] [forge/forge]: Sent event FMLServerStoppedEvent to mod forge
+[12:02:25] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Forge took 0.001s
+[12:02:25] [Server thread/TRACE] [redstone/redstone]: Sending event FMLServerStoppedEvent to mod redstone
+[12:02:25] [Server thread/TRACE] [redstone/redstone]: Sent event FMLServerStoppedEvent to mod redstone
+[12:02:25] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - More Minerals Mod!!! took 0.001s
+[12:02:25] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStopped took 0.004s
+[12:02:50] [Client thread/DEBUG] [FML/]: Gathering id map for writing to world save Screenshots
+[12:02:51] [Server thread/TRACE] [minecraft/minecraft]: Sending event FMLServerAboutToStartEvent to mod minecraft
+[12:02:51] [Server thread/TRACE] [minecraft/minecraft]: Sent event FMLServerAboutToStartEvent to mod minecraft
+[12:02:51] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Minecraft took 0.000s
+[12:02:51] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerAboutToStartEvent to mod mcp
+[12:02:51] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerAboutToStartEvent to mod mcp
+[12:02:51] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Minecraft Coder Pack took 0.000s
+[12:02:51] [Server thread/TRACE] [FML/FML]: Sending event FMLServerAboutToStartEvent to mod FML
+[12:02:51] [Server thread/TRACE] [FML/FML]: Sent event FMLServerAboutToStartEvent to mod FML
+[12:02:51] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Forge Mod Loader took 0.000s
+[12:02:51] [Server thread/TRACE] [forge/forge]: Sending event FMLServerAboutToStartEvent to mod forge
+[12:02:51] [Server thread/TRACE] [forge/forge]: Sent event FMLServerAboutToStartEvent to mod forge
+[12:02:51] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Minecraft Forge took 0.000s
+[12:02:51] [Server thread/TRACE] [redstone/redstone]: Sending event FMLServerAboutToStartEvent to mod redstone
+[12:02:51] [Server thread/TRACE] [redstone/redstone]: Sent event FMLServerAboutToStartEvent to mod redstone
+[12:02:51] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - More Minerals Mod!!! took 0.000s
+[12:02:51] [Server thread/DEBUG] [FML/]: Bar Finished: ServerAboutToStart took 0.001s
+[12:02:51] [Server thread/INFO] [FML/]: Injecting existing block and item data into this server instance
+[12:02:51] [Server thread/TRACE] [minecraft/minecraft]: Sending event FMLModIdMappingEvent to mod minecraft
+[12:02:51] [Server thread/TRACE] [minecraft/minecraft]: Sent event FMLModIdMappingEvent to mod minecraft
+[12:02:51] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft took 0.000s
+[12:02:51] [Server thread/TRACE] [mcp/mcp]: Sending event FMLModIdMappingEvent to mod mcp
+[12:02:51] [Server thread/TRACE] [mcp/mcp]: Sent event FMLModIdMappingEvent to mod mcp
+[12:02:51] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0.000s
+[12:02:51] [Server thread/TRACE] [FML/FML]: Sending event FMLModIdMappingEvent to mod FML
+[12:02:51] [Server thread/TRACE] [FML/FML]: Sent event FMLModIdMappingEvent to mod FML
+[12:02:51] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Forge Mod Loader took 0.000s
+[12:02:51] [Server thread/TRACE] [forge/forge]: Sending event FMLModIdMappingEvent to mod forge
+[12:02:51] [Server thread/TRACE] [forge/forge]: Sent event FMLModIdMappingEvent to mod forge
+[12:02:51] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Forge took 0.042s
+[12:02:51] [Server thread/TRACE] [redstone/redstone]: Sending event FMLModIdMappingEvent to mod redstone
+[12:02:51] [Server thread/TRACE] [redstone/redstone]: Sent event FMLModIdMappingEvent to mod redstone
+[12:02:51] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - More Minerals Mod!!! took 0.000s
+[12:02:51] [Server thread/DEBUG] [FML/]: Bar Finished: ModIdMapping took 0.042s
+[12:02:51] [Server thread/INFO] [FML/]: Applying holder lookups
+[12:02:51] [Server thread/INFO] [FML/]: Holder lookups applied
+[12:02:51] [Server thread/DEBUG] [FML/]: Loading persistent fluid defaults from world
+[12:02:51] [Server thread/DEBUG] [FML/]: The fluid minecraft:lava has been selected as the default fluid for lava
+[12:02:51] [Server thread/DEBUG] [FML/]: The fluid minecraft:water has been selected as the default fluid for water
+[12:02:51] [Server thread/INFO] [FML/]: Loading dimension 0 (Screenshots) (net.minecraft.server.integrated.IntegratedServer@7d0bf34c)
+[12:02:52] [Server thread/INFO] [FML/]: Loading dimension 1 (Screenshots) (net.minecraft.server.integrated.IntegratedServer@7d0bf34c)
+[12:02:52] [Server thread/INFO] [FML/]: Loading dimension -1 (Screenshots) (net.minecraft.server.integrated.IntegratedServer@7d0bf34c)
+[12:03:07] [Server thread/DEBUG] [FML/]: Minecraft loaded a new chunk (9, 2  Dimension: 0) during chunk population, causing cascading worldgen lag. Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[12:03:18] [Server thread/TRACE] [minecraft/minecraft]: Sending event FMLServerStartingEvent to mod minecraft
+[12:03:18] [Server thread/TRACE] [minecraft/minecraft]: Sent event FMLServerStartingEvent to mod minecraft
+[12:03:18] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Minecraft took 0.000s
+[12:03:18] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStartingEvent to mod mcp
+[12:03:18] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStartingEvent to mod mcp
+[12:03:18] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Minecraft Coder Pack took 0.000s
+[12:03:18] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStartingEvent to mod FML
+[12:03:18] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStartingEvent to mod FML
+[12:03:18] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Forge Mod Loader took 0.000s
+[12:03:18] [Server thread/TRACE] [forge/forge]: Sending event FMLServerStartingEvent to mod forge
+[12:03:18] [Server thread/TRACE] [forge/forge]: Sent event FMLServerStartingEvent to mod forge
+[12:03:18] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Minecraft Forge took 0.000s
+[12:03:18] [Server thread/TRACE] [redstone/redstone]: Sending event FMLServerStartingEvent to mod redstone
+[12:03:18] [Server thread/TRACE] [redstone/redstone]: Sent event FMLServerStartingEvent to mod redstone
+[12:03:18] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - More Minerals Mod!!! took 0.001s
+[12:03:18] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStarting took 0.002s
+[12:03:18] [Server thread/TRACE] [minecraft/minecraft]: Sending event FMLServerStartedEvent to mod minecraft
+[12:03:18] [Server thread/TRACE] [minecraft/minecraft]: Sent event FMLServerStartedEvent to mod minecraft
+[12:03:18] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Minecraft took 0.000s
+[12:03:18] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStartedEvent to mod mcp
+[12:03:18] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStartedEvent to mod mcp
+[12:03:18] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Minecraft Coder Pack took 0.000s
+[12:03:18] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStartedEvent to mod FML
+[12:03:18] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStartedEvent to mod FML
+[12:03:18] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Forge Mod Loader took 0.000s
+[12:03:18] [Server thread/TRACE] [forge/forge]: Sending event FMLServerStartedEvent to mod forge
+[12:03:18] [Server thread/TRACE] [forge/forge]: Sent event FMLServerStartedEvent to mod forge
+[12:03:18] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Minecraft Forge took 0.000s
+[12:03:18] [Server thread/TRACE] [redstone/redstone]: Sending event FMLServerStartedEvent to mod redstone
+[12:03:18] [Server thread/TRACE] [redstone/redstone]: Sent event FMLServerStartedEvent to mod redstone
+[12:03:18] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - More Minerals Mod!!! took 0.000s
+[12:03:18] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStarted took 0.001s
+[12:03:20] [Netty Local Client IO #1/TRACE] [FML/]: Handshake channel activating
+[12:03:20] [Netty Local Client IO #1/DEBUG] [FML/]: FMLHandshakeClientState: null->FMLHandshakeClientState$1:START
+[12:03:20] [Netty Local Client IO #1/DEBUG] [FML/]:   Next: HELLO
+[12:03:20] [Netty Server IO #4/TRACE] [FML/]: Handshake channel activating
+[12:03:20] [Netty Server IO #4/DEBUG] [FML/]: FMLHandshakeServerState: null->FMLHandshakeServerState$1:START
+[12:03:20] [Netty Server IO #4/DEBUG] [FML/]:   Next: HELLO
+[12:03:20] [Netty Local Client IO #1/DEBUG] [FML/]: Server FML protocol version 2, 4 byte dimension received 0
+[12:03:20] [Netty Local Client IO #1/DEBUG] [FML/]: FMLHandshakeClientState: $ServerHello->FMLHandshakeClientState$2:HELLO
+[12:03:20] [Netty Local Client IO #1/INFO] [FML/]: Server protocol version 2
+[12:03:20] [Netty Local Client IO #1/DEBUG] [FML/]: Received override dimension 0
+[12:03:20] [Netty Local Client IO #1/DEBUG] [FML/]:   Next: WAITINGSERVERDATA
+[12:03:20] [Netty Server IO #4/DEBUG] [FML/]: FMLHandshakeServerState: $ClientHello->FMLHandshakeServerState$2:HELLO
+[12:03:20] [Netty Server IO #4/INFO] [FML/]: Client protocol version 2
+[12:03:20] [Netty Server IO #4/DEBUG] [FML/]:   Next: HELLO
+[12:03:20] [Netty Server IO #4/DEBUG] [FML/]: FMLHandshakeServerState: $ModList:5 mods->FMLHandshakeServerState$2:HELLO
+[12:03:20] [Netty Server IO #4/INFO] [FML/]: Client attempting to join with 5 mods : minecraft@1.11.2,FML@8.0.99.99,forge@13.20.1.2454,mcp@9.19,redstone@§eCool§r
+[12:03:20] [Netty Server IO #4/DEBUG] [FML/]:   Next: WAITINGCACK
+[12:03:20] [Netty Local Client IO #1/DEBUG] [FML/]: FMLHandshakeClientState: $ModList:5 mods->FMLHandshakeClientState$3:WAITINGSERVERDATA
+[12:03:20] [Netty Local Client IO #1/DEBUG] [FML/]:   Next: PENDINGCOMPLETE
+[12:03:20] [Netty Server IO #4/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[12:03:20] [Netty Local Client IO #1/DEBUG] [FML/]: FMLHandshakeClientState: $HandshakeAck:{2}->FMLHandshakeClientState$5:PENDINGCOMPLETE
+[12:03:20] [Netty Local Client IO #1/DEBUG] [FML/]:   Next: COMPLETE
+[12:03:20] [Netty Server IO #4/DEBUG] [FML/]:   Next: COMPLETE
+[12:03:20] [Netty Server IO #4/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{4}->FMLHandshakeServerState$4:COMPLETE
+[12:03:20] [Netty Local Client IO #1/DEBUG] [FML/]: The fluid minecraft:lava has been selected as the default fluid for lava
+[12:03:20] [Netty Local Client IO #1/DEBUG] [FML/]: The fluid minecraft:water has been selected as the default fluid for water
+[12:03:20] [Netty Server IO #4/DEBUG] [FML/]:   Next: DONE
+[12:03:20] [Netty Local Client IO #1/DEBUG] [FML/]: FMLHandshakeClientState: $HandshakeAck:{3}->FMLHandshakeClientState$6:COMPLETE
+[12:03:20] [Netty Local Client IO #1/DEBUG] [FML/]:   Next: DONE
+[12:03:20] [Netty Server IO #4/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[12:03:20] [Netty Server IO #4/DEBUG] [FML/]:   Next: DONE
+[12:03:20] [Netty Local Client IO #1/INFO] [FML/]: [Netty Local Client IO #1] Client side modded connection established
+[12:03:21] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[12:03:21] [Client thread/DEBUG] [FML/]: Overriding dimension: using 0
+[12:04:19] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Screenshots
+[12:04:23] [Server thread/DEBUG] [FML/]: The world 4c6d009d (EpicQuestz: Minas Tirith) may have leaked: first encounter (5 occurrences).
+
+[12:05:06] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Screenshots
+[12:05:16] [Server thread/DEBUG] [FML/]: The world 4c6d009d (EpicQuestz: Minas Tirith) may have leaked: seen 10 times.
+
+[12:05:52] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Screenshots
+[12:06:07] [Server thread/DEBUG] [FML/]: The world 4c6d009d (EpicQuestz: Minas Tirith) may have leaked: seen 15 times.
+
+[12:06:16] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Screenshots
+[12:06:28] [Server thread/TRACE] [minecraft/minecraft]: Sending event FMLServerStoppingEvent to mod minecraft
+[12:06:28] [Server thread/TRACE] [minecraft/minecraft]: Sent event FMLServerStoppingEvent to mod minecraft
+[12:06:28] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Minecraft took 0.001s
+[12:06:28] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStoppingEvent to mod mcp
+[12:06:28] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStoppingEvent to mod mcp
+[12:06:28] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Minecraft Coder Pack took 0.000s
+[12:06:28] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStoppingEvent to mod FML
+[12:06:28] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStoppingEvent to mod FML
+[12:06:28] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Forge Mod Loader took 0.000s
+[12:06:28] [Server thread/TRACE] [forge/forge]: Sending event FMLServerStoppingEvent to mod forge
+[12:06:28] [Server thread/TRACE] [forge/forge]: Sent event FMLServerStoppingEvent to mod forge
+[12:06:28] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Minecraft Forge took 0.000s
+[12:06:28] [Server thread/TRACE] [redstone/redstone]: Sending event FMLServerStoppingEvent to mod redstone
+[12:06:28] [Server thread/TRACE] [redstone/redstone]: Sent event FMLServerStoppingEvent to mod redstone
+[12:06:28] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - More Minerals Mod!!! took 0.000s
+[12:06:28] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStopping took 0.002s
+[12:06:28] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Screenshots
+[12:06:28] [Server thread/INFO] [FML/]: Unloading dimension 0
+[12:06:28] [Server thread/INFO] [FML/]: Unloading dimension -1
+[12:06:28] [Server thread/INFO] [FML/]: Unloading dimension 1
+[12:06:28] [Server thread/DEBUG] [FML/]: Reverting to frozen data state.
+[12:06:28] [Server thread/TRACE] [minecraft/minecraft]: Sending event FMLModIdMappingEvent to mod minecraft
+[12:06:28] [Server thread/TRACE] [minecraft/minecraft]: Sent event FMLModIdMappingEvent to mod minecraft
+[12:06:28] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft took 0.001s
+[12:06:28] [Server thread/TRACE] [mcp/mcp]: Sending event FMLModIdMappingEvent to mod mcp
+[12:06:28] [Server thread/TRACE] [mcp/mcp]: Sent event FMLModIdMappingEvent to mod mcp
+[12:06:28] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0.001s
+[12:06:28] [Server thread/TRACE] [FML/FML]: Sending event FMLModIdMappingEvent to mod FML
+[12:06:28] [Server thread/TRACE] [FML/FML]: Sent event FMLModIdMappingEvent to mod FML
+[12:06:28] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Forge Mod Loader took 0.000s
+[12:06:28] [Server thread/TRACE] [forge/forge]: Sending event FMLModIdMappingEvent to mod forge
+[12:06:28] [Server thread/TRACE] [forge/forge]: Sent event FMLModIdMappingEvent to mod forge
+[12:06:28] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Forge took 0.161s
+[12:06:28] [Server thread/TRACE] [redstone/redstone]: Sending event FMLModIdMappingEvent to mod redstone
+[12:06:28] [Server thread/TRACE] [redstone/redstone]: Sent event FMLModIdMappingEvent to mod redstone
+[12:06:28] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - More Minerals Mod!!! took 0.001s
+[12:06:28] [Server thread/DEBUG] [FML/]: Bar Finished: ModIdMapping took 0.163s
+[12:06:28] [Server thread/INFO] [FML/]: Applying holder lookups
+[12:06:28] [Server thread/INFO] [FML/]: Holder lookups applied
+[12:06:28] [Server thread/DEBUG] [FML/]: Frozen state restored.
+[12:06:28] [Server thread/TRACE] [minecraft/minecraft]: Sending event FMLServerStoppedEvent to mod minecraft
+[12:06:28] [Server thread/TRACE] [minecraft/minecraft]: Sent event FMLServerStoppedEvent to mod minecraft
+[12:06:28] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft took 0.001s
+[12:06:28] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStoppedEvent to mod mcp
+[12:06:28] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStoppedEvent to mod mcp
+[12:06:28] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Coder Pack took 0.001s
+[12:06:28] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStoppedEvent to mod FML
+[12:06:28] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStoppedEvent to mod FML
+[12:06:28] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Forge Mod Loader took 0.001s
+[12:06:28] [Server thread/TRACE] [forge/forge]: Sending event FMLServerStoppedEvent to mod forge
+[12:06:28] [Server thread/TRACE] [forge/forge]: Sent event FMLServerStoppedEvent to mod forge
+[12:06:28] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Forge took 0.001s
+[12:06:28] [Server thread/TRACE] [redstone/redstone]: Sending event FMLServerStoppedEvent to mod redstone
+[12:06:28] [Server thread/TRACE] [redstone/redstone]: Sent event FMLServerStoppedEvent to mod redstone
+[12:06:28] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - More Minerals Mod!!! took 0.001s
+[12:06:28] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStopped took 0.003s

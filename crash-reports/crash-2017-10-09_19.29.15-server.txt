@@ -1,0 +1,124 @@
+---- Minecraft Crash Report ----
+// I blame Dinnerbone.
+
+Time: 10/9/17 7:29 PM
+Description: Ticking player
+
+java.lang.IllegalArgumentException: Cannot get property PropertyEnum{name=variant, clazz=class net.minecraft.block.BlockStone$EnumType, values=[stone, granite, smooth_granite, diorite, smooth_diorite, andesite, smooth_andesite]} as it does not exist in BlockStateContainer{block=minecraft:netherrack, properties=[]}
+	at net.minecraft.block.state.BlockStateContainer$StateImplementation.getValue(BlockStateContainer.java:204)
+	at com.coolness.epicness.worldgen.CoolNetherGenMineable$StonePredicate.apply(CoolNetherGenMineable.java:107)
+	at com.coolness.epicness.worldgen.CoolNetherGenMineable$StonePredicate.apply(CoolNetherGenMineable.java:1)
+	at net.minecraft.block.Block.isReplaceableOreGen(Block.java:1670)
+	at com.coolness.epicness.worldgen.CoolNetherGenMineable.generate(CoolNetherGenMineable.java:82)
+	at com.coolness.epicness.worldgen.CoolWorldGen.runGenerator(CoolWorldGen.java:59)
+	at com.coolness.epicness.worldgen.CoolWorldGen.generate(CoolWorldGen.java:43)
+	at net.minecraftforge.fml.common.registry.GameRegistry.generateWorld(GameRegistry.java:172)
+	at net.minecraft.world.chunk.Chunk.populateChunk(Chunk.java:1077)
+	at net.minecraft.world.chunk.Chunk.populateChunk(Chunk.java:1057)
+	at net.minecraft.world.gen.ChunkProviderServer.provideChunk(ChunkProviderServer.java:165)
+	at net.minecraft.world.World.getChunkFromChunkCoords(World.java:355)
+	at net.minecraft.world.World.getChunkFromBlockCoords(World.java:347)
+	at net.minecraft.world.World.getBlockState(World.java:981)
+	at net.minecraft.world.Teleporter.placeInExistingPortal(Teleporter.java:104)
+	at net.minecraft.world.Teleporter.placeInPortal(Teleporter.java:36)
+	at net.minecraft.server.management.PlayerList.transferEntityToWorld(PlayerList.java:724)
+	at net.minecraft.server.management.PlayerList.transferPlayerToDimension(PlayerList.java:631)
+	at net.minecraft.server.management.PlayerList.changePlayerDimension(PlayerList.java:618)
+	at net.minecraft.entity.player.EntityPlayerMP.changeDimension(EntityPlayerMP.java:679)
+	at net.minecraft.entity.Entity.onEntityUpdate(Entity.java:510)
+	at net.minecraft.entity.EntityLivingBase.onEntityUpdate(EntityLivingBase.java:262)
+	at net.minecraft.entity.Entity.onUpdate(Entity.java:454)
+	at net.minecraft.entity.EntityLivingBase.onUpdate(EntityLivingBase.java:2214)
+	at net.minecraft.entity.player.EntityPlayer.onUpdate(EntityPlayer.java:259)
+	at net.minecraft.entity.player.EntityPlayerMP.onUpdateEntity(EntityPlayerMP.java:371)
+	at net.minecraft.network.NetHandlerPlayServer.update(NetHandlerPlayServer.java:176)
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1.update(NetworkDispatcher.java:218)
+	at net.minecraft.network.NetworkManager.processReceivedPackets(NetworkManager.java:309)
+	at net.minecraft.network.NetworkSystem.networkTick(NetworkSystem.java:197)
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:818)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:699)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:156)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at net.minecraft.block.state.BlockStateContainer$StateImplementation.getValue(BlockStateContainer.java:204)
+	at com.coolness.epicness.worldgen.CoolNetherGenMineable$StonePredicate.apply(CoolNetherGenMineable.java:107)
+	at com.coolness.epicness.worldgen.CoolNetherGenMineable$StonePredicate.apply(CoolNetherGenMineable.java:1)
+	at net.minecraft.block.Block.isReplaceableOreGen(Block.java:1670)
+	at com.coolness.epicness.worldgen.CoolNetherGenMineable.generate(CoolNetherGenMineable.java:82)
+	at com.coolness.epicness.worldgen.CoolWorldGen.runGenerator(CoolWorldGen.java:59)
+	at com.coolness.epicness.worldgen.CoolWorldGen.generate(CoolWorldGen.java:43)
+	at net.minecraftforge.fml.common.registry.GameRegistry.generateWorld(GameRegistry.java:172)
+	at net.minecraft.world.chunk.Chunk.populateChunk(Chunk.java:1077)
+	at net.minecraft.world.chunk.Chunk.populateChunk(Chunk.java:1057)
+	at net.minecraft.world.gen.ChunkProviderServer.provideChunk(ChunkProviderServer.java:165)
+	at net.minecraft.world.World.getChunkFromChunkCoords(World.java:355)
+	at net.minecraft.world.World.getChunkFromBlockCoords(World.java:347)
+	at net.minecraft.world.World.getBlockState(World.java:981)
+	at net.minecraft.world.Teleporter.placeInExistingPortal(Teleporter.java:104)
+	at net.minecraft.world.Teleporter.placeInPortal(Teleporter.java:36)
+	at net.minecraft.server.management.PlayerList.transferEntityToWorld(PlayerList.java:724)
+	at net.minecraft.server.management.PlayerList.transferPlayerToDimension(PlayerList.java:631)
+	at net.minecraft.server.management.PlayerList.changePlayerDimension(PlayerList.java:618)
+	at net.minecraft.entity.player.EntityPlayerMP.changeDimension(EntityPlayerMP.java:679)
+	at net.minecraft.entity.Entity.onEntityUpdate(Entity.java:510)
+	at net.minecraft.entity.EntityLivingBase.onEntityUpdate(EntityLivingBase.java:262)
+	at net.minecraft.entity.Entity.onUpdate(Entity.java:454)
+	at net.minecraft.entity.EntityLivingBase.onUpdate(EntityLivingBase.java:2214)
+	at net.minecraft.entity.player.EntityPlayer.onUpdate(EntityPlayer.java:259)
+
+-- Player being ticked --
+Details:
+	Entity Type: null (net.minecraft.entity.player.EntityPlayerMP)
+	Entity ID: 43
+	Entity Name: Johnr1227
+	Entity's Exact location: -123.00, 7.31, 7.00
+	Entity's Block location: World: (-123,7,7), Chunk: (at 5,0,7 in -8,0; contains blocks -128,0,0 to -113,255,15), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,0,0 to -1,255,511)
+	Entity's Momentum: 0.00, 0.00, 0.00
+	Entity's Passengers: []
+	Entity's Vehicle: ~~ERROR~~ NullPointerException: null
+Stacktrace:
+	at net.minecraft.entity.player.EntityPlayerMP.onUpdateEntity(EntityPlayerMP.java:371)
+	at net.minecraft.network.NetHandlerPlayServer.update(NetHandlerPlayServer.java:176)
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1.update(NetworkDispatcher.java:218)
+	at net.minecraft.network.NetworkManager.processReceivedPackets(NetworkManager.java:309)
+
+-- Ticking connection --
+Details:
+	Connection: net.minecraft.network.NetworkManager@22c79254
+Stacktrace:
+	at net.minecraft.network.NetworkSystem.networkTick(NetworkSystem.java:197)
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:818)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:699)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:156)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.11.2
+	Operating System: Mac OS X (x86_64) version 10.11
+	Java Version: 1.8.0_66, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 1864250656 bytes (1777 MB) / 2112618496 bytes (2014 MB) up to 2112618496 bytes (2014 MB)
+	JVM Flags: 3 total; -Xincgc -Xmx2048M -Xms2048M
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.38 Powered by Forge 13.20.1.2454 5 mods loaded, 5 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHIJAAAA	minecraft{1.11.2} [Minecraft] (minecraft.jar) 
+	UCHIJAAAA	mcp{9.19} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHIJAAAA	FML{8.0.99.99} [Forge Mod Loader] (forgeSrc-1.11.2-13.20.1.2454.jar) 
+	UCHIJAAAA	forge{13.20.1.2454} [Minecraft Forge] (forgeSrc-1.11.2-13.20.1.2454.jar) 
+	UCHIJAAAA	redstone{§eCool§r} [§l§n§4More Minerals Mod!!!§r] (bin) 
+	Loaded coremods (and transformers): 
+	Profiler Position: N/A (disabled)
+	Player Count: 1 / 8; [EntityPlayerMP['Johnr1227'/43, l='Trash', x=-123.00, y=7.31, z=7.00]]
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'fml,forge'

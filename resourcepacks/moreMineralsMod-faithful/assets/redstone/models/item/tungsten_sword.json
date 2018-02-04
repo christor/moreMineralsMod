@@ -1,0 +1,6 @@
+{
+    "parent":"redstone:item/handheld",
+    "textures": {
+        "layer0":"redstone:items/tungsten_pure/pure_tungsten_sword"
+    }
+}

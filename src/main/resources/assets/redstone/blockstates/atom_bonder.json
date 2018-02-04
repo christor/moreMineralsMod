@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "normal": {
+            "model": "redstone:atom_bonder" }
+        }
+    }

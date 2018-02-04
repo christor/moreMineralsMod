@@ -1,0 +1,6 @@
+{
+    "parent":"redstone:item/handheld",
+    "textures": {
+        "layer0":"redstone:items/copper/copper_sword"
+    }
+}

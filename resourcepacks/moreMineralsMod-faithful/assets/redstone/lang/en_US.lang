@@ -1,0 +1,142 @@
+//Copper
+item.copper_ingot.name=§9Copper Ingot§r
+item.copper_nugget.name=§9Copper Nugget§r
+item.copper_wire.name=§9Copper Wire§r
+
+item.copper_sword.name=§9Copper Sword§r
+item.copper_pickaxe.name=§9Copper Pickaxe§r
+item.copper_axe.name=§9Copper Axe§r
+item.copper_shovel.name=§9Copper Shovel§r
+item.copper_hoe.name=§9Copper Hoe§r
+
+item.copper_helmet.name=§9Copper Helmet§r
+item.copper_chestplate.name=§9Copper Chestplate§r
+item.copper_leggings.name=§9Copper Leggings§r
+item.copper_boots.name=§9Copper Boots§r
+
+tile.copper_ore.name=§9Copper Ore§r
+tile.copper_block.name=§9Block of Copper§r
+
+//Tungsten
+item.tungsten_ingot.name=§7Tungsten Ingot§r
+
+item.tungsten_sword.name=§7Tungsten Sword§r
+item.tungsten_pickaxe.name=§7Tungsten Pickaxe§r
+item.tungsten_axe.name=§7Tungsten Axe§r
+item.tungsten_shovel.name=§7Tungsten Shovel§r
+item.tungsten_hoe.name=§7Tungsten Hoe§r
+
+item.tungsten_helmet.name=§7Tungsten Helmet§r
+item.tungsten_chestplate.name=§7Tungsten Chestplate§r
+item.tungsten_leggings.name=§7Tungsten Leggings§r
+item.tungsten_boots.name=§7Tungsten Boots§r
+
+tile.tungsten_ore.name=§7Tungsten Ore§r
+tile.tungsten_block.name=§7Block of Tungsten§r
+
+//Mithril
+item.mithril_ingot.name=§7Mithril Ingot§r
+
+item.mithril_sword.name=§7Mithril Sword§r
+item.mithril_pickaxe.name=§7Mithril Pickaxe§r
+item.mithril_axe.name=§7Mithril Axe§r
+item.mithril_shovel.name=§7Mithril Shovel§r
+item.mithril_hoe.name=§7Mithril Hoe§r
+
+item.mithril_helmet.name=§7Mithril Helmet§r
+item.mithril_chestplate.name=§7Mithril Chestplate§r
+item.mithril_leggings.name=§7Mithril Leggings§r
+item.mithril_boots.name=§7Mithril Boots§r
+
+//Lead
+item.lead.name=§8Lead§r
+item.lead_ingot.name=§8Lead Ingot§r
+
+item.lead_sword.name=§8Lead Sword§r
+item.lead_pickaxe.name=§8Lead Pickaxe§r
+item.lead_axe.name=§8Lead Axe§r
+item.lead_shovel.name=§8Lead Shovel§r
+item.lead_hoe.name=§8Lead Hoe§r
+
+item.lead_helmet.name=§8Lead Helmet§r
+item.lead_chestplate.name=§8Lead Chestplate§r
+item.lead_leggings.name=§8Lead Leggings§r
+item.lead_boots.name=§8Lead Boots§r
+
+tile.lead_ore.name=§8Galena§r
+tile.lead_block.name=§8Block of Lead§r
+
+//Creative Tabs
+itemGroup.tab_minerals=§eMore Minerals Items§r
+itemGroup.tab_minerals_blocks=§eMore Minerals Blocks§r
+itemGroup.tab_minerals_combat=§eMore Minerals Combat§r
+itemGroup.tab_minerals_tools=§eMore Minerals Tools§r
+//Other stuff
+item.corn.name=§eCorn§r
+item.corn_seeds.name=§eCorn Seeds§r
+item.sulfur.name=§eSulfur§r
+tile.sulfur_ore.name=§eSulfur Ore§r
+tile.sulfur_block.name=§eBlock of Sulfur§r
+tile.iron_furnace.name=§7Iron Furnace§r
+item.herkimer_diamond.name=§bHerkimer Diamond§r
+
+item.uranium.name=§a§oUranium§r
+tile.uranium_ore.name=§a§oUranium Ore§r
+tile.uranium_block.name=§a§oBlock of Uranium§r
+tile.nuclear_waste.name=§a§oNuclear Waste§r
+
+container.iron_furnace=Iron Furnace
+container.bomb=Nuclear Bomb
+
+death.attack.radiation=%1$s was roasted by nuclear radiation.
+death.attack.radiation.player=%1$s was roasted by nuclear radiation while fighting %2$s.
+tile.bomb.name=§l§o§4Nuclear Bomb§r
+tile.nether_gold_ore.name=Nether Gold Ore
+
+tile.concrete.white.name=White Concrete
+tile.concrete.orange.name=Orange Concrete
+tile.concrete.magenta.name=Magenta Concrete
+tile.concrete.light_blue.name=Light Blue Concrete
+tile.concrete.yellow.name=Yellow Concrete
+tile.concrete.lime.name=Lime Concrete
+tile.concrete.pink.name=Pink Concrete
+tile.concrete.gray.name=Gray Concrete
+tile.concrete.light_gray.name=Light Gray Concrete
+tile.concrete.cyan.name=Cyan Concrete
+tile.concrete.purple.name=Purple Concrete
+tile.concrete.blue.name=Blue Concrete
+tile.concrete.brown.name=Brown Concrete
+tile.concrete.green.name=Green Concrete
+tile.concrete.red.name=Red Concrete
+tile.concrete.black.name=Black Concrete
+
+tile.concrete_powder.white.name=White Concrete Powder
+tile.concrete_powder.orange.name=Orange Concrete Powder
+tile.concrete_powder.magenta.name=Magenta Concrete Powder
+tile.concrete_powder.light_blue.name=Light Blue Concrete Powder
+tile.concrete_powder.yellow.name=Yellow Concrete Powder
+tile.concrete_powder.lime.name=Lime Concrete Powder
+tile.concrete_powder.pink.name=Pink Concrete Powder
+tile.concrete_powder.gray.name=Gray Concrete Powder
+tile.concrete_powder.light_gray.name=Light Gray Concrete Powder
+tile.concrete_powder.cyan.name=Cyan Concrete Powder
+tile.concrete_powder.purple.name=Purple Concrete Powder
+tile.concrete_powder.blue.name=Blue Concrete Powder
+tile.concrete_powder.brown.name=Brown Concrete Powder
+tile.concrete_powder.green.name=Green Concrete Powder
+tile.concrete_powder.red.name=Red Concrete Powder
+tile.concrete_powder.black.name=Black Concrete Powder
+
+item.soul.brute_force.name=§8Soul§r
+item.soul.craftsmenship.name=§6Soul§r
+item.soul.underworld.name=§4Soul§r
+item.soul.wisdom.name=§1Soul§r
+item.soul.magic.name=§5Soul§r
+item.soul.hatred.name=§0Soul§r
+
+item.soul.brute_force.lore=§7§oSoul of Brute Force§r
+item.soul.craftsmenship.lore=§e§oSoul of Craftsmenship§r
+item.soul.underworld.lore=§c§oSoul of The Underworld§r
+item.soul.wisdom.lore=§9§oSoul of Wisdom§r
+item.soul.magic.lore=§d§oSoul of Magic§r
+item.soul.hatred.lore=§8§oSoul of Hatred§r

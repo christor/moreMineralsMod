@@ -1,0 +1,20 @@
+{
+    "variants": {
+        "color=white": { "model": "redstone:concrete_white" },
+        "color=orange": { "model": "redstone:concrete_orange" },
+        "color=magenta": { "model": "redstone:concrete_magenta" },
+        "color=light_blue": { "model": "redstone:concrete_light_blue" },
+        "color=yellow": { "model": "redstone:concrete_yellow" },
+        "color=lime": { "model": "redstone:concrete_lime" },
+        "color=pink": { "model": "redstone:concrete_pink" },
+        "color=gray": { "model": "redstone:concrete_gray" },
+        "color=silver": { "model": "redstone:concrete_light_gray" },
+        "color=cyan": { "model": "redstone:concrete_cyan" },
+        "color=purple": { "model": "redstone:concrete_purple" },
+        "color=blue": { "model": "redstone:concrete_blue" },
+        "color=brown": { "model": "redstone:concrete_brown" },
+        "color=green": { "model": "redstone:concrete_green" },
+        "color=red": { "model": "redstone:concrete_red" },
+        "color=black": { "model": "redstone:concrete_black" }
+    }
+}

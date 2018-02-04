@@ -1,0 +1,48 @@
+---- Minecraft Crash Report ----
+// Why is it breaking :(
+
+Time: 10/12/17 5:17 PM
+Description: Exception in server tick loop
+
+java.lang.NullPointerException: Exception in server tick loop
+	at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:588)
+	at net.minecraft.world.World.setBlockState(World.java:392)
+	at net.minecraft.world.World.setBlockState(World.java:480)
+	at com.coolness.epicness.worldgen.CoolWorldGenStructure.generate(CoolWorldGenStructure.java:44)
+	at com.coolness.epicness.worldgen.CoolWorldGen.runStructureGenerator(CoolWorldGen.java:80)
+	at com.coolness.epicness.worldgen.CoolWorldGen.generate(CoolWorldGen.java:48)
+	at net.minecraftforge.fml.common.registry.GameRegistry.generateWorld(GameRegistry.java:172)
+	at net.minecraft.world.chunk.Chunk.populateChunk(Chunk.java:1077)
+	at net.minecraft.world.chunk.Chunk.populateChunk(Chunk.java:1057)
+	at net.minecraft.world.gen.ChunkProviderServer.provideChunk(ChunkProviderServer.java:165)
+	at net.minecraft.server.MinecraftServer.initialWorldChunkLoad(MinecraftServer.java:341)
+	at net.minecraft.server.integrated.IntegratedServer.loadAllWorlds(IntegratedServer.java:107)
+	at net.minecraft.server.integrated.IntegratedServer.init(IntegratedServer.java:124)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:508)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.11.2
+	Operating System: Mac OS X (x86_64) version 10.11
+	Java Version: 1.8.0_66, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 1825164368 bytes (1740 MB) / 2112618496 bytes (2014 MB) up to 2112618496 bytes (2014 MB)
+	JVM Flags: 3 total; -Xincgc -Xmx2048M -Xms2048M
+	IntCache: cache: 0, tcache: 8, allocated: 20, tallocated: 86
+	FML: MCP 9.38 Powered by Forge 13.20.1.2454 5 mods loaded, 5 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHIJAA	minecraft{1.11.2} [Minecraft] (minecraft.jar) 
+	UCHIJAA	mcp{9.19} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHIJAA	FML{8.0.99.99} [Forge Mod Loader] (forgeSrc-1.11.2-13.20.1.2454.jar) 
+	UCHIJAA	forge{13.20.1.2454} [Minecraft Forge] (forgeSrc-1.11.2-13.20.1.2454.jar) 
+	UCHIJAA	redstone{§eCool§r} [§l§n§4More Minerals Mod!!!§r] (bin) 
+	Loaded coremods (and transformers): 
+	Profiler Position: N/A (disabled)
+	Player Count: 0 / 8; []
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'fml,forge'

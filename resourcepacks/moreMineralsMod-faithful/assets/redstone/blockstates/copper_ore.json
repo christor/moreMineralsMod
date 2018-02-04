@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "normal": {
+            "model": "redstone:copper_ore" }
+        }
+    }
