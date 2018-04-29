@@ -1,0 +1,7 @@
+{
+    "parent":"redstone:item/generated",
+    "textures": {
+        "layer0":"redstone:items/molecule_0",
+        "layer1": "redstone:items/molecule_1"
+    }
+}

@@ -1,14 +1,13 @@
 package com.coolness.epicness.blocks;
 
-import java.util.List;
-
+import com.coolness.epicness.Elements.RadiationTypes;
 import com.coolness.epicness.MoreMineralsMod;
 import com.coolness.epicness.init.ArmorRegistry;
 import com.coolness.epicness.init.BlockRegistry;
 import com.coolness.epicness.init.Reference;
+import com.coolness.epicness.radiation.RadiationWorldSavedData;
 
 import net.minecraft.block.Block;
-import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.enchantment.EnchantmentHelper;
@@ -18,6 +17,7 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
+import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionEffect;
 import net.minecraft.util.EnumFacing;
@@ -25,7 +25,7 @@ import net.minecraft.util.EnumHand;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
-public class BlockUranium extends Block {
+public class BlockUranium extends Block implements BlockRadioactive {
 	public BlockUranium() {
 		super(Material.IRON);
 		setUnlocalizedName(Reference.RedstoneBlocks.URANIUM_BLOCK.getUnlocalizedName());
@@ -34,6 +34,20 @@ public class BlockUranium extends Block {
 		setHardness(10f);
 		setHarvestLevel("pickaxe", 2);
 		setCreativeTab(BlockRegistry.tabMineralsBlocks);
+	}
+	@Override
+	public void onBlockAdded(World worldIn, BlockPos pos, IBlockState state) {
+		RadiationWorldSavedData data = RadiationWorldSavedData.get(worldIn);
+		NBTTagCompound nbt = new NBTTagCompound();
+		nbt.setString("Moo", "MOOP");
+		data.writeToNBT(nbt);
+		data.setDirty(true);
+		super.onBlockAdded(worldIn, pos, state);
+	}
+	@Override
+	public void onBlockClicked(World worldIn, BlockPos pos, EntityPlayer playerIn) {
+		System.out.println(RadiationWorldSavedData.get(worldIn).serializeNBT().getString("Moo"));
+		super.onBlockClicked(worldIn, pos, playerIn);
 	}
 	@Override
 	public boolean onBlockActivated(World worldIn, BlockPos pos, IBlockState state, EntityPlayer playerIn,
@@ -139,5 +153,9 @@ public class BlockUranium extends Block {
 		}
 
 		super.onEntityWalk(worldIn, pos, entityIn);
+	}
+	@Override
+	public RadiationTypes getType() {
+		return RadiationTypes.GAMMA;
 	}
 }

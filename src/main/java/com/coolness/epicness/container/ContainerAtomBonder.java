@@ -1,7 +1,7 @@
 package com.coolness.epicness.container;
 
+import com.coolness.epicness.client.gui.GuiAtomBonder;
 import com.coolness.epicness.tileenitity.TileEntityAtomBonder;
-import com.coolness.epicness.tileenitity.TileEntityBomb;
 
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.Container;
@@ -19,36 +19,38 @@ public class ContainerAtomBonder extends Container {
 	public ContainerAtomBonder(IInventory playerInv, TileEntityAtomBonder tileEntityAtomBinder) {
 		this.te = tileEntityAtomBinder;
 		IItemHandler handler = tileEntityAtomBinder.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null);
-
+        int xOffset = (GuiAtomBonder.pWidth - GuiAtomBonder.xSize) / 2;
+        int yOffset = (GuiAtomBonder.pHeight - GuiAtomBonder.ySize) / 2;
+        
 		int id = 0;
 		for (int i = 0; i < 7; i++) {
-			this.addSlotToContainer(new SlotItemHandler(handler, id++, 12, 17 + i * 18));
+			this.addSlotToContainer(new SlotItemHandler(handler, id++, xOffset + 12, yOffset + 17 + i * 18));
 			System.out.println("i: " + i + ", id:" + id);
-			this.addSlotToContainer(new SlotItemHandler(handler, id++, 30, 17 + i * 18));
+			this.addSlotToContainer(new SlotItemHandler(handler, id++, xOffset + 30, yOffset + 17 + i * 18));
 			System.out.println("i: " + i + ", id:" + id);
-			this.addSlotToContainer(new SlotItemHandler(handler, id++, 48, 17 + i * 18));
+			this.addSlotToContainer(new SlotItemHandler(handler, id++, xOffset + 48, yOffset + 17 + i * 18));
 			System.out.println("i: " + i + ", id:" + id);
-			this.addSlotToContainer(new SlotItemHandler(handler, id++, 66, 17 + i * 18));
+			this.addSlotToContainer(new SlotItemHandler(handler, id++, xOffset + 66, yOffset + 17 + i * 18));
 			System.out.println("i: " + i + ", id:" + id);
-			this.addSlotToContainer(new SlotItemHandler(handler, id++, 84, 17 + i * 18));
+			this.addSlotToContainer(new SlotItemHandler(handler, id++, xOffset + 84, yOffset + 17 + i * 18));
 			System.out.println("i: " + i + ", id:" + id);
-			this.addSlotToContainer(new SlotItemHandler(handler, id++, 102, 17 + i * 18));
+			this.addSlotToContainer(new SlotItemHandler(handler, id++, xOffset + 102, yOffset + 17 + i * 18));
 			System.out.println("i: " + i + ", id:" + id);
-			this.addSlotToContainer(new SlotItemHandler(handler, id++, 120, 17 + i * 18));
+			this.addSlotToContainer(new SlotItemHandler(handler, id++, xOffset + 120, yOffset + 17 + i * 18));
 			System.out.println("i: " + i + ", id:" + id);
 		}
-		
 		int xPos = 8;
-		int yPos = 167;
+		int yPos = 163;
 
 		for (int y = 0; y < 3; ++y) {
 			for (int x = 0; x < 9; ++x) {
-				this.addSlotToContainer(new Slot(playerInv, x + y * 9 + 9, xPos + x * 18, yPos + y * 18));
+				this.addSlotToContainer(new Slot(playerInv, x + y * 9 + 9, xOffset + xPos + x * 18, yOffset + yPos + y * 18));
 			}
 		}
 		for (int x = 0; x < 9; ++x) {
-			this.addSlotToContainer(new Slot(playerInv, x, xPos + x * 18, yPos + 58));
+			this.addSlotToContainer(new Slot(playerInv, x, xOffset + xPos + x * 18, yOffset + yPos + 58));
 		}
+		this.addSlotToContainer(new SlotItemHandler(handler, id++, 149, 34));
 	}
 
 	@Override

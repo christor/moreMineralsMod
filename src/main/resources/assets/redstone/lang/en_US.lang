@@ -1,3 +1,5 @@
+item.geiger_counter.name=Geiger Counter
+item.geiger_counter=Geiger Counter Clicks
 //Copper
 item.copper_ingot.name=§9Copper Ingot§r
 item.copper_nugget.name=§9Copper Nugget§r
@@ -72,7 +74,7 @@ itemGroup.tab_minerals_blocks=§eMore Minerals Blocks§r
 itemGroup.tab_minerals_combat=§eMore Minerals Combat§r
 itemGroup.tab_minerals_tools=§eMore Minerals Tools§r
 itemGroup.tab_elements=§eElements§r
-itemGroup.tab_particles=§eSubatomic Particles§r
+itemGroup.tab_ions=§eIons§r
 //Other stuff
 item.corn.name=§eCorn§r
 item.corn_seeds.name=§eCorn Seeds§r

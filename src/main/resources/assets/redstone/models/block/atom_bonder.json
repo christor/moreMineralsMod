@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "redstone:blocks/atom_bonder_side",
+        "down": "redstone:blocks/atom_bonder_bottom",
+        "up": "redstone:blocks/atom_bonder_top",
+        "north": "redstone:blocks/atom_bonder_side",
+        "east": "redstone:blocks/atom_bonder_side",
+        "south": "redstone:blocks/atom_bonder_side",
+        "west": "redstone:blocks/atom_bonder_side"
+    }
+}

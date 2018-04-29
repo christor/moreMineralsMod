@@ -23,8 +23,8 @@ public class CoolWorldGen implements IWorldGenerator {
 	private WorldGenerator uranium_ore_gen;
 	
 	private WorldGenerator nether_gold_ore_gen;
-
-	private WorldGenerator test_structure;
+//
+//	private WorldGenerator test_structure;
 
 	public CoolWorldGen() {
 		Test.registerBlocks();
@@ -36,7 +36,7 @@ public class CoolWorldGen implements IWorldGenerator {
 		
 		this.nether_gold_ore_gen = new CoolNetherGenMineable(BlockRegistry.nether_gold_ore.getDefaultState(), 7);
 		
-		this.test_structure = new CoolWorldGenStructure(Test.xSize, Test.ySize, Test.zSize, Test.states);
+		//this.test_structure = new CoolWorldGenStructure(Test.xSize, Test.ySize, Test.zSize, Test.states);
 	}
 
 	@Override
@@ -51,7 +51,7 @@ public class CoolWorldGen implements IWorldGenerator {
 			this.runGenerator(this.tungsten_ore_gen, world, random, chunkX, chunkZ, 1, 0, 25);
 			this.runGenerator(this.sulfur_ore_gen, world, random, chunkX, chunkZ, 35, 0, 150);
 			this.runGenerator(this.uranium_ore_gen, world, random, chunkX, chunkZ, 15, 0, 50);
-			this.runStructureGenerator(this.test_structure, world, random, chunkX, chunkZ, 0.02D);
+			//this.runStructureGenerator(this.test_structure, world, random, chunkX, chunkZ, 0.02D);
 		case -1:
 			this.runGenerator(this.nether_gold_ore_gen, world, random, chunkX, chunkZ, 28, 0, 150);
 		case 1:

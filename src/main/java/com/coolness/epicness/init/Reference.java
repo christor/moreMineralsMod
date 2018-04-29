@@ -1,12 +1,13 @@
 package com.coolness.epicness.init;
 
+import net.minecraft.client.audio.SoundManager;
 import net.minecraft.util.IStringSerializable;
 
 public class Reference {
 
 	public static final String MODID = "redstone";
 	public static final String NAME = "§l§n§4More Redstone Mod!!!§r";
-	public static final String VERSION = "§e1.1§r";
+	public static final String VERSION = "§e1.2§r";
 	public static final String ACCEPTED_VERSIONS = "[1.11.2]";
 
 	public static final String CLIENTPROXY = "com.coolness.epicness.proxy.ClientProxy";
@@ -40,7 +41,9 @@ public class Reference {
 		SULFUR("sulfur", "sulfur"),
 		URANIUM("uranium", "uranium"),
 		
-		ATOM("atom", "atom");
+		ATOM("atom", "atom"),
+		COMPOUND("compound","compound"),
+		GEIGER_COUNTER("geiger_counter","geiger_counter");
 
 		private String unlocalizedName;
 		private String registryName;
@@ -58,7 +61,6 @@ public class Reference {
 			return registryName;
 		}
 	}
-
 	public static enum RedstoneBlocks {
 		URANIUM_ORE("uranium_ore", "uranium_ore"), 
 		URANIUM_BLOCK("uranium_block", "uranium_block"), 
@@ -72,14 +74,14 @@ public class Reference {
 		SULFUR_ORE("sulfur_ore", "sulfur_ore"), 
 		SULFUR_BLOCK("sulfur_block", "sulfur_block"), 
 		LEAD_ORE("lead_ore", "lead_ore"), 
-		IRON_FURNACE("iron_furnace", "iron_furnace"), 
 		LEAD_BLOCK("lead_block", "lead_block"),
 		CONCRETE("concrete", "concrete"), 
 		CONCRETE_POWDER("concrete_powder", "concrete_powder"), 
 		GOLD_ORE("nether_gold_ore", "nether_gold_ore"), 
 		BOMB("bomb", "bomb"),
 		
-		ATOM_BONDER("atom_bonder", "atom_bonder");
+		ATOM_BONDER("atom_bonder", "atom_bonder"), 
+		RADIATION_SENDER("radiation_sender","radiation_sender");
 
 		private String unlocalizedName;
 		private String registryName;

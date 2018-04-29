@@ -4,18 +4,18 @@ mouseSensitivity:0.5
 fov:0.0
 gamma:1.0
 saturation:0.0
-renderDistance:10
+renderDistance:8
 guiScale:0
-particles:0
+particles:1
 bobView:false
 anaglyph3d:false
 maxFps:260
 fboEnable:true
 difficulty:2
-fancyGraphics:true
-ao:2
-renderClouds:false
-resourcePacks:[]
+fancyGraphics:false
+ao:0
+renderClouds:fast
+resourcePacks:["§6Da Super Pack!!!","Scientist skin"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us

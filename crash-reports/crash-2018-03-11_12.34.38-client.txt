@@ -1,0 +1,171 @@
+---- Minecraft Crash Report ----
+// Ouch. That hurt :(
+
+Time: 3/11/18 12:34 PM
+Description: Rendering entity in world
+
+java.lang.NoClassDefFoundError: lib/fashion/LayerInjector
+	at subaraki.fashion.handler.ClientEventHandler.swapRenders(ClientEventHandler.java:101)
+	at subaraki.fashion.handler.ClientEventHandler.renderPlayerPre(ClientEventHandler.java:59)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_47_ClientEventHandler_renderPlayerPre_Pre.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:185)
+	at net.minecraft.client.renderer.entity.RenderPlayer.doRender(RenderPlayer.java:62)
+	at net.minecraft.client.renderer.entity.RenderPlayer.doRender(RenderPlayer.java:28)
+	at net.minecraft.client.renderer.entity.RenderManager.doRenderEntity(RenderManager.java:389)
+	at lib.util.DrawEntityOnScreen.drawEntityOnScreen(DrawEntityOnScreen.java:41)
+	at subaraki.fashion.gui.GuiWardrobe.drawGuiContainerBackgroundLayer(GuiWardrobe.java:84)
+	at net.minecraft.client.gui.inventory.GuiContainer.drawScreen(GuiContainer.java:94)
+	at subaraki.fashion.gui.GuiWardrobe.drawScreen(GuiWardrobe.java:122)
+	at net.minecraftforge.client.ForgeHooksClient.drawScreen(ForgeHooksClient.java:382)
+	at net.minecraft.client.renderer.EntityRenderer.updateCameraAndRender(EntityRenderer.java:1168)
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1140)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:407)
+	at net.minecraft.client.main.Main.main(Main.java:118)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97)
+	at GradleStart.main(GradleStart.java:26)
+Caused by: java.lang.ClassNotFoundException: lib.fashion.LayerInjector
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 29 more
+Caused by: java.lang.NullPointerException
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Client thread
+Stacktrace:
+	at subaraki.fashion.handler.ClientEventHandler.swapRenders(ClientEventHandler.java:101)
+	at subaraki.fashion.handler.ClientEventHandler.renderPlayerPre(ClientEventHandler.java:59)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_47_ClientEventHandler_renderPlayerPre_Pre.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:185)
+	at net.minecraft.client.renderer.entity.RenderPlayer.doRender(RenderPlayer.java:62)
+	at net.minecraft.client.renderer.entity.RenderPlayer.doRender(RenderPlayer.java:28)
+
+-- Entity being rendered --
+Details:
+	Entity Type: null (net.minecraft.client.entity.EntityPlayerSP)
+	Entity ID: 454
+	Entity Name: Johnr1227
+	Entity's Exact location: 16.58, 67.00, -474.82
+	Entity's Block location: World: (16,67,-475), Chunk: (at 0,4,5 in 1,-30; contains blocks 16,0,-480 to 31,255,-465), Region: (0,-1; contains chunks 0,-32 to 31,-1, blocks 0,0,-512 to 511,255,-1)
+	Entity's Momentum: 0.00, -0.08, 0.00
+	Entity's Passengers: []
+	Entity's Vehicle: ~~ERROR~~ NullPointerException: null
+
+-- Renderer details --
+Details:
+	Assigned renderer: net.minecraft.client.renderer.entity.RenderPlayer@47927528
+	Location: 0.00,0.00,0.00 - World: (0,0,0), Chunk: (at 0,0,0 in 0,0; contains blocks 0,0,0 to 15,255,15), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Rotation: 0.0
+	Delta: 1.0
+Stacktrace:
+	at net.minecraft.client.renderer.entity.RenderManager.doRenderEntity(RenderManager.java:389)
+	at lib.util.DrawEntityOnScreen.drawEntityOnScreen(DrawEntityOnScreen.java:41)
+	at subaraki.fashion.gui.GuiWardrobe.drawGuiContainerBackgroundLayer(GuiWardrobe.java:84)
+	at net.minecraft.client.gui.inventory.GuiContainer.drawScreen(GuiContainer.java:94)
+	at subaraki.fashion.gui.GuiWardrobe.drawScreen(GuiWardrobe.java:122)
+	at net.minecraftforge.client.ForgeHooksClient.drawScreen(ForgeHooksClient.java:382)
+
+-- Screen render details --
+Details:
+	Screen name: subaraki.fashion.gui.GuiWardrobe
+	Mouse location: Scaled: (291, 150). Absolute: (875, 350)
+	Screen size: Scaled: (427, 267). Absolute: (1280, 800). Scale factor of 3
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 1 total; [EntityPlayerSP['Johnr1227'/454, l='MpServer', x=16.58, y=67.00, z=-474.82]]
+	Chunk stats: MultiplayerChunkCache: 441, 441
+	Level seed: 0
+	Level generator: ID 00 - default, ver 1. Features enabled: false
+	Level generator options: 
+	Level spawn location: World: (-80,43,382), Chunk: (at 0,2,14 in -5,23; contains blocks -80,0,368 to -65,255,383), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,0,0 to -1,255,511)
+	Level time: 6022741 game time, 6000 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: false
+	Forced entities: 70 total; [EntityPainting['Painting'/512, l='MpServer', x=24.03, y=240.50, z=-437.50], EntitySheep['Sheep'/513, l='MpServer', x=73.55, y=64.47, z=-482.47], EntityPainting['Painting'/514, l='MpServer', x=16.50, y=233.50, z=-455.97], EntityPainting['Painting'/515, l='MpServer', x=25.97, y=233.50, z=-451.50], EntityPainting['Painting'/516, l='MpServer', x=25.97, y=238.50, z=-453.00], EntityPainting['Painting'/517, l='MpServer', x=25.97, y=249.00, z=-453.50], EntityPainting['Painting'/518, l='MpServer', x=14.97, y=234.50, z=-460.00], EntityItemFrame['entity.ItemFrame.name'/519, l='MpServer', x=14.97, y=238.50, z=-458.50], EntityPainting['Painting'/520, l='MpServer', x=12.03, y=238.00, z=-455.00], EntityPainting['Painting'/521, l='MpServer', x=11.03, y=250.00, z=-458.00], EntityPainting['Painting'/522, l='MpServer', x=11.03, y=250.00, z=-456.50], EntitySheep['Sheep'/523, l='MpServer', x=48.45, y=74.00, z=-426.45], EntityArmorStand['Armor Stand'/524, l='MpServer', x=35.50, y=232.00, z=-429.50], EntityArmorStand['Armor Stand'/525, l='MpServer', x=35.50, y=232.00, z=-430.50], EntityArmorStand['Armor Stand'/526, l='MpServer', x=35.50, y=232.00, z=-428.50], EntityItemFrame['entity.ItemFrame.name'/527, l='MpServer', x=35.97, y=234.50, z=-429.50], EntityItemFrame['entity.ItemFrame.name'/528, l='MpServer', x=35.97, y=234.50, z=-430.50], EntityItemFrame['entity.ItemFrame.name'/529, l='MpServer', x=35.97, y=234.50, z=-428.50], EntitySheep['Sheep'/530, l='MpServer', x=61.73, y=70.00, z=-461.44], EntityItemFrame['entity.ItemFrame.name'/531, l='MpServer', x=35.97, y=232.50, z=-433.50], EntityItemFrame['entity.ItemFrame.name'/532, l='MpServer', x=35.97, y=232.50, z=-432.50], EntityItemFrame['entity.ItemFrame.name'/533, l='MpServer', x=36.97, y=233.50, z=-432.50], EntityItemFrame['entity.ItemFrame.name'/534, l='MpServer', x=34.97, y=248.50, z=-441.50], EntityItemFrame['entity.ItemFrame.name'/535, l='MpServer', x=34.97, y=248.50, z=-440.50], EntityItemFrame['entity.ItemFrame.name'/536, l='MpServer', x=34.97, y=247.50, z=-434.50], EntityItemFrame['entity.ItemFrame.name'/537, l='MpServer', x=35.97, y=243.50, z=-440.50], EntityMinecartChest['Minecart with Chest'/538, l='MpServer', x=33.51, y=242.00, z=-442.51], EntitySheep['Sheep'/539, l='MpServer', x=22.27, y=68.00, z=-431.49], EntityArmorStand['LEGAS'/851, l='MpServer', x=109.41, y=80.74, z=-330.80], EntityArmorStand['LEGAS'/852, l='MpServer', x=109.41, y=80.74, z=-330.99], EntityArmorStand['LEGAS'/853, l='MpServer', x=109.41, y=80.92, z=-330.99], EntityArmorStand['LEGAS'/854, l='MpServer', x=109.41, y=81.11, z=-330.99], EntityArmorStand['LEGAS'/855, l='MpServer', x=109.41, y=81.29, z=-330.99], EntityArmorStand['LEGAS'/856, l='MpServer', x=109.41, y=81.48, z=-330.99], EntityArmorStand['LEGAS'/857, l='MpServer', x=109.41, y=81.48, z=-330.80], EntitySheep['Sheep'/903, l='MpServer', x=94.56, y=73.00, z=-549.45], EntitySheep['Sheep'/923, l='MpServer', x=96.19, y=68.00, z=-484.64], EntityChicken['Chicken'/940, l='MpServer', x=81.53, y=66.42, z=-488.35], EntityChicken['Chicken'/944, l='MpServer', x=93.11, y=76.00, z=-402.57], EntityChicken['Chicken'/945, l='MpServer', x=91.51, y=75.00, z=-404.86], EntityChicken['Chicken'/947, l='MpServer', x=87.50, y=74.00, z=-416.21], EntityPainting['Painting'/455, l='MpServer', x=8.03, y=69.00, z=-475.50], EntityPainting['Painting'/456, l='MpServer', x=8.03, y=69.00, z=-476.50], EntityPainting['Painting'/457, l='MpServer', x=8.03, y=69.50, z=-477.50], EntityPainting['Painting'/458, l='MpServer', x=8.03, y=68.50, z=-477.50], EntityPainting['Painting'/459, l='MpServer', x=13.50, y=68.50, z=-475.97], EntityArmorStand['LEGAS'/726, l='MpServer', x=109.41, y=79.22, z=-330.80], EntityArmorStand['LEGAS'/727, l='MpServer', x=109.41, y=79.22, z=-330.99], EntityArmorStand['LEGAS'/729, l='MpServer', x=109.41, y=79.22, z=-331.17], EntityArmorStand['LEGAS'/731, l='MpServer', x=109.41, y=79.22, z=-331.36], EntityPlayerSP['Johnr1227'/454, l='MpServer', x=16.58, y=67.00, z=-474.82], EntityChicken['Chicken'/478, l='MpServer', x=-9.22, y=67.00, z=-551.49], EntitySheep['Sheep'/490, l='MpServer', x=11.36, y=66.00, z=-519.26], EntityChicken['Chicken'/491, l='MpServer', x=4.76, y=64.00, z=-526.84], EntityItem['item.item.egg'/492, l='MpServer', x=9.55, y=64.00, z=-525.40], EntityChicken['Chicken'/493, l='MpServer', x=-14.19, y=62.64, z=-501.61], EntityChicken['Chicken'/494, l='MpServer', x=-13.88, y=62.73, z=-504.26], EntityItem['item.item.egg'/495, l='MpServer', x=-13.15, y=62.00, z=-502.69], EntityChicken['Chicken'/496, l='MpServer', x=-3.82, y=64.00, z=-520.36], EntitySheep['Sheep'/499, l='MpServer', x=30.46, y=75.00, z=-554.34], EntityPainting['Painting'/502, l='MpServer', x=27.50, y=239.00, z=-446.97], EntityPainting['Painting'/503, l='MpServer', x=24.03, y=239.00, z=-437.50], EntityPainting['Painting'/504, l='MpServer', x=24.03, y=239.00, z=-439.00], EntityPainting['Painting'/505, l='MpServer', x=24.03, y=239.50, z=-440.50], EntityPainting['Painting'/506, l='MpServer', x=24.03, y=238.50, z=-440.50], EntityPainting['Painting'/507, l='MpServer', x=23.03, y=234.00, z=-438.00], EntityPainting['Painting'/508, l='MpServer', x=23.03, y=234.00, z=-440.00], EntityPainting['Painting'/509, l='MpServer', x=23.03, y=244.00, z=-440.00], EntityPainting['Painting'/510, l='MpServer', x=24.03, y=240.50, z=-440.50], EntityPainting['Painting'/511, l='MpServer', x=24.03, y=240.50, z=-439.00]]
+	Retry entities: 0 total; []
+	Server brand: fml,forge
+	Server type: Integrated singleplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.addWorldInfoToCrashReport(WorldClient.java:456)
+	at net.minecraft.client.Minecraft.addGraphicsAndWorldToCrashReport(Minecraft.java:2774)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:428)
+	at net.minecraft.client.main.Main.main(Main.java:118)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97)
+	at GradleStart.main(GradleStart.java:26)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.11.2
+	Operating System: Mac OS X (x86_64) version 10.11
+	Java Version: 1.8.0_66, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 1434262608 bytes (1367 MB) / 2112618496 bytes (2014 MB) up to 2112618496 bytes (2014 MB)
+	JVM Flags: 3 total; -Xincgc -Xmx2048M -Xms2048M
+	IntCache: cache: 0, tcache: 0, allocated: 12, tallocated: 94
+	FML: MCP 9.38 Powered by Forge 13.20.1.2454 16 mods loaded, 16 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHIJAAAA	minecraft{1.11.2} [Minecraft] (minecraft.jar) 
+	UCHIJAAAA	mcp{9.19} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHIJAAAA	FML{8.0.99.99} [Forge Mod Loader] (forgeSrc-1.11.2-13.20.1.2454.jar) 
+	UCHIJAAAA	forge{13.20.1.2454} [Minecraft Forge] (forgeSrc-1.11.2-13.20.1.2454.jar) 
+	UCHIJAAAA	redstone{§e1.2§r} [§l§n§4More Minerals Mod!!!§r] (bin) 
+	UCHIJAAAA	replaymod-compat{1.11.2-2.1.0} [Replay Mod - Compatibility] (replaymod-1.11.2-2.1.0.jar) 
+	UCHIJAAAA	replaymod{1.11.2-2.1.0} [Replay Mod] (replaymod-1.11.2-2.1.0.jar) 
+	UCHIJAAAA	replaymod-editor{1.11.2-2.1.0} [Replay Mod - Replay Editor] (replaymod-1.11.2-2.1.0.jar) 
+	UCHIJAAAA	replaymod-extras{1.11.2-2.1.0} [Replay Mod - Extras] (replaymod-1.11.2-2.1.0.jar) 
+	UCHIJAAAA	replaymod-online{1.11.2-2.1.0} [Replay Mod - Online] (replaymod-1.11.2-2.1.0.jar) 
+	UCHIJAAAA	replaymod-recording{1.11.2-2.1.0} [Replay Mod - Recording] (replaymod-1.11.2-2.1.0.jar) 
+	UCHIJAAAA	replaymod-render{1.11.2-2.1.0} [Replay Mod - Render] (replaymod-1.11.2-2.1.0.jar) 
+	UCHIJAAAA	replaymod-replay{1.11.2-2.1.0} [Replay Mod - Replay] (replaymod-1.11.2-2.1.0.jar) 
+	UCHIJAAAA	replaymod-simplepathing{1.11.2-2.1.0} [Replay Mod - Simple Pathing] (replaymod-1.11.2-2.1.0.jar) 
+	UCHIJAAAA	subcommonlib{1.2.0.1} [Subaraki's Common Library] (SubLib-1.11.2.jar) 
+	UCHIJAAAA	fashion{1.11 0.0.1.1} [fashion mod] (JustFashion-1.11.2.jar) 
+	Loaded coremods (and transformers): 
+LoadingPlugin (replaymod-1.11.2-2.1.0.jar)
+  
+	Launched Version: 1.11.2
+	LWJGL: 2.9.2
+	OpenGL: Intel HD Graphics 3000 OpenGL Engine GL version 2.1 INTEL-10.0.37, Intel Inc.
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because ARB_framebuffer_object is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: 
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	CPU: 4x Intel(R) Core(TM) i5-2415M CPU @ 2.30GHz

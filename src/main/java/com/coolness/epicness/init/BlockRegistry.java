@@ -10,6 +10,8 @@ import com.coolness.epicness.blocks.BlockLead;
 import com.coolness.epicness.blocks.BlockLeadOre;
 import com.coolness.epicness.blocks.BlockNetherGoldOre;
 import com.coolness.epicness.blocks.BlockNuclearWaste;
+import com.coolness.epicness.blocks.BlockRadiationCounter;
+import com.coolness.epicness.blocks.BlockRadiationSender;
 import com.coolness.epicness.blocks.BlockSulfur;
 import com.coolness.epicness.blocks.BlockSulfurOre;
 import com.coolness.epicness.blocks.BlockTungsten;
@@ -27,6 +29,7 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemStack;
+import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class BlockRegistry {
@@ -51,6 +54,8 @@ public class BlockRegistry {
 	public static ItemBlock concrete_item;
 	public static Block concrete_powder;
 	public static ItemBlock concrete_powder_item;
+	
+	public static Block radiation_sender;
 
 	public static void init() {
 		atom_bonder = new BlockAtomBonder();
@@ -74,6 +79,7 @@ public class BlockRegistry {
 		
 		concrete_powder = new BlockConcretePowder();
 		concrete_powder_item = new ItemConcretePowder(concrete_powder);
+		radiation_sender = new BlockRadiationSender();
 	}
 
 	public static void register() {
@@ -96,6 +102,7 @@ public class BlockRegistry {
 		GameRegistry.register(concrete_item);
 		GameRegistry.register(concrete_powder);
 		GameRegistry.register(concrete_powder_item);
+		registerBlock(radiation_sender);
 	}
 
 	public static void registerRenders() {
@@ -123,10 +130,9 @@ public class BlockRegistry {
 			System.out.println(i + ": concrete_item_" + ConcreteTypes.values()[i].getName() + " has been registered!!!");
 			registerRenderItem(concrete_powder_item, i, "item/concrete_powder_" + ConcreteTypes.values()[i].getName());
 		}
-
+		registerRender(radiation_sender);
 		registerRender(bomb);
 	}
-
 	private static void registerBlock(Block block) {
 		GameRegistry.register(block);
 		ItemBlock item = new ItemBlock(block);

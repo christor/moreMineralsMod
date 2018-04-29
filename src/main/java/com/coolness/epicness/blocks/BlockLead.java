@@ -24,5 +24,4 @@ public class BlockLead extends Block{
 		setCreativeTab(BlockRegistry.tabMineralsBlocks);
 		setResistance(15.0f);
 	}
-
 }

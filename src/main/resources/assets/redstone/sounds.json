@@ -1,0 +1,12 @@
+{
+    "item.geiger_counter_1": {
+        "category": "player",
+        "subtitle": "item.geiger_counter",
+        "sounds": [ {"name": "redstone:item/geiger_counter_1", "stream": true } ]
+    },
+    "item.geiger_counter_2": {
+        "category": "player",
+        "subtitle": "item.geiger_counter",
+        "sounds": [ {"name": "redstone:item/geiger_counter_2", "stream": true } ]
+    }
+}

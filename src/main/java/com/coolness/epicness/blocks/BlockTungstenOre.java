@@ -18,7 +18,7 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
 public class BlockTungstenOre extends BlockOre {
-	//BlockFurnace
+	//BlockMelon
 	public BlockTungstenOre() {
 		super();
 		setUnlocalizedName(Reference.RedstoneBlocks.TUNGSTEN_ORE.getUnlocalizedName());

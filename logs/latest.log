@@ -1,78 +1,202 @@
-[15:36:19] [Client thread/INFO]: Setting user: Johnr1227
-[15:36:37] [Client thread/WARN]: Skipping bad option: lastServer:
-[15:36:37] [Client thread/INFO]: LWJGL Version: 2.9.2
-[15:36:48] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:§l§n§4More Minerals Mod!!!§r
-[15:36:54] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[15:36:55] [Thread-6/INFO]: Initializing LWJGL OpenAL
-[15:36:55] [Thread-6/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[15:36:55] [Thread-6/INFO]: OpenAL initialized.
-[15:36:55] [Sound Library Loader/INFO]: Sound engine started
-[15:37:04] [Client thread/INFO]: Created: 16x16 textures-atlas
-[15:37:06] [Client thread/INFO]: [STDOUT]: Client Proxy Initialized!
-[15:37:07] [Client thread/INFO]: [STDOUT]: 0: concrete_white has been registered!!!
-[15:37:07] [Client thread/INFO]: [STDOUT]: 1: concrete_orange has been registered!!!
-[15:37:07] [Client thread/INFO]: [STDOUT]: 2: concrete_magenta has been registered!!!
-[15:37:07] [Client thread/INFO]: [STDOUT]: 3: concrete_light_blue has been registered!!!
-[15:37:07] [Client thread/INFO]: [STDOUT]: 4: concrete_yellow has been registered!!!
-[15:37:07] [Client thread/INFO]: [STDOUT]: 5: concrete_lime has been registered!!!
-[15:37:07] [Client thread/INFO]: [STDOUT]: 6: concrete_pink has been registered!!!
-[15:37:07] [Client thread/INFO]: [STDOUT]: 7: concrete_gray has been registered!!!
-[15:37:07] [Client thread/INFO]: [STDOUT]: 8: concrete_light_gray has been registered!!!
-[15:37:07] [Client thread/INFO]: [STDOUT]: 9: concrete_cyan has been registered!!!
-[15:37:07] [Client thread/INFO]: [STDOUT]: 10: concrete_purple has been registered!!!
-[15:37:07] [Client thread/INFO]: [STDOUT]: 11: concrete_blue has been registered!!!
-[15:37:07] [Client thread/INFO]: [STDOUT]: 12: concrete_brown has been registered!!!
-[15:37:07] [Client thread/INFO]: [STDOUT]: 13: concrete_green has been registered!!!
-[15:37:07] [Client thread/INFO]: [STDOUT]: 14: concrete_red has been registered!!!
-[15:37:07] [Client thread/INFO]: [STDOUT]: 15: concrete_black has been registered!!!
-[15:37:07] [Client thread/INFO]: [STDOUT]: 0: concrete_item_white has been registered!!!
-[15:37:07] [Client thread/INFO]: [STDOUT]: 1: concrete_item_orange has been registered!!!
-[15:37:07] [Client thread/INFO]: [STDOUT]: 2: concrete_item_magenta has been registered!!!
-[15:37:07] [Client thread/INFO]: [STDOUT]: 3: concrete_item_light_blue has been registered!!!
-[15:37:07] [Client thread/INFO]: [STDOUT]: 4: concrete_item_yellow has been registered!!!
-[15:37:07] [Client thread/INFO]: [STDOUT]: 5: concrete_item_lime has been registered!!!
-[15:37:07] [Client thread/INFO]: [STDOUT]: 6: concrete_item_pink has been registered!!!
-[15:37:07] [Client thread/INFO]: [STDOUT]: 7: concrete_item_gray has been registered!!!
-[15:37:07] [Client thread/INFO]: [STDOUT]: 8: concrete_item_light_gray has been registered!!!
-[15:37:07] [Client thread/INFO]: [STDOUT]: 9: concrete_item_cyan has been registered!!!
-[15:37:07] [Client thread/INFO]: [STDOUT]: 10: concrete_item_purple has been registered!!!
-[15:37:07] [Client thread/INFO]: [STDOUT]: 11: concrete_item_blue has been registered!!!
-[15:37:07] [Client thread/INFO]: [STDOUT]: 12: concrete_item_brown has been registered!!!
-[15:37:07] [Client thread/INFO]: [STDOUT]: 13: concrete_item_green has been registered!!!
-[15:37:07] [Client thread/INFO]: [STDOUT]: 14: concrete_item_red has been registered!!!
-[15:37:07] [Client thread/INFO]: [STDOUT]: 15: concrete_item_black has been registered!!!
-[15:37:07] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:§l§n§4More Minerals Mod!!!§r
-[15:37:10] [Client thread/INFO]: SoundSystem shutting down...
-[15:37:11] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
-[15:37:11] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[15:37:11] [Thread-8/INFO]: Initializing LWJGL OpenAL
-[15:37:11] [Thread-8/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[15:37:11] [Thread-8/INFO]: OpenAL initialized.
-[15:37:11] [Sound Library Loader/INFO]: Sound engine started
-[15:37:16] [Client thread/INFO]: Created: 512x512 textures-atlas
-[15:37:21] [Client thread/WARN]: Skipping bad option: lastServer:
-[15:37:21] [Client thread/ERROR]: ########## GL ERROR ##########
-[15:37:21] [Client thread/ERROR]: @ Post startup
-[15:37:21] [Client thread/ERROR]: 1281: Invalid value
-[15:37:24] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
-[15:37:31] [Server thread/INFO]: Starting integrated minecraft server version 1.11.2
-[15:37:31] [Server thread/INFO]: Generating keypair
-[15:37:38] [Server thread/INFO]: Preparing start region for level 0
-[15:37:42] [Server thread/INFO]: Preparing spawn area: 0%
-[15:37:43] [Server thread/INFO]: Preparing spawn area: 7%
-[15:37:44] [Server thread/INFO]: Preparing spawn area: 37%
-[15:37:45] [Server thread/INFO]: Preparing spawn area: 64%
-[15:37:46] [Server thread/INFO]: Preparing spawn area: 80%
-[15:37:51] [Server thread/INFO]: Johnr1227[local:E:831f8828] logged in with entity id 152 at (331.40119631182665, 72.61325950580905, 290.2322343012497)
-[15:37:51] [Server thread/INFO]: Johnr1227 joined the game
-[15:37:54] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4258ms behind, skipping 85 tick(s)
-[15:37:57] [Server thread/INFO]: Saving and pausing game...
-[15:37:57] [Server thread/INFO]: Saving chunks for level 'Screenshots'/Overworld
-[15:37:58] [Server thread/INFO]: Saving chunks for level 'Screenshots'/Nether
-[15:37:58] [Server thread/INFO]: Saving chunks for level 'Screenshots'/The End
-[15:38:01] [Server thread/INFO]: Saving and pausing game...
-[15:38:01] [Server thread/INFO]: Saving chunks for level 'Screenshots'/Overworld
-[15:38:01] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@2b9990d7[id=d1efef13-87dd-334e-a44c-29551a7c1d82,name=Johnr1227,properties={},legacy=false]
+[23:06:25] [Client thread/INFO]: Setting user: Johnr1227
+[23:06:36] [Client thread/WARN]: Skipping bad option: lastServer:
+[23:06:36] [Client thread/INFO]: LWJGL Version: 2.9.2
+[23:06:46] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Redstone Flux, FMLFileResourcePack:§l§n§4More Minerals Mod!!!§r, §6Da Super Pack!!!, Scientist skin
+[23:06:57] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[23:06:58] [Thread-6/INFO]: Initializing LWJGL OpenAL
+[23:06:58] [Thread-6/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[23:06:58] [Thread-6/INFO]: OpenAL initialized.
+[23:06:58] [Sound Library Loader/INFO]: Sound engine started
+[23:07:14] [Client thread/INFO]: Created: 16x16 textures-atlas
+[23:07:16] [Client thread/INFO]: [STDOUT]: +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 1 (hydrogen): 2745080 (#29e2f8)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 2 (helium): 6295328 (#600f20)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 3 (lithium): 2461359 (#258eaf)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 4 (beryllium): 4469137 (#443191)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 5 (boron): 5899485 (#5a04dd)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 6 (carbon): 2676763 (#28d81b)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 7 (nitrogen): 6838531 (#685903)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 8 (oxygen): 6532061 (#63abdd)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 9 (fluorine): 1895589 (#1ceca5)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 10 (neon): 5229404 (#4fcb5c)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 11 (sodium): 5604247 (#558397)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 12 (magnesium): 4259737 (#40ff99)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 13 (aluminum): 2941383 (#2ce1c7)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 14 (silicon): 2512772 (#265784)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 15 (phosphorus): 1074785 (#106661)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 16 (sulfur): 4894624 (#4aafa0)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 17 (chlorine): 2712294 (#2962e6)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 18 (argon): 720335 (#afdcf)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 19 (potassium): 5406011 (#527d3b)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 20 (calcium): 2576180 (#274f34)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 21 (scandium): 2913663 (#2c757f)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 22 (titanium): 2858508 (#2b9e0c)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 23 (vanadium): 7580554 (#73ab8a)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 24 (chromium): 6786307 (#678d03)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 25 (manganese): 4790232 (#4917d8)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 26 (iron): 4489610 (#44818a)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 27 (cobalt): 1055963 (#101cdb)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 28 (nickel): 3102882 (#2f58a2)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 29 (copper): 7060822 (#6bbd56)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 30 (zinc): 3611043 (#3719a3)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 31 (gallium): 6335975 (#60ade7)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 32 (germanium): 1060925 (#10303d)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 33 (arsenic): 4140607 (#3f2e3f)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 34 (selenium): 4489447 (#4480e7)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 35 (bromine): 4033842 (#3d8d32)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 36 (krypton): 1944112 (#1daa30)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 37 (rubidium): 797405 (#c2add)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 38 (strontium): 7694383 (#75682f)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 39 (yttrium): 2176578 (#213642)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 40 (zirconium): 8072595 (#7b2d93)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 41 (niobium): 5542560 (#5492a0)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 42 (molybdenum): 759085 (#b952d)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 43 (technetium): 1702035 (#19f893)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 44 (ruthenium): 2494210 (#260f02)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 45 (rhodium): 2896558 (#2c32ae)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 46 (palladium): 869471 (#d445f)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 47 (silver): 7435794 (#717612)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 48 (cadmium): 8112926 (#7bcb1e)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 49 (indium): 407762 (#638d2)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 50 (tin): 3140792 (#2fecb8)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 51 (antimony): 5968519 (#5b1287)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 52 (tellurium): 3850157 (#3abfad)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 53 (iodine): 4834996 (#49c6b4)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 54 (xenon): 7917546 (#78cfea)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 55 (cesium): 5178967 (#4f0657)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 56 (barium): 715306 (#aea2a)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 57 (lanthanum): 2085458 (#1fd252)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 58 (cerium): 5745867 (#57accb)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 59 (praseodymium): 7096253 (#6c47bd)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 60 (neodymium): 7754427 (#7652bb)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 61 (promethium): 3940257 (#3c1fa1)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 62 (samarium): 6158588 (#5df8fc)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 63 (europium): 578005 (#8d1d5)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 64 (gadolinium): 4722418 (#480ef2)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 65 (terbium): 1169488 (#11d850)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 66 (dysprosium): 7558077 (#7353bd)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 67 (holmium): 5691121 (#56d6f1)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 68 (erbium): 4190258 (#3ff032)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 69 (thulium): 6706468 (#665524)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 70 (ytterbium): 1395638 (#154bb6)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 71 (lutetium): 1595648 (#185900)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 72 (hafnium): 3807322 (#3a185a)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 73 (tantalum): 6748837 (#66faa5)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 74 (tungsten): 3485261 (#352e4d)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 75 (rhenium): 5601536 (#557900)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 76 (osmium): 5650320 (#563790)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 77 (iridium): 1201287 (#125487)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 78 (platinum): 4711352 (#47e3b8)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 79 (gold): 946795 (#e726b)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 80 (mercury): 2658170 (#288f7a)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 81 (thallium): 5173317 (#4ef045)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 82 (lead): 7231223 (#6e56f7)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 83 (bismuth): 6505687 (#6344d7)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 84 (polonium): 3854069 (#3acef5)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 85 (astatine): 1536415 (#17719f)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 86 (radon): 6859162 (#68a99a)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 87 (francium): 880559 (#d6faf)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 88 (radium): 7675953 (#752031)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 89 (actinium): 2114771 (#2044d3)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 90 (thorium): 4340471 (#423af7)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 91 (protactinium): 6814063 (#67f96f)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 92 (uranium): 6503490 (#633c42)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 93 (neptunium): 4574488 (#45cd18)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 94 (plutonium): 1180704 (#120420)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 95 (americium): 1312536 (#140718)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 96 (curium): 2067783 (#1f8d47)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 97 (berkelium): 7764777 (#767b29)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 98 (californium): 3975812 (#3caa84)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 99 (einsteinium): 4298775 (#419817)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 100 (fermium): 4419081 (#436e09)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 101 (mendelevium): 4834586 (#49c51a)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 102 (nobelium): 5601485 (#5578cd)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 103 (lawrencium): 412779 (#64c6b)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 104 (rutherfordium): 8130383 (#7c0f4f)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 105 (dubnium): 6014347 (#5bc58b)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 106 (seaborgium): 695887 (#a9e4f)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 107 (bohrium): 6211061 (#5ec5f5)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 108 (hassium): 6101717 (#5d1ad5)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 109 (meitnerium): 5975418 (#5b2d7a)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 110 (darmstadtium): 7700563 (#758053)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 111 (roentgenium): 5318570 (#5127aa)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 112 (copernicium): 3989185 (#3cdec1)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 113 (nihonium): 6747758 (#66f66e)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 114 (flerovium): 5607061 (#558e95)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 115 (moscovium): 3284307 (#321d53)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 116 (livermorium): 1919087 (#1d486f)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 117 (tennessine): 2972406 (#2d5af6)
+[23:07:16] [Client thread/INFO]: [STDOUT]: Element 118 (oganesson): 8104391 (#7ba9c7)
+[23:07:16] [Client thread/INFO]: [STDOUT]: ---------------------------------------
+[23:07:16] [Client thread/INFO]: [STDOUT]: All atom colors have been registered!
+[23:07:16] [Client thread/INFO]: [STDOUT]: No issues!!! :DD
+[23:07:16] [Client thread/INFO]: [STDOUT]: ---------------------------------------
+[23:07:16] [Client thread/INFO]: [STDOUT]: +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+[23:07:16] [Client thread/INFO]: [STDOUT]: Client Proxy Initialized!
+[23:07:16] [Client thread/INFO]: [STDOUT]: 0: concrete_white has been registered!!!
+[23:07:16] [Client thread/INFO]: [STDOUT]: 1: concrete_orange has been registered!!!
+[23:07:16] [Client thread/INFO]: [STDOUT]: 2: concrete_magenta has been registered!!!
+[23:07:16] [Client thread/INFO]: [STDOUT]: 3: concrete_light_blue has been registered!!!
+[23:07:16] [Client thread/INFO]: [STDOUT]: 4: concrete_yellow has been registered!!!
+[23:07:16] [Client thread/INFO]: [STDOUT]: 5: concrete_lime has been registered!!!
+[23:07:16] [Client thread/INFO]: [STDOUT]: 6: concrete_pink has been registered!!!
+[23:07:16] [Client thread/INFO]: [STDOUT]: 7: concrete_gray has been registered!!!
+[23:07:16] [Client thread/INFO]: [STDOUT]: 8: concrete_light_gray has been registered!!!
+[23:07:16] [Client thread/INFO]: [STDOUT]: 9: concrete_cyan has been registered!!!
+[23:07:16] [Client thread/INFO]: [STDOUT]: 10: concrete_purple has been registered!!!
+[23:07:16] [Client thread/INFO]: [STDOUT]: 11: concrete_blue has been registered!!!
+[23:07:16] [Client thread/INFO]: [STDOUT]: 12: concrete_brown has been registered!!!
+[23:07:16] [Client thread/INFO]: [STDOUT]: 13: concrete_green has been registered!!!
+[23:07:16] [Client thread/INFO]: [STDOUT]: 14: concrete_red has been registered!!!
+[23:07:16] [Client thread/INFO]: [STDOUT]: 15: concrete_black has been registered!!!
+[23:07:16] [Client thread/INFO]: [STDOUT]: 0: concrete_item_white has been registered!!!
+[23:07:16] [Client thread/INFO]: [STDOUT]: 1: concrete_item_orange has been registered!!!
+[23:07:16] [Client thread/INFO]: [STDOUT]: 2: concrete_item_magenta has been registered!!!
+[23:07:16] [Client thread/INFO]: [STDOUT]: 3: concrete_item_light_blue has been registered!!!
+[23:07:16] [Client thread/INFO]: [STDOUT]: 4: concrete_item_yellow has been registered!!!
+[23:07:16] [Client thread/INFO]: [STDOUT]: 5: concrete_item_lime has been registered!!!
+[23:07:16] [Client thread/INFO]: [STDOUT]: 6: concrete_item_pink has been registered!!!
+[23:07:16] [Client thread/INFO]: [STDOUT]: 7: concrete_item_gray has been registered!!!
+[23:07:16] [Client thread/INFO]: [STDOUT]: 8: concrete_item_light_gray has been registered!!!
+[23:07:16] [Client thread/INFO]: [STDOUT]: 9: concrete_item_cyan has been registered!!!
+[23:07:16] [Client thread/INFO]: [STDOUT]: 10: concrete_item_purple has been registered!!!
+[23:07:16] [Client thread/INFO]: [STDOUT]: 11: concrete_item_blue has been registered!!!
+[23:07:16] [Client thread/INFO]: [STDOUT]: 12: concrete_item_brown has been registered!!!
+[23:07:16] [Client thread/INFO]: [STDOUT]: 13: concrete_item_green has been registered!!!
+[23:07:16] [Client thread/INFO]: [STDOUT]: 14: concrete_item_red has been registered!!!
+[23:07:16] [Client thread/INFO]: [STDOUT]: 15: concrete_item_black has been registered!!!
+[23:07:17] [Client thread/INFO]: [STDOUT]: Registered Sound: item.geiger_counter_1
+[23:07:17] [Client thread/INFO]: [STDOUT]: Registered Sound: item.geiger_counter_2
+[23:07:17] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Redstone Flux, FMLFileResourcePack:§l§n§4More Minerals Mod!!!§r, §6Da Super Pack!!!, Scientist skin
+[23:07:24] [Client thread/INFO]: SoundSystem shutting down...
+[23:07:24] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[23:07:24] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[23:07:24] [Thread-8/INFO]: Initializing LWJGL OpenAL
+[23:07:24] [Thread-8/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[23:07:24] [Thread-8/INFO]: OpenAL initialized.
+[23:07:25] [Sound Library Loader/INFO]: Sound engine started
+[23:07:37] [Client thread/INFO]: Created: 512x512 textures-atlas
+[23:07:42] [Client thread/WARN]: Skipping bad option: lastServer:
+[23:07:42] [Client thread/ERROR]: ########## GL ERROR ##########
+[23:07:42] [Client thread/ERROR]: @ Post startup
+[23:07:42] [Client thread/ERROR]: 1281: Invalid value
+[23:07:43] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[23:07:53] [Server thread/INFO]: Starting integrated minecraft server version 1.11.2
+[23:07:53] [Server thread/INFO]: Generating keypair
+[23:07:54] [Server thread/INFO]: [STDOUT]: Stack has no tag compound, setting unlocalizedName to NUUUULLLL! - getUnlocalizedName();
+[23:07:54] [Server thread/INFO]: [STDOUT]: Stack has no tag compound, setting unlocalizedName to NUUUULLLL! - getUnlocalizedName();
+[23:07:54] [Server thread/INFO]: [STDOUT]: Stack has no tag compound, setting unlocalizedName to NUUUULLLL! - getUnlocalizedName();
+[23:07:55] [Server thread/INFO]: Preparing start region for level 0
+[23:07:56] [Server thread/INFO]: Preparing spawn area: 55%
+[23:07:57] [Server thread/INFO]: Changing view distance to 8, from 10
+[23:07:59] [Server thread/INFO]: Johnr1227[local:E:36ea6643] logged in with entity id 62 at (-648.1015880362622, 17.5487523519497, 301.1211054085916)
+[23:07:59] [Server thread/INFO]: Johnr1227 joined the game
+[23:08:02] [Server thread/INFO]: Saving and pausing game...
+[23:08:02] [Server thread/INFO]: Saving chunks for level '§3§oNoo wurld§r'/Overworld
+[23:08:02] [Server thread/INFO]: Saving chunks for level '§3§oNoo wurld§r'/Nether
+[23:08:02] [Server thread/INFO]: Saving chunks for level '§3§oNoo wurld§r'/The End
+[23:08:02] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2494ms behind, skipping 49 tick(s)
+[23:08:03] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@339e4626[id=d1efef13-87dd-334e-a44c-29551a7c1d82,name=Johnr1227,properties={},legacy=false]
 com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
 	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:79) ~[YggdrasilAuthenticationService.class:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:180) [YggdrasilMinecraftSessionService.class:?]
@@ -94,24 +218,182 @@ com.mojang.authlib.exceptions.AuthenticationException: The client has sent too m
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_66]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_66]
 	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_66]
-[15:38:02] [Server thread/INFO]: Saving chunks for level 'Screenshots'/Nether
-[15:38:02] [Server thread/INFO]: Saving chunks for level 'Screenshots'/The End
-[15:42:30] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2127ms behind, skipping 42 tick(s)
-[15:42:49] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3012ms behind, skipping 60 tick(s)
-[15:43:05] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2674ms behind, skipping 53 tick(s)
-[15:43:25] [Server thread/INFO]: Saving and pausing game...
-[15:43:25] [Server thread/INFO]: Saving chunks for level 'Screenshots'/Overworld
-[15:43:26] [Server thread/INFO]: Saving chunks for level 'Screenshots'/Nether
-[15:43:26] [Server thread/INFO]: Saving chunks for level 'Screenshots'/The End
-[15:43:26] [Server thread/INFO]: Stopping server
-[15:43:26] [Server thread/INFO]: Saving players
-[15:43:26] [Server thread/INFO]: Johnr1227 lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
-[15:43:26] [Server thread/INFO]: Johnr1227 left the game
-[15:43:26] [Server thread/INFO]: Stopping singleplayer server as player logged out
-[15:43:26] [Server thread/INFO]: Saving worlds
-[15:43:26] [Server thread/INFO]: Saving chunks for level 'Screenshots'/Overworld
-[15:43:26] [Server thread/INFO]: Saving chunks for level 'Screenshots'/Nether
-[15:43:26] [Server thread/INFO]: Saving chunks for level 'Screenshots'/The End
-[15:43:30] [Client thread/INFO]: Stopping!
-[15:43:30] [Client thread/INFO]: SoundSystem shutting down...
-[15:43:30] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[23:08:06] [Server thread/INFO]: [STDOUT]: Brake blok
+[23:08:06] [Server thread/INFO]: [STDOUT]: dat block aint importnt
+[23:08:09] [Server thread/INFO]: [STDOUT]: Brake blok
+[23:08:09] [Server thread/INFO]: [STDOUT]: dat block aint importnt
+[23:08:10] [Server thread/INFO]: [STDOUT]: Brake blok
+[23:08:10] [Server thread/INFO]: [STDOUT]: dat block aint importnt
+[23:08:10] [Server thread/INFO]: [STDOUT]: Brake blok
+[23:08:10] [Server thread/INFO]: [STDOUT]: dat block aint importnt
+[23:08:11] [Server thread/INFO]: [STDOUT]: Brake blok
+[23:08:11] [Server thread/INFO]: [STDOUT]: dat block aint importnt
+[23:08:11] [Server thread/INFO]: [STDOUT]: Brake blok
+[23:08:11] [Server thread/INFO]: [STDOUT]: dat block aint importnt
+[23:08:11] [Server thread/INFO]: [STDOUT]: Brake blok
+[23:08:11] [Server thread/INFO]: [STDOUT]: dat block aint importnt
+[23:08:11] [Server thread/INFO]: [STDOUT]: Brake blok
+[23:08:11] [Server thread/INFO]: [STDOUT]: dat block aint importnt
+[23:08:12] [Server thread/INFO]: [STDOUT]: Brake blok
+[23:08:12] [Server thread/INFO]: [STDOUT]: dat block aint importnt
+[23:08:15] [Server thread/INFO]: [STDOUT]: Y u place blok?
+[23:08:15] [Server thread/INFO]: [STDOUT]: dis block iz reseevr
+[23:08:15] [Server thread/INFO]: [STDOUT]: There is a receiver getting affected at: -644, 4, 309
+[23:08:16] [Server thread/INFO]: [STDOUT]: power: 0.0
+[23:08:18] [Server thread/INFO]: [STDOUT]: Y u place blok?
+[23:08:18] [Server thread/INFO]: [STDOUT]: Added source mommy aren't you proud?
+[23:08:18] [Server thread/INFO]: [STDOUT]: There is a receiver getting affected at: -644, 4, 309
+[23:08:18] [Server thread/INFO]: [STDOUT]: power: 100.0
+[23:08:20] [Server thread/INFO]: [STDOUT]: Brake blok
+[23:08:20] [Server thread/INFO]: [STDOUT]: Block dat brake iz reseevr
+[23:08:23] [Server thread/INFO]: [STDOUT]: Y u place blok?
+[23:08:23] [Server thread/INFO]: [STDOUT]: dis block iz reseevr
+[23:08:23] [Server thread/INFO]: [STDOUT]: There is a receiver getting affected at: -645, 4, 309
+[23:08:23] [Server thread/INFO]: [STDOUT]: power: 49.999999999999986
+[23:08:26] [Server thread/INFO]: [STDOUT]: Brake blok
+[23:08:26] [Server thread/INFO]: [STDOUT]: Block dat brake iz reseevr
+[23:08:28] [Server thread/INFO]: [STDOUT]: Y u place blok?
+[23:08:28] [Server thread/INFO]: [STDOUT]: dis block iz reseevr
+[23:08:28] [Server thread/INFO]: [STDOUT]: There is a receiver getting affected at: -644, 4, 309
+[23:08:28] [Server thread/INFO]: [STDOUT]: power: 100.0
+[23:08:29] [Server thread/INFO]: [STDOUT]: Brake blok
+[23:08:29] [Server thread/INFO]: [STDOUT]: Block dat brake iz reseevr
+[23:08:30] [Server thread/INFO]: [STDOUT]: Y u place blok?
+[23:08:30] [Server thread/INFO]: [STDOUT]: dis block iz reseevr
+[23:08:30] [Server thread/INFO]: [STDOUT]: There is a receiver getting affected at: -643, 4, 309
+[23:08:30] [Server thread/INFO]: [STDOUT]: power: 49.999999999999986
+[23:08:31] [Server thread/INFO]: [STDOUT]: Brake blok
+[23:08:31] [Server thread/INFO]: [STDOUT]: Block dat brake iz reseevr
+[23:08:32] [Server thread/INFO]: [STDOUT]: Y u place blok?
+[23:08:32] [Server thread/INFO]: [STDOUT]: dis block iz reseevr
+[23:08:32] [Server thread/INFO]: [STDOUT]: There is a receiver getting affected at: -643, 4, 308
+[23:08:32] [Server thread/INFO]: [STDOUT]: power: 100.0
+[23:08:33] [Server thread/INFO]: [STDOUT]: Brake blok
+[23:08:33] [Server thread/INFO]: [STDOUT]: Block dat brake iz reseevr
+[23:08:34] [Server thread/INFO]: [STDOUT]: Y u place blok?
+[23:08:34] [Server thread/INFO]: [STDOUT]: dis block iz reseevr
+[23:08:34] [Server thread/INFO]: [STDOUT]: There is a receiver getting affected at: -644, 4, 307
+[23:08:34] [Server thread/INFO]: [STDOUT]: power: 100.0
+[23:08:35] [Server thread/INFO]: [STDOUT]: Brake blok
+[23:08:35] [Server thread/INFO]: [STDOUT]: Block dat brake iz reseevr
+[23:08:38] [Server thread/INFO]: [STDOUT]: Brake blok
+[23:08:38] [Server thread/INFO]: [STDOUT]: Block dat brake iz sorce
+[23:08:39] [Server thread/INFO]: [STDOUT]: Y u place blok?
+[23:08:39] [Server thread/INFO]: [STDOUT]: dis block iz reseevr
+[23:08:39] [Server thread/INFO]: [STDOUT]: There is a receiver getting affected at: -644, 4, 307
+[23:08:39] [Server thread/INFO]: [STDOUT]: power: 0.0
+[23:08:40] [Server thread/INFO]: [STDOUT]: Brake blok
+[23:08:40] [Server thread/INFO]: [STDOUT]: Block dat brake iz reseevr
+[23:08:41] [Server thread/INFO]: [STDOUT]: Y u place blok?
+[23:08:41] [Server thread/INFO]: [STDOUT]: dis block iz reseevr
+[23:08:41] [Server thread/INFO]: [STDOUT]: There is a receiver getting affected at: -644, 4, 308
+[23:08:41] [Server thread/INFO]: [STDOUT]: power: 0.0
+[23:08:42] [Server thread/INFO]: [STDOUT]: Y u place blok?
+[23:08:42] [Server thread/INFO]: [STDOUT]: Added source mommy aren't you proud?
+[23:08:42] [Server thread/INFO]: [STDOUT]: There is a receiver getting affected at: -644, 4, 308
+[23:08:42] [Server thread/INFO]: [STDOUT]: power: 100.0
+[23:08:43] [Server thread/INFO]: [STDOUT]: Brake blok
+[23:08:43] [Server thread/INFO]: [STDOUT]: Block dat brake iz sorce
+[23:08:43] [Server thread/INFO]: [STDOUT]: There is a receiver getting affected at: -644, 4, 308
+[23:08:43] [Server thread/INFO]: [STDOUT]: power: 0.0
+[23:08:43] [Server thread/INFO]: [STDOUT]: Brake blok
+[23:08:43] [Server thread/INFO]: [STDOUT]: Block dat brake iz reseevr
+[23:08:50] [Server thread/INFO]: [STDOUT]: Y u place blok?
+[23:08:50] [Server thread/INFO]: [STDOUT]: dis block iz reseevr
+[23:08:50] [Server thread/INFO]: [STDOUT]: There is a receiver getting affected at: -644, 4, 308
+[23:08:50] [Server thread/INFO]: [STDOUT]: power: 0.0
+[23:08:51] [Server thread/INFO]: [STDOUT]: Y u place blok?
+[23:08:51] [Server thread/INFO]: [STDOUT]: Added source mommy aren't you proud?
+[23:08:51] [Server thread/INFO]: [STDOUT]: There is a receiver getting affected at: -644, 4, 308
+[23:08:51] [Server thread/INFO]: [STDOUT]: power: 100.0
+[23:08:53] [Server thread/INFO]: [STDOUT]: Y u place blok?
+[23:08:53] [Server thread/INFO]: [STDOUT]: Added source mommy aren't you proud?
+[23:08:53] [Server thread/INFO]: [STDOUT]: There is a receiver getting affected at: -644, 4, 308
+[23:08:53] [Server thread/INFO]: [STDOUT]: power: 150.0
+[23:08:54] [Server thread/INFO]: [STDOUT]: Y u place blok?
+[23:08:54] [Server thread/INFO]: [STDOUT]: Added source mommy aren't you proud?
+[23:08:54] [Server thread/INFO]: [STDOUT]: There is a receiver getting affected at: -644, 4, 308
+[23:08:54] [Server thread/INFO]: [STDOUT]: power: 250.0
+[23:08:56] [Server thread/INFO]: [STDOUT]: Y u place blok?
+[23:08:56] [Server thread/INFO]: [STDOUT]: Added source mommy aren't you proud?
+[23:08:56] [Server thread/INFO]: [STDOUT]: There is a receiver getting affected at: -644, 4, 308
+[23:08:56] [Server thread/INFO]: [STDOUT]: power: 350.0
+[23:08:58] [Server thread/INFO]: [STDOUT]: Y u place blok?
+[23:08:58] [Server thread/INFO]: [STDOUT]: dis block iz reseevr
+[23:08:58] [Server thread/INFO]: [STDOUT]: There is a receiver getting affected at: -644, 6, 308
+[23:08:58] [Server thread/INFO]: [STDOUT]: power: 190.0
+[23:09:01] [Server thread/INFO]: [STDOUT]: Brake blok
+[23:09:01] [Server thread/INFO]: [STDOUT]: Block dat brake iz sorce
+[23:09:01] [Server thread/INFO]: [STDOUT]: There is a receiver getting affected at: -644, 4, 308
+[23:09:01] [Server thread/INFO]: [STDOUT]: power: 300.0
+[23:09:01] [Server thread/INFO]: [STDOUT]: There is a receiver getting affected at: -644, 6, 308
+[23:09:01] [Server thread/INFO]: [STDOUT]: power: 140.0
+[23:09:04] [Server thread/INFO]: [STDOUT]: Brake blok
+[23:09:04] [Server thread/INFO]: [STDOUT]: Block dat brake iz sorce
+[23:09:04] [Server thread/INFO]: [STDOUT]: There is a receiver getting affected at: -644, 4, 308
+[23:09:04] [Server thread/INFO]: [STDOUT]: power: 200.0
+[23:09:04] [Server thread/INFO]: [STDOUT]: There is a receiver getting affected at: -644, 6, 308
+[23:09:04] [Server thread/INFO]: [STDOUT]: power: 120.0
+[23:09:05] [Server thread/INFO]: [STDOUT]: Brake blok
+[23:09:05] [Server thread/INFO]: [STDOUT]: Block dat brake iz sorce
+[23:09:05] [Server thread/INFO]: [STDOUT]: There is a receiver getting affected at: -644, 4, 308
+[23:09:05] [Server thread/INFO]: [STDOUT]: power: 100.0
+[23:09:05] [Server thread/INFO]: [STDOUT]: There is a receiver getting affected at: -644, 6, 308
+[23:09:05] [Server thread/INFO]: [STDOUT]: power: 100.0
+[23:09:07] [Server thread/INFO]: [STDOUT]: Brake blok
+[23:09:07] [Server thread/INFO]: [STDOUT]: Block dat brake iz sorce
+[23:09:07] [Server thread/INFO]: [STDOUT]: There is a receiver getting affected at: -644, 4, 308
+[23:09:07] [Server thread/INFO]: [STDOUT]: power: 0.0
+[23:09:07] [Server thread/INFO]: [STDOUT]: There is a receiver getting affected at: -644, 6, 308
+[23:09:07] [Server thread/INFO]: [STDOUT]: power: 0.0
+[23:09:12] [Server thread/INFO]: [STDOUT]: Y u place blok?
+[23:09:12] [Server thread/INFO]: [STDOUT]: Added source mommy aren't you proud?
+[23:09:12] [Server thread/INFO]: [STDOUT]: There is a receiver getting affected at: -644, 4, 308
+[23:09:12] [Server thread/INFO]: [STDOUT]: power: 11.11111111111111
+[23:09:12] [Server thread/INFO]: [STDOUT]: There is a receiver getting affected at: -644, 6, 308
+[23:09:12] [Server thread/INFO]: [STDOUT]: power: 100.0
+[23:09:22] [Server thread/INFO]: [STDOUT]: Brake blok
+[23:09:22] [Server thread/INFO]: [STDOUT]: Block dat brake iz reseevr
+[23:09:32] [Server thread/INFO]: [STDOUT]: Brake blok
+[23:09:32] [Server thread/INFO]: [STDOUT]: Block dat brake iz sorce
+[23:09:32] [Server thread/INFO]: [STDOUT]: There is a receiver getting affected at: -644, 4, 308
+[23:09:32] [Server thread/INFO]: [STDOUT]: power: 0.0
+[23:09:32] [Server thread/INFO]: Saving and pausing game...
+[23:09:32] [Server thread/INFO]: Saving chunks for level '§3§oNoo wurld§r'/Overworld
+[23:09:32] [Server thread/INFO]: Saving chunks for level '§3§oNoo wurld§r'/Nether
+[23:09:32] [Server thread/INFO]: Saving chunks for level '§3§oNoo wurld§r'/The End
+[23:09:33] [Server thread/INFO]: [STDOUT]: Brake blok
+[23:09:33] [Server thread/INFO]: [STDOUT]: Block dat brake iz reseevr
+[23:10:08] [Server thread/INFO]: [STDOUT]: Y u place blok?
+[23:10:08] [Server thread/INFO]: [STDOUT]: dis blok iz notin
+[23:10:08] [Server thread/INFO]: [STDOUT]: Y u place blok?
+[23:10:08] [Server thread/INFO]: [STDOUT]: dis blok iz notin
+[23:10:08] [Server thread/INFO]: [STDOUT]: Y u place blok?
+[23:10:08] [Server thread/INFO]: [STDOUT]: dis blok iz notin
+[23:10:11] [Server thread/INFO]: [STDOUT]: Y u place blok?
+[23:10:11] [Server thread/INFO]: [STDOUT]: dis blok iz notin
+[23:10:24] [Server thread/INFO]: [STDOUT]: Y u place blok?
+[23:10:24] [Server thread/INFO]: [STDOUT]: dis blok iz notin
+[23:10:33] [Server thread/INFO]: Saving and pausing game...
+[23:10:33] [Server thread/INFO]: Saving chunks for level '§3§oNoo wurld§r'/Overworld
+[23:10:33] [Server thread/INFO]: Saving chunks for level '§3§oNoo wurld§r'/Nether
+[23:10:33] [Server thread/INFO]: Saving chunks for level '§3§oNoo wurld§r'/The End
+[23:10:34] [Server thread/INFO]: Saving and pausing game...
+[23:10:34] [Server thread/INFO]: Saving chunks for level '§3§oNoo wurld§r'/Overworld
+[23:10:34] [Server thread/INFO]: Saving chunks for level '§3§oNoo wurld§r'/Nether
+[23:10:34] [Server thread/INFO]: Saving chunks for level '§3§oNoo wurld§r'/The End
+[23:10:35] [Server thread/INFO]: Stopping server
+[23:10:35] [Server thread/INFO]: Saving players
+[23:10:35] [Server thread/INFO]: Johnr1227 lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[23:10:35] [Server thread/INFO]: Johnr1227 left the game
+[23:10:35] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[23:10:35] [Server thread/INFO]: Saving worlds
+[23:10:35] [Server thread/INFO]: Saving chunks for level '§3§oNoo wurld§r'/Overworld
+[23:10:35] [Server thread/INFO]: Saving chunks for level '§3§oNoo wurld§r'/Nether
+[23:10:35] [Server thread/INFO]: Saving chunks for level '§3§oNoo wurld§r'/The End
+[23:10:35] [Server thread/INFO]: [STDOUT]: Stack has no tag compound, setting unlocalizedName to NUUUULLLL! - getUnlocalizedName();
+[23:10:37] [Server thread/INFO]: [STDOUT]: Stack has no tag compound, setting unlocalizedName to NUUUULLLL! - getUnlocalizedName();
+[23:10:37] [Server thread/INFO]: [STDOUT]: Stack has no tag compound, setting unlocalizedName to NUUUULLLL! - getUnlocalizedName();
+[23:10:38] [Client thread/INFO]: Stopping!
+[23:10:38] [Client thread/INFO]: SoundSystem shutting down...
+[23:10:38] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com

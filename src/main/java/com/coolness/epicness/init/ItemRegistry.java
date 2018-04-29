@@ -17,8 +17,10 @@ import com.coolness.epicness.items.lead.ItemLeadIngot;
 import com.coolness.epicness.items.lead.ItemLeadPickaxe;
 import com.coolness.epicness.items.lead.ItemLeadShovel;
 import com.coolness.epicness.items.lead.ItemLeadSword;
-import com.coolness.epicness.items.other.ItemAtom;
+import com.coolness.epicness.items.other.ItemGeigerCounter;
 import com.coolness.epicness.items.other.ItemSulfur;
+import com.coolness.epicness.items.other.atoms.ItemAtom;
+import com.coolness.epicness.items.other.atoms.ItemCompound;
 import com.coolness.epicness.items.tungsten.ItemTungstenAxe;
 import com.coolness.epicness.items.tungsten.ItemTungstenHoe;
 import com.coolness.epicness.items.tungsten.ItemTungstenIngot;
@@ -29,14 +31,13 @@ import com.coolness.epicness.items.uranium.ItemUranium;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+import net.minecraft.client.renderer.color.IItemColor;
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.item.Item.ToolMaterial;
 import net.minecraft.item.ItemFood;
 import net.minecraft.item.ItemHoe;
 import net.minecraft.item.ItemPickaxe;
-import net.minecraft.item.ItemSeeds;
 import net.minecraft.item.ItemSpade;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemSword;
@@ -46,6 +47,8 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.fml.common.registry.GameRegistry;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class ItemRegistry {
 	// public static final ToolMaterial toolMaterial =
@@ -58,9 +61,11 @@ public class ItemRegistry {
 			2061, 13.5f, 4.5f, 30);
 	public static final ToolMaterial copperMaterial = EnumHelper.addToolMaterial(Reference.MODID + ":copper", 2, 350,
 			6.0f, 2.0f, 8);
-	
+
+	public static Item geiger_counter;
 	public static Item atom;
-	
+	public static Item compound;
+
 	public static ItemSword copper_sword;
 	public static ItemPickaxe copper_pickaxe;
 	public static ItemModAxe copper_axe;
@@ -87,13 +92,16 @@ public class ItemRegistry {
 
 	public static Item lead_ingot;
 	public static ItemFood lead;
-	
+
 	public static Item sulfur;
 
 	public static Item uranium;
 
 	public static void init() {
+		geiger_counter = new ItemGeigerCounter(10, 0);
 		atom = new ItemAtom();
+		compound = new ItemCompound();
+
 		copper_ingot = new ItemCopperIngot();
 		copper_nugget = new ItemCopperNugget();
 		copper_wire = new ItemCopperWire();
@@ -126,8 +134,10 @@ public class ItemRegistry {
 	}
 
 	public static void register() {
+		GameRegistry.register(geiger_counter);
 		GameRegistry.register(atom);
-		
+		GameRegistry.register(compound);
+
 		GameRegistry.register(copper_ingot);
 		GameRegistry.register(copper_nugget);
 		GameRegistry.register(copper_wire);
@@ -154,16 +164,18 @@ public class ItemRegistry {
 		GameRegistry.register(lead_axe);
 		GameRegistry.register(lead_shovel);
 		GameRegistry.register(lead_hoe);
-		
+
 		GameRegistry.register(sulfur);
 		GameRegistry.register(uranium);
 	}
 
 	public static void registerRenders() {
-		for(int i = 0; i < Elements.elements.length; i++){
+		registerRender(geiger_counter);
+		for (int i = 0; i < Elements.elements.length; i++) {
 			registerRender(atom, i, atom.getRegistryName());
 		}
-		
+		registerRender(compound);
+
 		registerRender(copper_ingot);
 		registerRender(copper_nugget);
 		registerRender(copper_wire);
@@ -195,18 +207,49 @@ public class ItemRegistry {
 		registerRender(uranium);
 	}
 
+	@SideOnly(Side.CLIENT)
+	public static void registerItemColors() {
+		Minecraft.getMinecraft().getItemColors().registerItemColorHandler(new IItemColor() {
+			@Override
+			public int getColorFromItemstack(ItemStack stack, int tintIndex) {
+				if (stack.hasTagCompound() && tintIndex == 0) {
+					if (stack.getTagCompound().hasKey("Color"))
+						return stack.getTagCompound().getInteger("Color");
+				}
+//				else if (stack.hasTagCompound() && tintIndex == 1) {
+//					if (stack.getTagCompound().hasKey("Color2"))
+//						return stack.getTagCompound().getInteger("Color2");
+//				}
+				return 0xFFFFFF;
+			}
+		}, compound);
+		Minecraft.getMinecraft().getItemColors().registerItemColorHandler(new IItemColor() {
+			@Override
+			public int getColorFromItemstack(ItemStack stack, int tintIndex) {
+				if (stack.hasTagCompound() && tintIndex == 0) {
+					if (stack.getTagCompound().hasKey("Color"))
+						return stack.getTagCompound().getInteger("Color");
+				}
+				return 0xFFFFFF;
+			}
+		}, atom);
+	}
+
 	private static void registerRender(Item item) {
 		Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(item, 0,
 				new ModelResourceLocation(item.getRegistryName(), "inventory"));
 	}
+
 	private static void registerRender(Item item, int meta, ResourceLocation resourceLocation) {
 		Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(item, meta,
 				new ModelResourceLocation(resourceLocation, "inventory"));
 	}
+
 	private static void registerRenderItemWithDamage(Item item, int meta, String fileName) {
 		ModelLoader.setCustomModelResourceLocation(item, meta,
 				new ModelResourceLocation(new ResourceLocation(Reference.MODID, fileName), "inventory"));
 	}
+
 	public static CreativeTabs tabMinerals = new CreativeTabs("tab_minerals") {
 		@Override
 		public ItemStack getTabIconItem() {

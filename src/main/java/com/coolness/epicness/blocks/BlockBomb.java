@@ -38,7 +38,7 @@ public class BlockBomb extends Block implements ITileEntityProvider {
 	 * Bounding Box From XYZ of first 3 Numbers, to the last 3, changes hitbox
 	 * to destroy, and for collisions, return from getBoundingBox
 	 */
-	// BlockAnvil BlockRedstoneLight
+	// BlockSand
 	protected static final AxisAlignedBB X_AXIS_AABB = new AxisAlignedBB(-0.1875D, 0.0D, 0.25D, 1.1875D, 0.5D, 0.75D);
 
 	public BlockBomb() {
@@ -93,7 +93,7 @@ public class BlockBomb extends Block implements ITileEntityProvider {
 		if (handStack.getItem() == Items.FLINT_AND_STEEL) {
 			playerIn.sendMessage(new TextComponentString("§o§eA Bomb Is Going Off...§r"));
 			int power = worldIn.getTileEntity(pos).getTileData().getInteger("Strength");
-			power = (int) Math.round(power * 0.75);
+			power = (int) Math.round(Math.pow(1.0625, power));
 			explode(power, power * 4, pos, worldIn);
 			// explode(50, 200, pos, worldIn);
 			if (!playerIn.isCreative()) {

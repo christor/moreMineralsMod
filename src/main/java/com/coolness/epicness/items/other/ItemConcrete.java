@@ -27,7 +27,6 @@ public class ItemConcrete extends ItemBlock {
 		setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
 		setHasSubtypes(true);
 	}
-
 	@Override
 	public void getSubItems(Item item, CreativeTabs tab, NonNullList<ItemStack> items) {
 		for (int i = 0; i < ConcreteTypes.values().length; i++) {
