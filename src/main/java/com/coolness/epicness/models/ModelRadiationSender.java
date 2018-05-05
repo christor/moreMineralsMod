@@ -45,8 +45,8 @@ public class ModelRadiationSender extends ModelBase {
 	 * This method renders out all parts of the model.
 	 */
 	public void renderAll() {
-		this.base.render(0.0625F);
-		this.spokes.render(0.0625F);
-		this.barrel.render(0.0625F);
+		this.base.render(1F);
+		this.spokes.render(1F);
+		this.barrel.render(1F);
 	}
 }

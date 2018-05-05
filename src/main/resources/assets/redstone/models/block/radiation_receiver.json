@@ -1,0 +1,11 @@
+ { 
+    "parent": "block/cube",
+        "textures": {
+            "north": "redstone:blocks/radiation_receiver_redstone",
+            "south": "redstone:blocks/radiation_receiver_normal",
+            "east": "redstone:blocks/radiation_receiver_normal",
+            "west": "redstone:blocks/radiation_receiver_normal",
+            "up": "redstone:blocks/radiation_receiver_normal",
+            "down": "redstone:blocks/radiation_receiver_normal",
+      }
+   }

@@ -5,15 +5,16 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import com.coolness.epicness.init.BlockRegistry;
+import com.coolness.epicness.Length;
+import com.coolness.epicness.Unit;
+import com.coolness.epicness.blocks.BlockRadiationReceiver;
 
 import net.minecraft.block.state.IBlockState;
-import net.minecraft.init.Blocks;
-import net.minecraft.item.Item;
+import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.World;
 import net.minecraftforge.event.world.BlockEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
-import scala.actors.threadpool.Arrays;
 
 public class RadiationManager {
 
@@ -23,22 +24,16 @@ public class RadiationManager {
 	public static HashMap<BlockPos, List<BlockPos>> sourceToReceiversMap = new HashMap<BlockPos, List<BlockPos>>();
 	public static HashMap<BlockPos, List<BlockPos>> receiverToSourcesMap = new HashMap<BlockPos, List<BlockPos>>();
 
-	public static List<IBlockState> blockSources = Arrays
-			.asList(new IBlockState[] { BlockRegistry.uranium_block.getDefaultState() });
-	public static List<IBlockState> blockReceivers = Arrays
-			.asList(new IBlockState[] { BlockRegistry.sulfur_block.getDefaultState() });
-
 	@SubscribeEvent
 	public void placeEvent(BlockEvent.PlaceEvent event) {
 		IBlockState b = event.getState();
 		System.out.println("Y u place blok?");
-		
-		if (blockSources.contains(b)) {
+		if (event.getWorld().getTileEntity(event.getPos()) instanceof TileEntityRadiationEmitter) {
 			System.out.println("Added source mommy aren't you proud?");
-			addSource(event.getPos());
-		} else if (blockReceivers.contains(b)) {
+			addSource(event.getPos(), event.getWorld());
+		} else if (event.getWorld().getTileEntity(event.getPos()) instanceof TileEntityRadiationReceiver) {
 			System.out.println("dis block iz reseevr");
-			addReceiver(event.getPos());
+			addReceiver(event.getPos(), event.getWorld());
 		} else {
 			System.out.println("dis blok iz notin");
 		}
@@ -50,10 +45,10 @@ public class RadiationManager {
 		System.out.println("Brake blok");
 		if (sources.contains(event.getPos())) {
 			System.out.println("Block dat brake iz sorce");
-			removeSource(event.getPos());
+			removeSource(event.getPos(), event.getWorld());
 		} else if (receivers.contains(event.getPos())) {
 			System.out.println("Block dat brake iz reseevr");
-			removeReceiver(event.getPos());
+			removeReceiver(event.getPos(), event.getWorld());
 		} else {
 			System.out.println("dat block aint importnt");
 		}
@@ -62,8 +57,10 @@ public class RadiationManager {
 	/**
 	 * Adds a radiation source at the specific BlockPos. Used in placeEvent();
 	 * 
+	 * @param world
+	 * 
 	 **/
-	public static void addSource(BlockPos pos) {
+	public static void addSource(BlockPos pos, World world) {
 		sources.add(pos);
 		List<BlockPos> affectedReceivers = findAffectedReceivers(pos);
 
@@ -80,20 +77,29 @@ public class RadiationManager {
 
 		// put effect into receiver blocks
 		// TODO
-		affectedReceivers.stream().forEach(r -> {
-			System.out.println(
-					"There is a receiver getting affected at: " + r.getX() + ", " + r.getY() + ", " + r.getZ());
-			double power = getPowerAtReceiver(r);
-			System.out.println("power: " + power);
-			// modify block data for block at position r
-		});
+		if (world != null) {
+			affectedReceivers.stream().forEach(r -> {
+				System.out.println(
+						"There is a receiver getting affected at: " + r.getX() + ", " + r.getY() + ", " + r.getZ());
+				long wavelength = (long) getPowerAtReceiver(r);
+				((TileEntityRadiationReceiver) world.getTileEntity(r)).setWavelength(wavelength);
+				//if (wavelength > 0) {
+					((BlockRadiationReceiver) world.getBlockState(r).getBlock()).radiationReceived(world, r, wavelength,
+							wavelength);
+				//}
+				System.out.println("power: " + wavelength);
+				// modify block data for block at position r
+			});
+		}
 	}
 
 	/**
 	 * Adds a radiation receiver at the specific BlockPos. Used in placeEvent();
 	 * 
+	 * @param world
+	 * 
 	 **/
-	public static void addReceiver(BlockPos receiver) {
+	public static void addReceiver(BlockPos receiver, World world) {
 		receivers.add(receiver);
 		List<BlockPos> affectingSources = findAffectingSources(receiver);
 
@@ -110,19 +116,30 @@ public class RadiationManager {
 
 		// put effect into receiver blocks
 		// TODO
-		System.out.println("There is a receiver getting affected at: " + receiver.getX() + ", " + receiver.getY() + ", "
-				+ receiver.getZ());
-		double power = getPowerAtReceiver(receiver);
-		System.out.println("power: " + power);
-		// modify block data for block at position r
+		if (world != null) {
+			System.out.println("There is a receiver getting affected at: " + receiver.getX() + ", " + receiver.getY()
+					+ ", " + receiver.getZ());
+			long wavelength = (long) getPowerAtReceiver(receiver);
+			((TileEntityRadiationReceiver) world.getTileEntity(receiver))
+					.setWavelength(wavelength);
+
+			if (wavelength > 0) {
+				((BlockRadiationReceiver) world.getBlockState(receiver).getBlock()).radiationReceived(world, receiver,
+						wavelength, wavelength);
+			}
+			System.out.println("power: " + wavelength);
+			// modify block data for block at position r
+		}
 	}
 
 	/**
 	 * Removes a radiation source at the specific BlockPos. Used in
 	 * breakEvent();
 	 * 
+	 * @param world
+	 * 
 	 **/
-	public static void removeSource(BlockPos pos) {
+	public static void removeSource(BlockPos pos, World world) {
 		sources.remove(pos);
 
 		List<BlockPos> affectedReceivers = sourceToReceiversMap.get(pos);
@@ -139,11 +156,26 @@ public class RadiationManager {
 		// put effect into receiver blocks
 		// TODO
 		affectedReceivers.stream().forEach(r -> {
+			// System.out.println(
+			// "There is a receiver getting affected at: " + r.getX() + ", " +
+			// r.getY() + ", " + r.getZ());
+			// double power = getPowerAtReceiver(r);
+			// System.out.println("power: " + power);
+			// modify block data for block at position r
+
 			System.out.println(
 					"There is a receiver getting affected at: " + r.getX() + ", " + r.getY() + ", " + r.getZ());
-			double power = getPowerAtReceiver(r);
-			System.out.println("power: " + power);
+			long wavelength = (long) getPowerAtReceiver(r);
+			((TileEntityRadiationReceiver) world.getTileEntity(r))
+					.setWavelength(wavelength);
+
+			// if (wavelength > 0) {
+			((BlockRadiationReceiver) world.getBlockState(r).getBlock()).radiationReceived(world, r, wavelength,
+					wavelength);
+			// }
+			System.out.println("power: " + wavelength);
 			// modify block data for block at position r
+
 		});
 	}
 
@@ -151,8 +183,10 @@ public class RadiationManager {
 	 * Removes a radiation receiver at the specific BlockPos. Used in
 	 * breakEvent();
 	 * 
+	 * @param world
+	 * 
 	 **/
-	public static void removeReceiver(BlockPos receiver) {
+	public static void removeReceiver(BlockPos receiver, World world) {
 		receivers.remove(receiver);
 
 		List<BlockPos> affectingSources = receiverToSourcesMap.get(receiver);
@@ -196,7 +230,7 @@ public class RadiationManager {
 	 */
 	private static double calculatePower(BlockPos source, BlockPos receiver) {
 		double distance = source.getDistance(receiver.getX(), receiver.getY(), receiver.getZ());
-		double sourcePower = 10; // TODO: GET FROM SOURCE BLOCK
+		double sourcePower = 100; // TODO: GET FROM SOURCE BLOCK
 		double power = (sourcePower * 10) / (distance * distance);
 		return power;
 	}
@@ -208,5 +242,43 @@ public class RadiationManager {
 	private static double getPowerAtReceiver(BlockPos receiver) {
 		return receiverToSourcesMap.get(receiver).stream().map(source -> calculatePower(receiver, source)).reduce(0.0,
 				(a, b) -> a + b);
+	}
+
+	public static void readFromNBT(NBTTagCompound nbt) {
+		if(nbt == null)
+			return;
+		
+		NBTTagCompound emittersTag = nbt.getCompoundTag("Emmiters");
+		for (int i = 0 ; emittersTag.hasKey(String.valueOf(i)) ; i++) {
+			NBTTagCompound emitterTag = emittersTag.getCompoundTag(String.valueOf(i));
+			BlockPos emitterPosition = BlockPos.fromLong(emitterTag.getLong("Pos"));
+			addSource(emitterPosition, null);
+		}
+		NBTTagCompound receiversTag = nbt.getCompoundTag("Receivers");
+		for (int i = 0 ; receiversTag.hasKey(String.valueOf(i)) ; i++) {
+			NBTTagCompound receiverTag = receiversTag.getCompoundTag(String.valueOf(i));
+			BlockPos receiverPosition = BlockPos.fromLong(receiverTag.getLong("Pos"));
+			addSource(receiverPosition, null);
+		}
+	}
+
+	public static NBTTagCompound writeToNBT(NBTTagCompound nbt) {
+		NBTTagCompound emittersTag = new NBTTagCompound();
+		for (int i = 0; i < sources.size(); i++) {
+			BlockPos s = sources.get(i);
+			NBTTagCompound subTag = new NBTTagCompound();
+			subTag.setLong("Pos", s.toLong());
+			emittersTag.setTag(String.valueOf(i), subTag);
+		}
+		nbt.setTag("Emitters", emittersTag);
+		NBTTagCompound receiversTag = new NBTTagCompound();
+		for (int i = 0; i < receivers.size(); i++) {
+			BlockPos s = receivers.get(i);
+			NBTTagCompound subTag = new NBTTagCompound();
+			subTag.setLong("Pos", s.toLong());
+			receiversTag.setTag(String.valueOf(i), subTag);
+		}
+		nbt.setTag("Receivers", receiversTag);
+		return nbt;
 	}
 }

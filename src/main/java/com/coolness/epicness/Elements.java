@@ -242,7 +242,7 @@ public class Elements {
 
 		RadiationTypes(Length waveLengthMin, Length waveLengthMax) {
 			this.waveLengthMin = waveLengthMin;
-			this.waveLengthMin = waveLengthMax;
+			this.waveLengthMax = waveLengthMax;
 		}
 
 		public Length getWaveLengthMin(){
@@ -251,6 +251,11 @@ public class Elements {
 		
 		public Length getWaveLengthMax(){
 			return waveLengthMax;
+		}
+
+		public boolean inRange(Length length) {
+			return length.getLengthPico() >= waveLengthMin.getLengthPico()
+					&& length.getLengthPico() <= waveLengthMax.getLengthPico();
 		}
 	};
 	// ItemBow

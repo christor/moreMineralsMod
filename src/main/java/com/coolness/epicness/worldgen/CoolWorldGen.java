@@ -42,7 +42,7 @@ public class CoolWorldGen implements IWorldGenerator {
 	@Override
 	public void generate(Random random, int chunkX, int chunkZ, World world, IChunkGenerator chunkGenerator,
 			IChunkProvider chunkProvider) {
-		switch (world.provider.getDimension()) {
+ 		switch (world.provider.getDimension()) {
 		case 0:
 			// this.runGenerator(generator, world, random, chunkX, chunkZ,
 			// (veins per chunk), minHeight, maxHeight);

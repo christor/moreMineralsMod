@@ -1,13 +1,16 @@
 package com.coolness.epicness.blocks;
 
-import com.coolness.epicness.Elements.RadiationTypes;
+import com.coolness.epicness.Length;
 import com.coolness.epicness.MoreMineralsMod;
+import com.coolness.epicness.Unit;
 import com.coolness.epicness.init.ArmorRegistry;
 import com.coolness.epicness.init.BlockRegistry;
 import com.coolness.epicness.init.Reference;
 import com.coolness.epicness.radiation.RadiationWorldSavedData;
+import com.coolness.epicness.radiation.TileEntityRadiationEmitter;
 
 import net.minecraft.block.Block;
+import net.minecraft.block.ITileEntityProvider;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.enchantment.EnchantmentHelper;
@@ -20,12 +23,13 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionEffect;
+import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.EnumHand;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
-public class BlockUranium extends Block implements BlockRadioactive {
+public class BlockUranium extends Block implements ITileEntityProvider {
 	public BlockUranium() {
 		super(Material.IRON);
 		setUnlocalizedName(Reference.RedstoneBlocks.URANIUM_BLOCK.getUnlocalizedName());
@@ -155,7 +159,7 @@ public class BlockUranium extends Block implements BlockRadioactive {
 		super.onEntityWalk(worldIn, pos, entityIn);
 	}
 	@Override
-	public RadiationTypes getType() {
-		return RadiationTypes.GAMMA;
+	public TileEntity createNewTileEntity(World worldIn, int meta) {
+		return new TileEntityRadiationEmitter(new Length(Unit.METER,1).getLengthPico(), new Length(Unit.PICOMETER,1).getLengthPico());
 	}
 }

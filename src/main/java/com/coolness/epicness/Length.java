@@ -13,7 +13,13 @@ public class Length {
 	public Length(Unit unit, int count) {
 		this.unit = unit;
 		this.count = count;
-		this.lengthPico = (long) (count * unit.getToMeter() * Unit.PICOMETER.getToMeter());
+		this.lengthPico = (long) (count * unit.getToMeter() * Unit.PICOMETER.getOfMeter());
+	}
+
+	public Length(long lengthPico) {
+		this.lengthPico = lengthPico;
+		this.unit = Unit.PICOMETER;
+		this.count = (int) lengthPico;
 	}
 
 	public boolean equals(Length l) {
@@ -33,5 +39,9 @@ public class Length {
 	}
 	public int toMeters() {
 		return (int) (unit.getOfMeter() * count);
+	}
+	public double to(Unit unit) {
+		// return 1 * unit.getToMeter();
+		return (this.unit.getToMeter() * count) * unit.getOfMeter();
 	}
 }

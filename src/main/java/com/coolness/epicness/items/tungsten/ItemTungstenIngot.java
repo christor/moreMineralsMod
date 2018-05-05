@@ -2,7 +2,7 @@ package com.coolness.epicness.items.tungsten;
 
 import java.util.List;
 
-import com.coolness.epicness.VanillaTooltipManager;
+import com.coolness.epicness.Events;
 import com.coolness.epicness.init.ItemRegistry;
 import com.coolness.epicness.init.Reference;
 

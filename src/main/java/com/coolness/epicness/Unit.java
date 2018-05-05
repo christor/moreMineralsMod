@@ -1,32 +1,37 @@
 package com.coolness.epicness;
 
 public enum Unit {
-		PICOMETER(10000000000000D, 0.000000000001D),
-		NANOMETER(10000000000D, 0.000000001D),
-		MICROMETER(10000000, 0.000001D),
-		MILLIMETER(1000D, 0.001D),
-		CENTIMETER(100D, 0.01D),
-		DECIMETER(10D, 0.1D),
-		METER(1D,1D),
-		DECAMETER(0.1D, 10D),
-		HECTOMETER(0.01D, 100D),
-		KILOMETER(0.001D, 1000D),
-		MEGAMETER(0.000001D, 10000000),
-		GIGAMETER(0.000000001D, 10000000000D),
-		TERAMETER(0.000000000001D, 10000000000000D);
+		PICOMETER(1000000000000D),
+		NANOMETER(1000000000D),
+		MICROMETER(1000000),
+		MILLIMETER(1000D),
+		CENTIMETER(100D),
+		DECIMETER(10D),
+		METER(1D),
+		DECAMETER(0.1D),
+		HECTOMETER(0.01D),
+		KILOMETER(0.001D),
+		MEGAMETER(0.000001),
+		GIGAMETER(0.000000001D),
+		TERAMETER(0.000000000001D);
 
-		private double ofMeter;
 		private double toMeter;
+		private double ofMeter;
 
-		Unit(double ofMeter, double toMeter) {
+		Unit(double toMeter, double ofMeter) {
+			this.toMeter = toMeter;
 			this.ofMeter = ofMeter;
+		}
+
+		Unit(double toMeter) {
+			this.ofMeter = 1D / toMeter;
 			this.toMeter = toMeter;
 		}
 
 		public double getToMeter(){
-			return ofMeter;
+			return toMeter;
 		}
 		public double getOfMeter(){
-			return toMeter;
+			return ofMeter;
 		}
 	}

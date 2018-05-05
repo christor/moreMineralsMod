@@ -1,0 +1,93 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
+    "textures": {
+        "0": "redstone:blocks/stone_slab_top",
+        "1": "redstone:blocks/cobblestone",
+        "2": "redstone:blocks/radiation_emmiter_front_on",
+        "3": "redstone:blocks/cauldron_side"
+    },"display": {
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 1, 0],
+            "scale":[ 0.65, 0.65, 0.65 ]
+        },
+        "head": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 13, 7],
+            "scale":[ 1, 1, 1]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 1 ],
+            "scale": [ 0.55, 0.55, 0.55 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, -90, 25 ],
+            "translation": [ 1.13, 3.2, 1.13],
+            "scale": [ 0.68, 0.68, 0.68 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "gui": {
+            "rotation": [ 45, 45, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.85, 0.85, 0.85 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "Base",
+            "from": [ 0.0, 0.0, 0.0 ], 
+            "to": [ 16.0, 1.0, 16.0 ], 
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 0.0, 0.0, 16.0, 1.0 ] },
+                "east": { "texture": "#0", "uv": [ 0.0, 0.0, 16.0, 1.0 ] },
+                "south": { "texture": "#0", "uv": [ 0.0, 0.0, 16.0, 1.0 ] },
+                "west": { "texture": "#0", "uv": [ 0.0, 0.0, 16.0, 1.0 ] },
+                "up": { "texture": "#0", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+                "down": { "texture": "#0", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
+            }
+        },
+        {
+            "name": "Left",
+            "from": [ 4.0, 1.0, 4.0 ], 
+            "to": [ 5.0, 6.0, 12.0 ], 
+            "faces": {
+                "north": { "texture": "#1", "uv": [ 0.0, 0.0, 1.0, 5.0 ] },
+                "east": { "texture": "#1", "uv": [ 0.0, 0.0, 8.0, 5.0 ] },
+                "south": { "texture": "#1", "uv": [ 0.0, 0.0, 1.0, 5.0 ] },
+                "west": { "texture": "#1", "uv": [ 0.0, 0.0, 8.0, 5.0 ] },
+                "up": { "texture": "#1", "uv": [ 0.0, 0.0, 1.0, 8.0 ] },
+                "down": { "texture": "#1", "uv": [ 0.0, 0.0, 1.0, 8.0 ] }
+            }
+        },
+        {
+            "name": "Right",
+            "from": [ 11.0, 1.0, 4.0 ], 
+            "to": [ 12.0, 6.0, 12.0 ], 
+            "faces": {
+                "north": { "texture": "#1", "uv": [ 0.0, 0.0, 1.0, 5.0 ] },
+                "east": { "texture": "#1", "uv": [ 0.0, 0.0, 8.0, 5.0 ] },
+                "south": { "texture": "#1", "uv": [ 0.0, 0.0, 1.0, 5.0 ] },
+                "west": { "texture": "#1", "uv": [ 0.0, 0.0, 8.0, 5.0 ] },
+                "up": { "texture": "#1", "uv": [ 0.0, 0.0, 1.0, 8.0 ] },
+                "down": { "texture": "#1", "uv": [ 0.0, 0.0, 1.0, 8.0 ] }
+            }
+        },
+        {
+            "name": "Barrel",
+            "from": [ 5.0, 5.0, 0.0 ], 
+            "to": [ 11.0, 11.0, 13.0 ], 
+            "faces": {
+                "north": { "texture": "#2", "uv": [ 0.0, 0.0, 6.0, 6.0 ] },
+                "east": { "texture": "#3", "uv": [ 0.0, 0.0, 13.0, 6.0 ] },
+                "south": { "texture": "#3", "uv": [ 0.0, 0.0, 6.0, 6.0 ] },
+                "west": { "texture": "#3", "uv": [ 0.0, 0.0, 13.0, 6.0 ] },
+                "up": { "texture": "#3", "uv": [ 0.0, 0.0, 6.0, 13.0 ] },
+                "down": { "texture": "#3", "uv": [ 0.0, 0.0, 6.0, 13.0 ] }
+            }
+        }
+    ]
+}

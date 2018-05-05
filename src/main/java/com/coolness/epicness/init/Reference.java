@@ -81,7 +81,8 @@ public class Reference {
 		BOMB("bomb", "bomb"),
 		
 		ATOM_BONDER("atom_bonder", "atom_bonder"), 
-		RADIATION_SENDER("radiation_sender","radiation_sender");
+		RADIATION_SENDER("radiation_sender","radiation_sender"), 
+		RADIATION_RECEIVER("radiation_receiver","radiation_receiver");
 
 		private String unlocalizedName;
 		private String registryName;
